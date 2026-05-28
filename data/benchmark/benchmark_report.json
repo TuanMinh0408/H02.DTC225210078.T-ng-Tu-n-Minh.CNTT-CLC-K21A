@@ -1,0 +1,111 @@
+{
+  "title": "FallGuard AI — Model Benchmark Report",
+  "date": "2026-05-26T12:14:14.482577",
+  "dataset": {
+    "name": "SisFall",
+    "subjects": [
+      "SA01",
+      "SA02",
+      "SA03",
+      "SA04",
+      "SA05",
+      "SA06",
+      "SA07",
+      "SA08",
+      "SA09",
+      "SA10"
+    ],
+    "window_size": 200,
+    "overlap": 100
+  },
+  "training_config": {
+    "num_epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "early_stopping_patience": 10
+  },
+  "results": {
+    "Bi-LSTM + Attention": {
+      "model_type": "lstm",
+      "architecture": "Bi-LSTM + Attention",
+      "num_params": 570709,
+      "training_time_seconds": 995.33,
+      "best_epoch": 48,
+      "best_val_acc": 0.935,
+      "test_metrics": {
+        "accuracy": 0.9268,
+        "precision": 0.9082,
+        "recall": 0.9219,
+        "f1_score": 0.915,
+        "specificity": 0.9305,
+        "auc": 0.9794
+      }
+    },
+    "Bi-GRU": {
+      "model_type": "gru",
+      "architecture": "Bi-GRU",
+      "num_params": 419796,
+      "training_time_seconds": 584.65,
+      "best_epoch": 41,
+      "best_val_acc": 0.9414,
+      "test_metrics": {
+        "accuracy": 0.9343,
+        "precision": 0.9292,
+        "recall": 0.9161,
+        "f1_score": 0.9226,
+        "specificity": 0.9479,
+        "auc": 0.9808
+      }
+    },
+    "CNN-LSTM": {
+      "model_type": "cnn_lstm",
+      "architecture": "CNN-LSTM",
+      "num_params": 123554,
+      "training_time_seconds": 377.58,
+      "best_epoch": 47,
+      "best_val_acc": 0.9362,
+      "test_metrics": {
+        "accuracy": 0.9292,
+        "precision": 0.9109,
+        "recall": 0.9247,
+        "f1_score": 0.9177,
+        "specificity": 0.9326,
+        "auc": 0.9817
+      }
+    },
+    "Transformer Encoder": {
+      "model_type": "transformer",
+      "architecture": "Transformer Encoder",
+      "num_params": 72130,
+      "training_time_seconds": 780.42,
+      "best_epoch": 26,
+      "best_val_acc": 0.8989,
+      "test_metrics": {
+        "accuracy": 0.8964,
+        "precision": 0.8713,
+        "recall": 0.8887,
+        "f1_score": 0.8799,
+        "specificity": 0.9021,
+        "auc": 0.9612
+      }
+    },
+    "TCN": {
+      "model_type": "tcn",
+      "architecture": "TCN",
+      "num_params": 62964,
+      "training_time_seconds": 625.14,
+      "best_epoch": 39,
+      "best_val_acc": 0.909,
+      "test_metrics": {
+        "accuracy": 0.9092,
+        "precision": 0.8734,
+        "recall": 0.921,
+        "f1_score": 0.8966,
+        "specificity": 0.9005,
+        "auc": 0.9731
+      }
+    }
+  },
+  "best_model": "Bi-GRU",
+  "best_f1_score": 0.9226
+}

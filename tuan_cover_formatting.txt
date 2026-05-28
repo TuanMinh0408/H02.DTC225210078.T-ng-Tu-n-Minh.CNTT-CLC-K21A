@@ -1,0 +1,200 @@
+[00] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[01] Text: 'ĐẠI HỌC THÁI NGUYÊN'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='ĐẠI HỌC THÁI NGUYÊN', font=None, size=13.5, bold=None, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[02] Text: 'TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG', font=None, size=13.5, bold=True, italic=None)"]
+
+[03] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[04] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[05] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[06] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[07] Text: 'NGUYỄN THANH TUÂN'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='NGUYỄN THANH TUÂN', font=None, size=16.0, bold=True, italic=None)"]
+
+[08] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[09] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[10] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[11] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[12] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[13] Text: 'XÂY DỰNG HỆ THỐNG GIÁM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='XÂY DỰNG HỆ THỐNG GIÁM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU', font=None, size=20.0, bold=None, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[14] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[15] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[16] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[17] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[18] Text: 'ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC', font=None, size=25.0, bold=True, italic=None)"]
+
+[19] Text: 'NGÀNH CÔNG NGHỆ THÔNG TIN'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='NGÀNH CÔNG NGHỆ THÔNG TIN', font=None, size=17.0, bold=True, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[20] Text: '                        '
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='                        ', font=None, size=None, bold=None, italic=None)"]
+
+[21] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[22] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[23] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[24] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[25] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[26] Text: 'THÁI NGUYÊN, THÁNG 4 NĂM 2026'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='THÁI NGUYÊN, THÁNG 4 NĂM 2026', font=None, size=None, bold=True, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[27] Text: 'ĐẠI HỌC THÁI NGUYÊN'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='ĐẠI HỌC THÁI NGUYÊN', font=None, size=None, bold=None, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[28] Text: 'TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG', font=None, size=None, bold=True, italic=None)"]
+
+[29] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[30] Text: ''
+     Align: LEFT (0), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=True, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[31] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[32] Text: 'ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC', font=None, size=20.0, bold=True, italic=None)"]
+
+[33] Text: 'KHOA CÔNG NGHỆ THÔNG TIN'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='KHOA CÔNG NGHỆ THÔNG TIN', font=None, size=16.0, bold=True, italic=None)"]
+
+[34] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[35] Text: 'ĐỀ TÀI:'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='ĐỀ TÀI:', font=None, size=15.0, bold=True, italic=None)"]
+
+[36] Text: ' XÂY DỤNG HỆ THỐNG GIAM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text=' ', font=None, size=18.0, bold=True, italic=None)", "Run(text='XÂY DỤNG HỆ THỐNG GIAM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU', font=None, size=18.0, bold=True, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[37] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[38] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[39] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[40] Text: 'Giáo viên hướng dẫn: \tTS. Nguyễn Tuấn Anh'
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='Giáo viên hướng dẫn: \\tTS. Nguyễn Tuấn Anh', font=None, size=None, bold=True, italic=None)"]
+
+[41] Text: 'Sinh viên thực hiện: \t\tNguyễn Thanh Tuân'
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='Sinh viên thực hiện: \\t\\tNguyễn Thanh Tuân', font=None, size=None, bold=True, italic=None)"]
+
+[42] Text: 'Lớp: \t\t\t\tCNTT K21 CLC'
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='Lớp: \\t\\t\\t\\tCNTT K21 CLC', font=None, size=None, bold=True, italic=None)"]
+
+[43] Text: '                      Mã SV: \tDTC225210134'
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='                      Mã SV: \\tDTC225210134', font=None, size=None, bold=True, italic=None)"]
+
+[44] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[45] Text: ''
+     Align: None, LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[46] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[47] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[48] Text: ''
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='', font=None, size=None, bold=None, italic=None)"]
+
+[49] Text: 'Thái Nguyên, tháng 4  năm 2026'
+     Align: CENTER (1), LineSpacing: None, SpaceAfter: None, SpaceBefore: 0
+     Runs: ["Run(text='Thái Nguyên, tháng 4  năm 2026', font=None, size=None, bold=True, italic=True)", "Run(text='', font=None, size=None, bold=None, italic=None)", "Run(text='', font=None, size=None, bold=None, italic=None)"]
+

@@ -1,0 +1,1770 @@
+{
+  "tuan": {
+    "label": "Nguyễn Thanh Tuân",
+    "para_count": 1631,
+    "total_chars": 128798,
+    "est_pages": 64,
+    "heading_count": 275,
+    "table_count": 17,
+    "image_count": 11,
+    "level_counts": {
+      "2": 41,
+      "3": 110,
+      "4": 123,
+      "1": 1
+    },
+    "headings": [
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "Mục tiêu và phạm vi đề tài"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.1. Tổng quan hệ thống camera giám sát an ninh"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.1.1. Khái niệm và vai trò của hệ thống camera thông minh"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.1.2. Các hạn chế của hệ thống camera truyền thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.1.3. Xu hướng ứng dụng trí tuệ nhân tạo trong giám sát"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.2. Các thành phần kỹ thuật cốt lõi"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.1. Phát hiện và theo dõi đối tượng (Object Detection & Tracking)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Phát hiện đối tượng (Object Detection)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Theo dõi đối tượng đa khung hình (Multi-Object Tracking)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.2. Nhận diện vai trò (Role Classification)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Bài toán và động lực"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Kiến trúc RoleNet — ba thế hệ mô hình"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Chế độ dự phòng dựa trên luật màu (Rule-based Fallback)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.3. Nhận diện hành động (Action Recognition)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Bài toán và hướng tiếp cận"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Kiến trúc ActionNet (MediaPipe Pose + GRU)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Cơ chế dự phòng thông minh (Smart Fallback)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.4. Phân tích hành vi và ngữ cảnh (Behavior & Context Analysis)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Module phân tích hành vi không gian-thời gian (BehaviorAnalyzer)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Module đánh giá ngữ cảnh bằng ML (ContextEngineML / ContextNet)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.5. Nhận diện khuôn mặt (Face Recognition)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Hướng tiếp cận bảo vệ quyền riêng tư"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Quy trình kỹ thuật (IdentityManager)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.6. Phân vùng giám sát (Zone Detection)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Khái niệm và mục đích"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Thuật toán kiểm tra điểm trong đa giác"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Theo dõi trạng thái zone"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Persistence và cập nhật runtime"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.3. Ứng dụng học sâu trong hệ thống giám sát"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.1. Mạng nơ-ron tích chập (CNN) trong nhận dạng hình ảnh"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Nguyên lý hoạt động của CNN"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Ứng dụng CNN trong hệ thống — Module RoleNet và YOLOv8"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Kỹ thuật Transfer Learning và Fine-tuning"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Kỹ thuật Test-Time Augmentation (TTA)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.2. Mạng nơ-ron hồi tiếp (GRU/LSTM) trong phân tích chuỗi thời gian"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Động lực: Tại sao cần mô hình chuỗi thời gian?"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Hạn chế của RNN truyền thống và sự ra đời của LSTM/GRU"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Lựa chọn GRU cho ActionNet và lý do"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Kiến trúc ActionNet GRU chi tiết"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "e) Cơ chế Sliding Window trong inference"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.3.  Kiến trúc ConvNeXt và các mô hình hiện đại"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Bối cảnh: Sự cạnh tranh CNN vs Vision Transformer"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) ConvNeXt — \"Hiện đại hóa ResNet\""
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) ConvNeXt-Tiny — Lựa chọn cho RoleNet V3"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) So sánh với các kiến trúc hiện đại khác"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.4. Học máy truyền thống kết hợp (XGBoost, LightGBM)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Vị trí của học máy truyền thống trong kiến trúc hệ thống"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) XGBoost — Extreme Gradient Boosting"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) LightGBM — Light Gradient Boosting Machine"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Explainability — Lý do chọn Tree-based Models cho ContextNet"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "e) Kiến trúc hybrid: Học sâu + Học máy truyền thống"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.4. Các phương pháp đánh giá mô hình"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.1. Accuracy, Precision, Recall"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Accuracy"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Precision"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Recall"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Ứng dụng trong hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.2. F1-Score"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.3. Confusion Matrix"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.4. Top-K Accuracy và Test-Time Augmentation (TTA)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Top-K Accuracy"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Test-Time Augmentation (TTA)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Lưu ý trade-off"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.5. Công nghệ xây dựng hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.5.1. Phát hiện đối tượng với YOLOv8"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.5.2. Ước tính tư thế với MediaPipe Pose"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.5.3. Xây dựng Web Dashboard với FastAPI"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.5.4. Deep Learning Framework: PyTorch"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.1. Tổng quan kiến trúc pipeline 3 mô hình"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.1.1. Sự cần thiết của kiến trúc đa mô hình"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Một mô hình đơn lẻ không đủ cho bài toán an ninh ngữ cảnh"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Vai trò của từng mô hình trong pipeline"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Lợi ích kỹ thuật của kiến trúc đa mô hình"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Phù hợp với yêu cầu vận hành thực tế"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.1.2. Luồng xử lý tổng thể từ frame đến cảnh báo"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Luồng xử lý mức cao"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Bước 1 - Thu nhận frame và phát hiện đối tượng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Bước 2 - Theo dõi đa đối tượng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Bước 3 - Suy luận vai trò và hành động"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "e) Bước 4 - Hợp nhất ngữ cảnh và phát cảnh báo"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "f) Ý nghĩa kiến trúc từ góc nhìn hệ thống"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.2. Mô hình RoleNet — Nhận diện vai trò người"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.2.1. Bài toán nhận diện vai trò"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Định nghĩa bài toán"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Thách thức đặc thù của bài toán"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.2.2. Kiến trúc và quá trình phát triển qua 3 phiên bản"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) RoleNet V1 — MobileNetV3-Small (59.05% val accuracy)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) RoleNet V2 — EfficientNet-B2 với TTA (64.41% val accuracy)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) RoleNet V3 — ConvNeXt-Tiny (phiên bản hiện hành, ~99.96%)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.2.3. Tập dữ liệu và phương pháp thu thập"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) 16 lớp vai trò mục tiêu"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Thu thập ảnh từ Google Images và OpenImages"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Augmentation (TrivialAugmentWide, MixUp, CutMix)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.2.4. Quá trình huấn luyện"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Transfer learning từ ImageNet"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Progressive unfreezing và OneCycleLR scheduler"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Weighted Random Sampling để cân bằng lớp"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.2.5. Ưu điểm và hạn chế"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Ưu điểm"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Hạn chế"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Hướng cải tiến"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.3. Mô hình ContextNet — Đánh giá mức độ cảnh báo"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.1. Bài toán ra quyết định cảnh báo từ ngữ cảnh"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Bản chất bài toán"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Vai trò trong pipeline tổng thể"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.2. Kiến trúc XGBoost và feature engineering"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) 14 features đầu vào (role_id, zone_type, loitering, time_in_zone, ...)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) 6 mức cảnh báo đầu ra (ignore -> critical)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Kiến trúc mô hình XGBoost"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.3. Sinh dữ liệu huấn luyện tổng hợp (60,000 mẫu)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Nguyên tắc sinh dữ liệu"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Quy mô 60.000 mẫu"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Lợi ích và rủi ro của dữ liệu tổng hợp"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.4. Cơ chế fallback tự động về rule-based engine"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.5. Ưu điểm và hạn chế"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Ưu điểm"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Hạn chế"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Hướng cải tiến"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.4. Mô hình ActionNet — Nhận diện hành động nguy hiểm"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.4.1. Bài toán nhận diện hành động từ chuỗi khung ảnh"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Định nghĩa bài toán"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Thách thức kỹ thuật"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Trích xuất 33 keypoints bằng MediaPipe Pose (132 chiều)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Kiến trúc GRU (hidden=128, 2 layers) phân loại chuỗi 30 frame"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.4.3. Tập dữ liệu và 8 lớp hành động"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Thu thập từ UCF-101 và YouTube"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.4.4. Hàm mất mát và chiến lược tối ưu hóa"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.4.5. Cơ chế fallback 3 tầng thông minh"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Tầng 1: MediaPipe + GRU (độ chính xác cao nhất)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Tầng 2: MediaPipe + Rule từ keypoints"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Tầng 3: Rule từ velocity và tỉ lệ bounding box"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Ưu điểm"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Hạn chế"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Hướng cải tiến"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "CHƯƠNG 3. XÂY DỰNG VÀ ĐÁNH GIÁ HỆ THỐNG HOÀN CHỈNH"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.1. Giới thiệu về hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.1.1. Mục tiêu và phạm vi hệ thống"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Mục tiêu tổng thể"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Phạm vi hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.1.2. Kiến trúc tổng thể và công nghệ sử dụng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Kiến trúc pipeline đa tầng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Sơ đồ module và file tương ứng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": ""
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": ""
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": ""
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Ngăn xếp công nghệ (Technology Stack)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.2. Các module chức năng trong pipeline"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "Pipeline xử lý của hệ thống được tổ chức thành 9 module chức năng chính, mỗi module đảm nhận một nhiệm vụ chuyên biệt và"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.1. Object Detector — modules/object_detector.py (YOLOv8n)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng và vị trí trong pipeline"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Cấu hình triển khai"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Quy trình xử lý"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.2. Object Tracker — modules/object_tracker.py (ByteTrack)"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Thuật toán theo dõi"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Thông tin bổ sung trên TrackedObject"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng và thiết kế fallback"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Quy trình inference"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Tối ưu hiệu năng — Per-track Cache"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Rule-based fallback (HSV Color Analysis)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.4. Action Recognizer — modules/action_recognizer.py"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Cấu hình vận hành hiện tại"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Round-robin scheduling"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Ánh xạ hành động → mức cảnh báo"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.5. Identity Manager — modules/identity_manager.py"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Phương pháp: HSV Color Histogram"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Cấu hình và hạn chế"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.6. Zone Detector — modules/zone_detector.py"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Cấu hình zone mặc định"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Thuật toán và trạng thái"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "d) Cập nhật runtime"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.7. Behavior Analyzer — modules/behavior_analyzer.py"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Bốn chỉ số hành vi"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.8. Context Engine ML — modules/context_engine_ml.py"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) Chức năng"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Hai chế độ hoạt động"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "c) Cooldown chống spam"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.9. Event Logger và Visualizer"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "a) EventLogger — modules/event_logger.py"
+      },
+      {
+        "level": 4,
+        "style": "Heading 4",
+        "text": "b) Visualizer — modules/visualizer.py"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.3. Giao diện hệ thống — Web Dashboard"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.3.1. Cấu trúc giao diện (FastAPI + MJPEG streaming)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Kiến trúc web tổng thể"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Thiết kế giao diện"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": ""
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": ""
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.3.2. Live video stream và danh sách đối tượng theo dõi"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Video stream (MJPEG)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Danh sách đối tượng theo dõi (Objects Panel)"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.3.3. Bảng cảnh báo (Alert Feed) và thống kê thời gian thực"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Stats Card (4 chỉ số thời gian thực)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Alert Feed"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.3.4. Zone Editor — vẽ vùng giám sát trực tiếp trên video"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.4. Hệ thống API (FastAPI)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.4.1. Các endpoint GET"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.4.2. Các endpoint POST"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": ""
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.4. Hệ thống API (FastAPI)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "Hệ thống cung cấp 15 endpoint RESTful (8 GET, 4 POST, 1 DELETE, 2 GET streaming)."
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.4.1. Các endpoint GET"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.4.2. Các endpoint POST"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.5. Chuẩn bị và tiền xử lý dữ liệu"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.5.1. Thu thập dữ liệu ảnh cho RoleNet (21,785 ảnh)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Tổng quan tập dữ liệu"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Phương pháp thu thập — Script collect_images.py"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Phân phối dữ liệu theo lớp"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.5.2. Xử lý và trích xuất keypoints cho ActionNet"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Tổng quan tập dữ liệu"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Pipeline thu thập dữ liệu video"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Augmentation keypoints"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.5.3. Sinh dữ liệu tổng hợp cho ContextNet (50,000 mẫu)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Chiến lược Rule Distillation"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Quy trình sinh dữ liệu"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Quy mô và chất lượng"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.5.4. Các bước tiền xử lý và augmentation"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Tiền xử lý ảnh cho RoleNet — preprocess_dataset.py"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Augmentation dữ liệu huấn luyện — augment_dataset.py"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Kiểm tra trạng thái dataset — dataset_status.py"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.6. Huấn luyện các mô hình trên Google Colab"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "Ba mô hình học sâu/học máy của hệ thống được huấn luyện theo quy trình riêng biệt, trong đó RoleNet và ActionNet được tr"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.6.1. Huấn luyện RoleNet V3"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Cấu hình và biên dịch mô hình"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Kết quả qua 3 phiên bản"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Export sang ONNX (rolenet_v3.onnx, rolenet_v3_quant.onnx)"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.6.2. Huấn luyện ContextNet (XGBoost, 300 estimators)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Quy trình huấn luyện — train_context_model.py"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Kết quả và feature importance"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.6.3. Huấn luyện ActionNet (GRU, trên GPU Colab)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Kiến trúc model và cấu hình"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Kết quả huấn luyện"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Đặc điểm quan trọng — Per-Track Buffer Management"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.7. Đánh giá mô hình"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "Phần đánh giá được thực hiện ở hai cấp độ: đánh giá offline (trên tập test chuẩn sau khi huấn luyện) và đánh giá online "
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.7.1. Đánh giá RoleNet qua Accuracy và Confusion Matrix"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Kết quả tổng hợp ba phiên bản"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Phân tích Confusion Matrix (RoleNet V3)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Đánh giá thực tế — Domain Gap"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.7.2. Đánh giá ActionNet (Val: 95.31%, Test: 90.62%)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Kết quả đánh giá offline"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Đánh giá thực tế"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.7.3. Đánh giá ContextNet (phân loại 6 mức cảnh báo)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Kết quả đánh giá offline (synthetic data)"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.7.4. Đánh giá hiệu năng pipeline tổng thể (FPS, độ trễ)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Đo lường FPS thực tế"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": ""
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.8. Tích hợp mô hình vào hệ thống"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": ""
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Cơ chế khởi tạo với auto-detection"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Inference pipeline với TTA"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Per-track cache với adaptive skip"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.8.2. Tích hợp ActionNet — cơ chế 3 tầng"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Cơ chế Thread-Safety với MediaPipe Lock"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Round-Robin Scheduling"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Fallback detection tự động"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.8.3. Tích hợp ContextNet — XGBoost + Rule fallback"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Feature extraction từ TrackedObject"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Cooldown mechanism"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.8.4. Orchestrator đa luồng — pipeline.py"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "a) Kiến trúc CameraPipeline"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "b) Vòng lặp xử lý chính — _process_frame()"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "c) Adaptive Skip Rate — _adapt_skip_rates()"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "d) AlertRecorder — Ghi clip video theo sự kiện"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "e) TelegramNotifier — Push notification"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": ""
+      }
+    ]
+  },
+  "minh": {
+    "label": "Tăng Tuấn Minh",
+    "para_count": 391,
+    "total_chars": 65625,
+    "est_pages": 32,
+    "heading_count": 72,
+    "table_count": 17,
+    "image_count": 30,
+    "level_counts": {
+      "1": 12,
+      "2": 17,
+      "3": 43
+    },
+    "headings": [
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "LỜI CẢM ƠN"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "LỜI CAM ĐOAN"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "DANH MỤC TỪ VIẾT TẮT"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "DANH MỤC HÌNH ẢNH"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "DANH MỤC BẢNG BIỂU"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "TÓM TẮT ĐỒ ÁN"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "MỤC LỤC"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "CHƯƠNG 1. TỔNG QUAN VÀ CƠ SỞ LÝ THUYẾT"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.1. Tổng quan về bài toán phát hiện té ngã"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.1.1. Bối cảnh và sự cần thiết"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.1.2. Phân loại các phương pháp phát hiện té ngã"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.1.3. Các nghiên cứu liên quan"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.2. Cơ sở lý thuyết về Học sâu (Deep Learning)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.1. Mạng nơ-ron tích chập (CNN)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.2. Mạng hồi quy LSTM (Long Short-Term Memory)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.3. Mạng GRU (Gated Recurrent Unit)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.2.4. Mô hình ước lượng tư thế (Pose Estimation)"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.3. Các phương pháp đánh giá mô hình"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.1. Accuracy (Độ chính xác)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.2. Precision (Độ chính xác dương)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.3. Recall (Độ nhạy / Sensitivity)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.4. F1-Score"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.5. Confusion Matrix (Ma trận nhầm lẫn)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.3.6. Đường cong ROC và AUC"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "1.4. Công nghệ xây dựng hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.1. Python và PyTorch"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.2. FastAPI và WebSocket"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.3. Ultralytics YOLOv11"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "1.4.4. SQLite và Chart.js"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "CHƯƠNG 2. PHƯƠNG PHÁP, MÔ HÌNH VÀ THIẾT KẾ HỆ THỐNG"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.1. Tổng quan kiến trúc hệ thống"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.2. Bộ dữ liệu SisFall"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.2.1. Thông tin dữ liệu"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.2.2. Tiền xử lý dữ liệu"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.3. Kiến trúc mô hình Deep Learning"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.1. Mô hình Bi-LSTM với Attention"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.2. Mô hình GRU (so sánh)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.3. Mô hình CNN-LSTM"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.4. Mô hình Transformer Encoder"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.3.5. Mô hình TCN (Temporal Convolutional Network)"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.4. Hàm mất mát và tối ưu hóa"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.4.1. Hàm mất mát (Loss Function)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.4.2. Bộ tối ưu hóa và chiến lược huấn luyện"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.5. Thuật toán phát hiện té ngã thời gian thực"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.5.1. Phân tích vận tốc rơi (Velocity Analysis)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.5.2. Phân tích tỷ lệ khung hình (Aspect Ratio)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.5.3. Phân tích vị trí đầu-hông (Head-Hip Position)"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "2.5.4. Logic kết hợp và cơ chế Cooldown"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.6. Thiết kế cơ sở dữ liệu"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "2.7. Thiết kế API"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "CHƯƠNG 3. THỰC NGHIỆM, ĐÁNH GIÁ VÀ KẾT QUẢ"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.1. Giới thiệu về hệ thống"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.2. Cơ sở dữ liệu và xử lý dữ liệu SisFall"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.1. Thông tin bộ dữ liệu"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.2.2. Chuyển đổi đơn vị và chuẩn hóa"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.3. Giao diện hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.3.1. Tab Live Monitor"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.3.2. Tab Statistics"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.3.3. Tab History"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.3.4. Tab Settings"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.4. Huấn luyện mô hình"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.4.1. Cấu hình huấn luyện"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.4.2. Kết quả kiểm thử mô hình"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.5. Đánh giá hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.5.1. Đánh giá thuật toán phát hiện thời gian thực"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.5.2. Đánh giá module evaluation"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.5.3. Đánh giá tổng thể hệ thống"
+      },
+      {
+        "level": 2,
+        "style": "Heading 2",
+        "text": "3.6. Tích hợp mô hình vào hệ thống"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.6.1. Backend Architecture"
+      },
+      {
+        "level": 3,
+        "style": "Heading 3",
+        "text": "3.6.2. Frontend Dashboard"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "KẾT LUẬN"
+      },
+      {
+        "level": 1,
+        "style": "Heading 1",
+        "text": "TÀI LIỆU THAM KHẢO"
+      }
+    ]
+  }
+}

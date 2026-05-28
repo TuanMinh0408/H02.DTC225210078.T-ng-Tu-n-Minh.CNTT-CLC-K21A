@@ -1,0 +1,9 @@
+{
+  "models": [
+    {"name": "Bi-LSTM + Attention", "labels": ["ADL","Fall"], "matrix": [[4058,303],[254,2998]]},
+    {"name": "Bi-GRU", "labels": ["ADL","Fall"], "matrix": [[4134,227],[273,2979]]},
+    {"name": "CNN-LSTM", "labels": ["ADL","Fall"], "matrix": [[4067,294],[245,3007]]},
+    {"name": "Transformer Encoder", "labels": ["ADL","Fall"], "matrix": [[3934,427],[362,2890]]},
+    {"name": "TCN", "labels": ["ADL","Fall"], "matrix": [[3927,434],[257,2995]]}
+  ]
+}

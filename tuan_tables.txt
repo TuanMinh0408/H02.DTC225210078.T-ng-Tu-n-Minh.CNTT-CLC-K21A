@@ -1,0 +1,189 @@
+
+========================================
+TABLE 1 (6x3):
+========================================
+Row 0: [C0]: Lĩnh vực ứng dụng | [C1]: Chức năng chính | [C2]: Giá trị mang lại
+Row 1: [C0]: An ninh công cộng | [C1]: Phát hiện hành vi bất thường, nhận diện đối tượng | [C2]: Giảm thời gian phản ứng, tăng hiệu quả tuần tra
+Row 2: [C0]: Thương mại - bán lẻ | [C1]: Phát hiện trộm cắp, phân tích hành vi khách hàng | [C2]: Giảm thất thoát, tối ưu vận hành
+Row 3: [C0]: Giao thông | [C1]: Nhận dạng phương tiện, phát hiện vi phạm | [C2]: Tăng ATGT, xử phạt tự động
+Row 4: [C0]: Y tế | [C1]: Giám sát bệnh nhân, phát hiện té ngã | [C2]: Nâng cao an toàn bệnh viện
+Row 5: [C0]: Công nghiệp | [C1]: Giám sát PPE, phát hiện xâm nhập trái phép | [C2]: Giảm tai nạn lao động
+
+========================================
+TABLE 2 (6x4):
+========================================
+Row 0: [C0]: Thành phần CNN | [C1]: V1 (MobileNetV3) | [C2]: V2 (EfficientNet-B2) | [C3]: V3 (ConvNeXt-Tiny)
+Row 1: [C0]: Độ sâu (layers) | [C1]: ~53 | [C2]: ~266 | [C3]: ~28 (macro blocks)
+Row 2: [C0]: Số tham số | [C1]: ~2.5M | [C2]: ~7.7M | [C3]: ~28.6M
+Row 3: [C0]: Lớp kích hoạt | [C1]: Hardswish | [C2]: SiLU | [C3]: GELU
+Row 4: [C0]: Chuẩn hóa | [C1]: BatchNorm | [C2]: BatchNorm | [C3]: LayerNorm
+Row 5: [C0]: Depthwise Conv | [C1]: Có | [C2]: Có | [C3]: Không (7×7 DW conv)
+
+========================================
+TABLE 3 (4x4):
+========================================
+Row 0: [C0]: Mô hình | [C1]: Nhiệm vụ chính | [C2]: Dữ liệu vào | [C3]: Dữ liệu ra
+Row 1: [C0]: YOLOv8 | [C1]: Phát hiện và định vị đối tượng | [C2]: Frame RGB/BGR | [C3]: Bounding boxes + class + confidence
+Row 2: [C0]: RoleNet | [C1]: Phân loại vai trò xã hội của người | [C2]: Person crop từ YOLO | [C3]: role_id + role_confidence
+Row 3: [C0]: ActionNet | [C1]: Nhận diện hành động theo chuỗi | [C2]: Keypoints 30 frame liên tiếp | [C3]: action_id + action_confidence
+
+========================================
+TABLE 4 (5x2):
+========================================
+Row 0: [C0]: Nhóm | [C1]: Các vai trò (16 classes)
+Row 1: [C0]: Dịch vụ & Giao hàng | [C1]: Shipper, Postman (Bưu tá), Technician (Kỹ thuật viên), Worker (Nhân công)
+Row 2: [C0]: Y tế | [C1]: Doctor (Bác sĩ), Nurse (Y tá)
+Row 3: [C0]: An ninh & Pháp luật | [C1]: Police (Công an), Military (Bộ đội), Security (Bảo vệ), Civil Guard (Dân phòng)
+Row 4: [C0]: Chuyên môn & Phổ thông | [C1]: Student (Học sinh/SV), Construction (Công nhân XD), Chef (Đầu bếp), Janitor (Vệ sinh), Normal (Người thường), Unknown (Không rõ)
+
+========================================
+TABLE 5 (17x3):
+========================================
+Row 0: [C0]: Module | [C1]: File | [C2]: Vai trò
+Row 1: [C0]: VideoProcessor | [C1]: modules/video_processor.py | [C2]: Đọc frame từ nguồn video
+Row 2: [C0]: ObjectDetector | [C1]: modules/object_detector.py | [C2]: Phát hiện đối tượng (YOLOv8n)
+Row 3: [C0]: ObjectTracker | [C1]: modules/object_tracker.py | [C2]: Theo dõi đa đối tượng, gán track ID
+Row 4: [C0]: RoleClassifier | [C1]: modules/role_classifier.py | [C2]: 
+Row 5: [C0]: ActionRecognizer | [C1]: modules/action_recognizer.py | [C2]: Nhận diện hành động (MediaPipe+GRU)
+Row 6: [C0]: IdentityManager | [C1]: modules/identity_manager.py | [C2]: Nhận diện danh tính (HSV histogram)
+Row 7: [C0]: ZoneDetector | [C1]: modules/zone_detector.py | [C2]: Kiểm tra đối tượng trong vùng giám sát
+Row 8: [C0]: BehaviorAnalyzer | [C1]: modules/behavior_analyzer.py | [C2]: Phân tích hành vi (loitering, direction)
+Row 9: [C0]: ContextEngineML | [C1]: modules/context_engine_ml.py | [C2]: Đánh giá mức cảnh báo (XGBoost)
+Row 10: [C0]: ContextEngine | [C1]: modules/context_engine.py | [C2]: Rule-based fallback cho ContextEngineML
+Row 11: [C0]: EventLogger | [C1]: modules/event_logger.py | [C2]: Ghi log sự kiện (JSONL)
+Row 12: [C0]: Visualizer | [C1]: modules/visualizer.py | [C2]: Vẽ annotation lên frame
+Row 13: [C0]: TelegramNotifier | [C1]: modules/telegram_notifier.py | [C2]: Push notification Telegram
+Row 14: [C0]: AlertRecorder | [C1]: modules/alert_recorder.py | [C2]: Ghi clip video khi có alert
+Row 15: [C0]: CameraPipeline | [C1]: pipeline.py | [C2]: Orchestrator: kết nối toàn bộ
+Row 16: [C0]: FastAPI App | [C1]: app.py | [C2]: Web server + Dashboard UI
+
+========================================
+TABLE 6 (7x3):
+========================================
+Row 0: [C0]: Thư viện | [C1]: Phiên bản | [C2]: Vai trò
+Row 1: [C0]: ultralytics | [C1]:  | [C2]: YOLOv8n object detection
+Row 2: [C0]: torch + torchvision | [C1]:  | [C2]: PyTorch — load và inference RoleNet/ActionNet
+Row 3: [C0]: timm | [C1]:  | [C2]: Backbone ConvNeXt-Tiny, EfficientNet-B2
+Row 4: [C0]: mediapipe | [C1]:  | [C2]: Pose estimation — trích xuất 33 keypoints
+Row 5: [C0]: opencv-python | [C1]:  | [C2]: Xử lý ảnh/video, I/O, annotation
+Row 6: [C0]: onnxruntime | [C1]:  | [C2]: ONNX inference (RoleNet ONNX FP32/INT8)
+
+========================================
+TABLE 7 (5x3):
+========================================
+Row 0: [C0]: Thư viện | [C1]: Phiên bản | [C2]: Vai trò
+Row 1: [C0]: xgboost | [C1]:  | [C2]: ContextNet — ra quyết định cảnh báo
+Row 2: [C0]: numpy | [C1]:  | [C2]: Xử lý vector/matrix
+Row 3: [C0]: scikit-learn | [C1]:  | [C2]: Tiền xử lý và đánh giá model
+Row 4: [C0]: shap | [C1]:  | [C2]: Explainability cho ContextNet
+
+========================================
+TABLE 8 (6x3):
+========================================
+Row 0: [C0]: Thư viện | [C1]: Phiên bản | [C2]: Vai trò
+Row 1: [C0]: fastapi | [C1]:  | [C2]: Web framework, REST API
+Row 2: [C0]: uvicorn | [C1]:  | [C2]: ASGI server
+Row 3: [C0]: jinja2 | [C1]:  | [C2]: Template engine cho dashboard HTML
+Row 4: [C0]: python-multipart | [C1]:  | [C2]: Xử lý file upload
+Row 5: [C0]: requests | [C1]:  | [C2]: Telegram Bot API HTTP calls
+
+========================================
+TABLE 9 (7x2):
+========================================
+Row 0: [C0]: Thông số | [C1]: Giá trị
+Row 1: [C0]: CPU | [C1]: 12 nhân (Intel/AMD)
+Row 2: [C0]: RAM | [C1]: 16.8 GB tổng (5.9 GB khả dụng khi chạy)
+Row 3: [C0]: GPU | [C1]: Không bắt buộc (CPU inference)
+Row 4: [C0]: OS | [C1]: Windows 10 Build 26200
+Row 5: [C0]: Python | [C1]: 3.10.11
+Row 6: [C0]: FPS đo thực tế | [C1]: 30 FPS (1 người) / 15 FPS (3+ người)
+
+========================================
+TABLE 10 (6x3):
+========================================
+Row 0: [C0]: Tham số | [C1]: Giá trị | [C2]: Ghi chú
+Row 1: [C0]: Model file | [C1]: yolov8n.pt | [C2]: 6.5 MB — tự download lần đầu
+Row 2: [C0]: Confidence threshold | [C1]: 0.50 | [C2]: Nâng từ 0.45 để giảm FP
+Row 3: [C0]: IoU threshold (NMS) | [C1]: 0.45 | [C2]: Non-Maximum Suppression
+Row 4: [C0]: Device | [C1]: auto | [C2]: CUDA nếu có, ngược lại CPU
+Row 5: [C0]: Target classes | [C1]: 14 lớp | [C2]: person, vehicle×4, animal×6, accessory×3
+
+========================================
+TABLE 11 (7x3):
+========================================
+Row 0: [C0]: Tham số | [C1]: Giá trị | [C2]: Lý do chọn
+Row 1: [C0]: track_thresh | [C1]: 0.35 | [C2]: Ngưỡng confidence tối thiểu để bắt đầu track
+Row 2: [C0]: track_buffer | [C1]: 30 | [C2]: ~2s @ 15 FPS — đủ để track qua occlusion ngắn
+Row 3: [C0]: match_thresh | [C1]: 0.25 | [C2]: Thấp hơn 0.30 để match khi object di chuyển nhanh
+Row 4: [C0]: min_box_area | [C1]: 400 px² | [C2]: Lọc detection nhiễu kích thước nhỏ
+Row 5: [C0]: min_hits | [C1]: 2 | [C2]: Tránh tạo track giả từ false positive đơn lẻ
+Row 6: [C0]: category_lock | [C1]: True | [C2]: 
+
+========================================
+TABLE 12 (9x3):
+========================================
+Row 0: [C0]: Tham số | [C1]: Giá trị | [C2]: Ghi chú
+Row 1: [C0]: window_frames | [C1]: 20 | [C2]: 
+Row 2: [C0]: step_frames | [C1]: 3 | [C2]: Update action mỗi 3 frame mới
+Row 3: [C0]: confidence_threshold | [C1]: 0.45 | [C2]: Hạ từ 0.55 cho người ở xa
+Row 4: [C0]: hidden_size | [C1]: 128 | [C2]: GRU hidden units
+Row 5: [C0]: num_layers | [C1]: 2 | [C2]: Số GRU layers
+Row 6: [C0]: dropout | [C1]: 0.4 | [C2]: Regularization
+Row 7: [C0]: Crop padding | [C1]: 20% | [C2]: Tăng từ 10% để detect người xa
+Row 8: [C0]: Min crop size | [C1]: 128×128 px | [C2]: Resize nếu crop quá nhỏ
+
+========================================
+TABLE 13 (9x3):
+========================================
+Row 0: [C0]: Hành động | [C1]: Icon | [C2]: Mức cảnh báo
+Row 1: [C0]: standing | [C1]: 🧍 | [C2]: normal
+Row 2: [C0]: walking | [C1]: 🚶 | [C2]: normal
+Row 3: [C0]: running | [C1]: 🏃 | [C2]: watch
+Row 4: [C0]: raising_hand | [C1]: 🙋 | [C2]: watch
+Row 5: [C0]: gathering | [C1]: 👥 | [C2]: watch
+Row 6: [C0]: falling | [C1]: 🚨 | [C2]: alert
+Row 7: [C0]: climbing | [C1]: 🧗 | [C2]: alert
+Row 8: [C0]: fighting | [C1]: ⚠️ | [C2]: critical
+
+========================================
+TABLE 14 (5x2):
+========================================
+Row 0: [C0]: Tham số | [C1]: Giá trị
+Row 1: [C0]: similarity_threshold | [C1]: 0.62
+Row 2: [C0]: feature_dim | [C1]: 96 (32 bins × 3 channels)
+Row 3: [C0]: max_known_persons | [C1]: 200
+Row 4: [C0]: recheck_interval | [C1]: 25 frame
+
+========================================
+TABLE 15 (3x4):
+========================================
+Row 0: [C0]: Zone | [C1]: Type | [C2]: Vùng polygon | [C3]: Ý nghĩa
+Row 1: [C0]: entrance | [C1]: allowed | [C2]: [[30,180],[280,180],[280,460],[30,460]] | [C3]: Lối vào — bình thường
+Row 2: [C0]: restricted_area | [C1]: restricted | [C2]: [[360,80],[620,80],[620,360],[360,360]] | [C3]: Khu vực cấm — cảnh báo cao
+
+========================================
+TABLE 16 (17x3):
+========================================
+Row 0: [C0]: # | [C1]: Feature | [C2]: Nguồn
+Row 1: [C0]: 1 | [C1]: role_id | [C2]: RoleClassifier
+Row 2: [C0]: 2 | [C1]: identity_id | [C2]: IdentityManager
+Row 3: [C0]: 3 | [C1]: zone_type_id | [C2]: ZoneDetector
+Row 4: [C0]: 4 | [C1]: zone_status_id | [C2]: ZoneDetector
+Row 5: [C0]: 5 | [C1]: loitering | [C2]: BehaviorAnalyzer
+Row 6: [C0]: 6 | [C1]: time_in_zone | [C2]: BehaviorAnalyzer
+Row 7: [C0]: 7 | [C1]: visit_count | [C2]: BehaviorAnalyzer
+Row 8: [C0]: 8 | [C1]: direction_id | [C2]: BehaviorAnalyzer
+Row 9: [C0]: 9 | [C1]: hour | [C2]: Hệ thống
+Row 10: [C0]: 10 | [C1]: role_confidence | [C2]: RoleClassifier
+Row 11: [C0]: 11 | [C1]: category_id | [C2]: ObjectTracker
+Row 12: [C0]: 12 | [C1]: frames_tracked | [C2]: ObjectTracker
+Row 13: [C0]: 13 | [C1]: is_night | [C2]: Hệ thống
+Row 14: [C0]: 14 | [C1]: is_business_hour | [C2]: Hệ thống
+Row 15: [C0]: 15 | [C1]: action_id | [C2]: ActionRecognizer
+Row 16: [C0]: 16 | [C1]: action_confidence | [C2]: ActionRecognizer
+
+========================================
+TABLE 17 (2x2):
+========================================
+Row 0: [C0]:  | [C1]: TÁC GIẢ CỦA SẢN PHẨM
+Row 1: [C0]:  | [C1]: (Ký và ghi rõ họ tên)

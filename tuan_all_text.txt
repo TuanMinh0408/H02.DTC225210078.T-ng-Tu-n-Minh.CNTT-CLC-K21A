@@ -1,0 +1,1760 @@
+[0001]: ĐẠI HỌC THÁI NGUYÊN
+[0002]: TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG
+[0007]: NGUYỄN THANH TUÂN
+[0013]: XÂY DỰNG HỆ THỐNG GIÁM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU
+[0018]: ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC
+[0019]: NGÀNH CÔNG NGHỆ THÔNG TIN
+[0026]: THÁI NGUYÊN, THÁNG 4 NĂM 2026
+[0027]: ĐẠI HỌC THÁI NGUYÊN
+[0028]: TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG
+[0032]: ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC
+[0033]: KHOA CÔNG NGHỆ THÔNG TIN
+[0035]: ĐỀ TÀI:
+[0036]:  XÂY DỤNG HỆ THỐNG GIAM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU
+[0040]: Giáo viên hướng dẫn: 	TS. Nguyễn Tuấn Anh
+[0041]: Sinh viên thực hiện: 		Nguyễn Thanh Tuân
+[0042]: Lớp: 				CNTT K21 CLC
+[0043]:                       Mã SV: 	DTC225210134
+[0049]: Thái Nguyên, tháng 4  năm 2026
+[0050]: LỜI CẢM ƠN
+[0051]: Trước tiên, em xin bày tỏ lòng biết ơn sâu sắc đến các thầy cô giáo Trường Đại học Công nghệ Thông tin và Truyền thông đã tận tình giảng dạy, truyền đạt cho em những kiến thức quý báu trong suốt thời gian học tập tại trường. Những kiến thức và kinh nghiệm mà thầy cô truyền đạt chính là nền tảng quan trọng giúp em có thể hoàn thành bài báo cáo này.
+[0052]: Đặc biệt, em xin bày tỏ lòng biết ơn chân thành đến thầy giáo TS.Nguyễn Tuấn Anh, người đã luôn chỉ bảo, đồng hành cùng em xuyên suốt thời gian làm đồ án. Sự chỉ bảo cùng lời góp ý chân thành của thầy đã giúp em hoàn thiện đồ án một cách xuất sắc nhất có thể.
+[0053]: Em cũng xin dành lời cảm ơn sâu sắc tới bạn bè, những người đã luôn bên cạnh chia sẻ, hỗ trợ, đóng góp ý kiến và tạo cho em một môi trường học tập tích cực, nhiệt huyết. Những cuộc trao đổi, thảo luận và góp ý chân thành của các bạn là nguồn động lực lớn giúp em không ngừng hoàn thiện đề tài của mình.
+[0054]: Cuối cùng, em xin bày tỏ lòng cảm ơn đối với gia đình – điểm tựa vững chắc nhất trong suốt quá trình học tập và cuộc sống. Sự thương yêu, đùm bọc cùng lòng tự hào mà gia đình dành cho em luôn là nguồn động lực lớn lao để em vượt qua mọi thử thách để hoàn thành xuất sắc đồ án.
+[0055]: Một lần nữa, em trân trọng cảm ơn mọi người đã cùng hỗ trợ em trong quá trình hình thành luận văn này.
+[0056]: Em xin cảm ơn!
+[0060]: LỜI CAM ĐOAN
+[0061]: Em xin cam đoan toàn bộ nội dung đồ án tốt nghiệp “xây dựng hệ thống giám sát an ninh thông minh dựa trên học sâu” là do em tự tìm kiếm và thực hiện dưới sự chỉ dẫn của thầy giáo TS. Nguyễn Tuấn Anh. Mọi sự đẫn chứng và tài liệu tham khảo do em cung cấp đều có ghi rõ nguồn. Em xin cam đoan những nội dung có đều là do em mày mò tìm hiểu và làm dưới sự chỉ lối của giáo viên hướng dẫn, vận dụng các tri thức của công việc thực tế em đang làm và tham khảo mẫu trên thư viện nhà trường về nội dung, cách thức trình bày. Tác giả cam kết nội dung đồ án tốt nghiệp hoàn toàn do bản thân thực hiện, không sao chép và không vi phạm bản quyền.
+[0062]: Em xin cam đoan chịu trách nhiệm về sự chính xác của các thông tin được trình bày trong tài liệu này. 
+[0063]: Thái Nguyên,tháng 4 năm 2026 
+[0064]:                                                                                 Sinh viên
+[0065]:                                                                                    Tuân
+[0066]:                                                                                       Nguyễn Thanh Tuân
+[0070]: MỤC LỤC
+[0072]: DANH MỤC TỪ VIẾT TẮT
+[0077]: DANH MỤC HÌNH ẢNH
+[0079]: DANH MỤC BẢNG BIỂU
+[0080]: LỜI NÓI ĐẦU	
+[0081]: Lý do chọn đề tài
+[0082]: Trong bối cảnh xã hội hiện đại, nhu cầu bảo đảm an ninh tại các khu vực công cộng, khu dân cư, tòa nhà văn phòng và cơ sở hạ tầng quan trọng ngày càng trở nên cấp thiết. Hệ thống camera an ninh (CCTV) truyền thống đã và đang được triển khai rộng rãi, tuy nhiên chúng tồn tại một hạn chế căn bản: camera chỉ thu hình, không hiểu hình. Toàn bộ quá trình phân tích, phán đoán và cảnh báo vẫn phụ thuộc hoàn toàn vào con người trực tiếp quan sát màn hình — một phương thức vừa tốn kém nhân lực, vừa dễ xảy ra sai sót do yếu tố mệt mỏi hay chủ quan.
+[0083]: Những năm gần đây, sự bùng nổ của Trí Tuệ Nhân Tạo (AI), đặc biệt trong các lĩnh vực Thị Giác Máy Tính (Computer Vision) và Học Sâu (Deep Learning), đã mở ra một hướng tiếp cận hoàn toàn mới: xây dựng hệ thống camera có khả năng tự động nhận diện, phân tích và đưa ra cảnh báo mà không cần con người liên tục can thiệp. Các mô hình phát hiện vật thể như YOLO, các mạng nơ-ron hồi tiếp xử lý chuỗi thời gian như LSTM/GRU, cùng các kỹ thuật ước lượng tư thế người (Pose Estimation) đã đạt đến mức độ chính xác đủ để triển khai trong môi trường thực tế.
+[0084]: Tuy nhiên, phần lớn các hệ thống hiện có trên thị trường hoặc trong học thuật vẫn chỉ dừng lại ở mức phát hiện vật thể đơn giản (đây là "người" hay "xe"), mà chưa trả lời được câu hỏi quan trọng hơn: người này là ai, đang làm gì, và trong bối cảnh đó hành vi đó có đáng ngờ không? Nói cách khác, các hệ thống này thiếu khả năng hiểu ngữ cảnh (context-aware reasoning).
+[0085]: Xuất phát từ thực tiễn đó, nhóm tác giả đã đề xuất và thực hiện đề tài "Hệ Thống Camera Giám Sát Thông Minh Sử Dụng Trí Tuệ Nhân Tạo" — một hệ thống tích hợp ba mô hình AI tự phát triển:
+[0086]: RoleNet — nhận diện vai trò xã hội của người được phát hiện (shipper, bác sĩ, công an, bộ đội...) dựa trên đặc điểm trang phục và phụ kiện;
+[0087]: ActionNet — phân loại hành động nguy hiểm theo thời gian thực (ngã, đánh nhau, leo trèo, chạy đột ngột...) qua phân tích chuỗi điểm khớp xương người;
+[0088]: ContextNet — học cách đưa ra quyết định cảnh báo dựa trên tổng hợp vai trò, hành động, vùng không gian và thời điểm, thay thế cho các hệ thống luật cứng thông thường.
+[0089]: Đề tài mang ý nghĩa thực tiễn cao, thể hiện khả năng áp dụng các kỹ thuật AI hiện đại vào bài toán an ninh cụ thể của Việt Nam, đồng thời là cơ hội để nhóm tác giả rèn luyện năng lực xây dựng hệ thống AI hoàn chỉnh từ giai đoạn thu thập dữ liệu, huấn luyện mô hình đến triển khai ứng dụng thực tế.
+[0090]: Mục tiêu và phạm vi đề tài
+[0091]: a, Mục tiêu đề tài
+[0092]: Mục tiêu tổng quát của đề tài là xây dựng một hệ thống camera giám sát thông minh, có khả năng phân tích video theo thời gian thực, nhận diện vai trò và hành động của người trong khung hình, và tự động đưa ra cảnh báo an ninh dựa trên ngữ cảnh.
+[0093]: Cụ thể, đề tài hướng đến các mục tiêu sau:
+[0094]: 1. Nghiên cứu và vận dụng các kỹ thuật AI tiên tiến:
+[0095]: Tìm hiểu và ứng dụng mô hình phát hiện vật thể YOLOv8 cho bài toán phát hiện người và phương tiện theo thời gian thực trên phần cứng phổ thông (CPU).
+[0096]: Nghiên cứu kiến trúc học sâu (CNN, GRU, Transformer) và kỹ thuật Transfer Learning để huấn luyện các mô hình chuyên biệt cho bài toán phân loại vai trò và nhận diện hành động.
+[0097]: Tìm hiểu kỹ thuật ước lượng tư thế người (Human Pose Estimation) với MediaPipe để trích xuất đặc trưng chuyển động phục vụ nhận diện hành động.
+[0098]: 2. Xây dựng và huấn luyện ba mô hình AI:
+[0099]: RoleNet: Phát triển mô hình phân loại ảnh dựa trên kiến trúc ConvNeXt-Tiny (Transfer Learning từ ImageNet), nhận diện 16 vai trò xã hội từ ảnh cắt vùng người, đạt độ chính xác mục tiêu ≥ 80% trên tập kiểm tra.
+[0100]: ActionNet: Xây dựng pipeline nhận diện hành động theo chuỗi thời gian sử dụng MediaPipe Pose kết hợp mạng nơ-ron hồi tiếp GRU, phân loại 8 loại hành động phổ biến trong môi trường giám sát, đặc biệt là các hành động nguy hiểm như ngã, đánh nhau, leo trèo.
+[0101]: ContextNet: Huấn luyện mô hình học máy (XGBoost) để thay thế hệ thống luật cứng trong việc đưa ra quyết định cảnh báo, dựa trên vector đặc trưng tổng hợp từ vai trò, hành động, vùng không gian, thời điểm và hành vi.
+[0102]: 3. Xây dựng hệ thống pipeline hoàn chỉnh:
+[0103]: Thiết kế và triển khai pipeline xử lý video theo thời gian thực với kiến trúc đa module, mỗi module đảm nhận một chức năng độc lập: phát hiện vật thể, theo dõi quỹ đạo, phân loại vai trò, nhận diện hành động, phân tích hành vi, phát hiện xâm phạm vùng và đưa ra cảnh báo.
+[0104]: Đảm bảo hệ thống hoạt động ổn định với tốc độ xử lý ≥ 10 FPS trên máy tính thông thường không có GPU chuyên dụng.
+[0105]: 4. Xây dựng giao diện quản lý và dashboard giám sát:
+[0106]: Phát triển ứng dụng web (FastAPI + HTML/JavaScript) cung cấp giao diện trực quan để theo dõi luồng video trực tiếp, quản lý vùng giám sát (zone), xem nhật ký sự kiện và cảnh báo theo thời gian thực.
+[0107]: b, Phạm vi đề tài
+[0108]: Để bảo đảm tính khả thi trong khuôn khổ thời gian của đồ án, nhóm tác giả xác định phạm vi thực hiện như sau:
+[0109]: Trong phạm vi thực hiện:
+[0110]: Hệ thống được thiết kế để xử lý một nguồn video đơn tại một thời điểm (một camera hoặc một file video).
+[0111]: Nguồn đầu vào được hỗ trợ bao gồm: camera USB/webcam (thông qua OpenCV), file video (MP4, AVI và các định dạng phổ biến), và đường dẫn RTSP (camera IP cơ bản).
+[0112]: Các đối tượng được phát hiện và phân tích là người (đối tượng chính), bên cạnh đó là các phương tiện và phụ kiện kèm theo.
+[0113]: Nhận diện 16 vai trò xã hội phù hợp với bối cảnh Việt Nam, đặc biệt tập trung vào môi trường đô thị.
+[0114]: Nhận diện 8 loại hành động cơ bản: đứng yên, đi bộ, chạy, ngã, leo trèo, đánh nhau, giơ tay, tụ tập.
+[0115]: Hệ thống cảnh báo theo 6 mức độ: ignore (bỏ qua), normal (bình thường), watch (theo dõi), warning (cảnh báo nhẹ), alert (cảnh báo), critical (khẩn cấp).
+[0116]: Triển khai và kiểm thử trên môi trường Windows/Linux với Python 3.10+.
+[0117]: Ngoài phạm vi thực hiện:
+[0118]: Hệ thống chưa hỗ trợ đồng thời nhiều camera (multi-camera) trong phiên bản hiện tại.
+[0119]: Chưa tích hợp cơ sở dữ liệu lịch sử dài hạn và báo cáo phân tích xu hướng.
+[0120]: Chưa tích hợp các hệ thống thông báo ngoài (push notification qua email, Telegram, webhook...).
+[0121]: Nhận diện khuôn mặt (face recognition) được bổ sung như một tính năng bổ trợ, không phải trọng tâm chính.
+[0122]: Chưa tối ưu hóa để chạy trên thiết bị nhúng nhỏ (Raspberry Pi, Jetson Nano...).
+[0123]: c, Đối tượng nghiên cứu
+[0124]: Đề tài tập trung nghiên cứu các đối tượng kỹ thuật và bài toán sau:
+[0125]: 1. Bài toán và dữ liệu:
+[0126]: Bài toán phát hiện, phân loại và theo dõi người trong video giám sát (Person Detection, Classification & Tracking).
+[0127]: Bài toán nhận diện vai trò xã hội từ trang phục (Appearance-Based Role Recognition).
+[0128]: Bài toán nhận diện hành động theo chuỗi thời gian (Skeleton-Based Action Recognition).
+[0129]: Bài toán đưa ra quyết định cảnh báo thông minh dựa trên ngữ cảnh đa chiều (Context-Aware Alert Reasoning).
+[0130]: Dữ liệu tự thu thập cho RoleNet (~21.785 ảnh, 16 lớp) và dữ liệu keypoint tư thế người cho ActionNet.
+[0131]: 2. Mô hình và kỹ thuật AI:
+[0132]: Mô hình phát hiện vật thể YOLOv8n (Ultralytics) — phát hiện người và phương tiện.
+[0133]: Thuật toán theo dõi quỹ đạo dựa trên IoU matching mô phỏng theo ByteTrack.
+[0134]: Kiến trúc ConvNeXt-Tiny (Transfer Learning từ ImageNet) cho bài toán phân loại vai trò — RoleNet V3.
+[0135]: Bộ công cụ ước lượng tư thế người MediaPipe Pose (Google) — trích xuất 33 điểm khớp xương.
+[0136]: Mạng nơ-ron hồi tiếp GRU (Gated Recurrent Unit) cho bài toán phân loại hành động theo chuỗi thời gian — ActionNet.
+[0137]: Mô hình XGBoost (Gradient Boosting Decision Trees) cho bài toán phân loại mức độ cảnh báo — ContextNet.
+[0138]: 3. Hệ thống và công nghệ:
+[0139]: Ngôn ngữ lập trình Python 3.10+ với các thư viện PyTorch, OpenCV, Ultralytics, MediaPipe, XGBoost, FastAPI.
+[0140]: Kiến trúc phần mềm theo mô hình pipeline đa tầng (multi-layer processing pipeline) với khả năng mở rộng module.
+[0141]: Nền tảng huấn luyện mô hình: Google Colab (GPU cloud) cho các mô hình học sâu; máy tính cục bộ cho ContextNet.
+[0142]: Kiểm thử và đánh giá mô hình thông qua các chỉ số: Accuracy, Precision, Recall, F1-Score trên tập dữ liệu kiểm tra độc lập.
+[0145]: CHƯƠNG 1. TỔNG QUAN HỆ THỐNG CAMERA GIÁM SÁT AN NINH THÔNG MINH
+[0146]: 1.1. Tổng quan hệ thống camera giám sát an ninh
+[0147]: 1.1.1. Khái niệm và vai trò của hệ thống camera thông minh
+[0148]: a) Khái niệm
+[0149]: Hệ thống camera giám sát an ninh thông minh (Intelligent Video Surveillance System – IVSS) là một hệ thống tích hợp phần cứng và phần mềm, có khả năng thu thập, xử lý và phân tích hình ảnh/video theo thời gian thực nhằm phát hiện, phân loại và phản hồi tự động các sự kiện bất thường trong một khu vực giám sát. Khác với hệ thống camera truyền thống vốn chỉ đóng vai trò ghi hình thụ động, hệ thống camera thông minh tích hợp các thuật toán thị giác máy tính (Computer Vision), học máy (Machine Learning) và học sâu (Deep Learning) để chủ động nhận thức ngữ cảnh và đưa ra cảnh báo.
+[0150]: Theo định nghĩa của Hiệp hội An ninh Điện tử Quốc tế (ISMA), một hệ thống giám sát thông minh cần hội tụ ba năng lực cốt lõi:
+[0151]: - Nhận thức (Perception): Có khả năng phát hiện và định danh đối tượng (người, phương tiện, hành vi) trong đa dạng điều kiện môi trường.
+[0152]: - Suy luận (Reasoning): Có khả năng phân tích ngữ cảnh, mối quan hệ giữa các đối tượng và sự kiện theo thời gian.
+[0153]: - Hành động (Actuation): Có khả năng tự động phát cảnh báo hoặc kích hoạt phản ứng phù hợp khi phát hiện tình huống bất thường.
+[0154]: Trong phạm vi đề tài này, hệ thống camera giám sát thông minh được xây dựng theo kiến trúc đa tầng, kết hợp ba mô hình học sâu chuyên biệt: RoleNet (nhận diện vai trò/danh tính đối tượng), ActionNet (nhận diện hành động nguy hiểm) và ContextNet (đánh giá ngữ cảnh và sinh cảnh báo). Kiến trúc này cho phép hệ thống không chỉ phát hiện sự hiện diện của đối tượng mà còn hiểu được “ai đang làm gì, ở đâu và vào thời điểm nào” - từ đó đưa ra cảnh báo chính xác hơn so với các hệ thống dựa thuần túy trên luật cứng (rule-based systems).
+[0157]: b) Vai trò của hệ thống camera thông minh
+[0158]: Hệ thống camera giám sát an ninh thông minh đóng vai trò quan trọng trong nhiều lĩnh vực của đời sống hiện đại:
+[0159]: Trong lĩnh vực an ninh - trật tự công cộng:
+[0160]: Hệ thống có khả năng giám sát liên tục các khu vực trọng yếu như cổng ra vào, hành lang, không gian công cộng, phát hiện các hành vi nguy hiểm như đánh nhau, ngã ngất, leo trèo bất thường hay tụ tập đông người. Điều này giúp giảm thiểu đáng kể thời gian phản ứng của lực lượng an ninh và hạn chế phụ thuộc vào con người trong việc theo dõi màn hình 24/7.
+[0161]: Trong lĩnh vực thương mại và bán lẻ:
+[0162]: Các hệ thống giám sát thông minh được triển khai rộng rãi tại siêu thị, ngân hàng, trung tâm thương mại để phát hiện hành vi trộm cắp, phân tích lưu lượng khách hàng và tối ưu hóa bố trí không gian. Theo báo cáo của Retail Gazette (2023), việc ứng dụng AI trong giám sát an ninh bán lẻ có thể giảm thiệt hại do trộm cắp lên đến 40%.
+[0163]: Trong giao thông vận tải:
+[0164]: Hệ thống nhận dạng biển số xe, phát hiện vi phạm tốc độ, nhận diện người đi bộ và xe đạp đã được triển khai tại nhiều thành phố lớn trên thế giới. Tại Việt Nam, dự án camera giao thông thông minh tại Hà Nội và TP. Hồ Chí Minh đã bước đầu ghi nhận hiệu quả trong việc giảm tai nạn và xử lý vi phạm tự động .
+[0165]: Trong giáo dục và y tế:
+[0166]: Hệ thống giám sát thông minh có thể phát hiện các tình huống bất thường trong lớp học, phòng thi, hoặc giám sát bệnh nhân ngã trong bệnh viện - giúp nâng cao an toàn mà không xâm phạm quyền riêng tư quá mức.
+[0167]: Trong công nghiệp và kho bãi:
+[0168]: Giám sát tuân thủ đồng phục bảo hộ lao động (PPE - Personal Protective Equipment), phát hiện công nhân ngã hoặc người không có thẩm quyền xâm nhập vào khu vực nguy hiểm là những ứng dụng điển hình trong môi trường sản xuất.
+[0175]: Bảng 1.1 dưới đây tổng hợp các vai trò chính và tính năng tương ứng của hệ thống camera thông minh:
+[0176]: Bảng 1.1: Tổng hợp vai trò của hệ thống camera giám sát thông minh
+[0182]: 1.1.2. Các hạn chế của hệ thống camera truyền thống
+[0183]: Mặc dù hệ thống camera quan sát (CCTV - Closed-Circuit Television) đã được triển khai rộng rãi từ những năm 1990 và đóng góp tích cực vào công tác an ninh, tuy nhiên các hệ thống truyền thống này bộc lộ nhiều hạn chế nghiêm trọng khi đối mặt với nhu cầu giám sát ngày càng phức tạp trong thực tế.
+[0184]: a) Phụ thuộc hoàn toàn vào con người
+[0185]: Hệ thống camera truyền thống chỉ thực hiện chức năng ghi hình và hiển thị video lên màn hình. Toàn bộ quá trình phân tích, phán đoán và ra quyết định đều phụ thuộc vào nhân viên giám sát. Điều này dẫn đến nhiều vấn đề nghiêm trọng:
+[0186]: Giới hạn sinh lý của con người: Nghiên cứu của Đại học Portsmouth (Anh) năm 2013 cho thấy chỉ sau khoảng 22 phút theo dõi liên tục màn hình, người quan sát bắt đầu bỏ sót hơn 95% các sự kiện bất thường do suy giảm sự chú ý.
+[0187]: Chi phí nhân sự cao: Để giám sát toàn diện một hệ thống với hàng chục đến hàng trăm camera 24/7, tổ chức cần đội ngũ nhân viên đông đảo theo ca, dẫn đến chi phí vận hành rất lớn. Một trường đại học trung bình với 100 camera cần ít nhất 6-8 nhân viên/ngày chỉ để theo dõi video.
+[0188]: Sai sót chủ quan: Nhân viên có thể bỏ qua sự kiện vì không nhận ra tầm quan trọng hoặc do mệt mỏi, ảnh hưởng của cảm xúc cá nhân.
+[0189]: b) Không có khả năng phân tích ngữ cảnh thời gian thực
+[0190]: Hệ thống camera truyền thống không có khả năng tự hiểu ý nghĩa của những gì đang diễn ra trong khung hình. Chúng không phân biệt được:
+[0191]: Một nhân viên giao hàng khác với một đối tượng xâm nhập trái phép.
+[0192]: Hai người đang vui đùa so với đang xô xát.
+[0193]: Người dọn vệ sinh di chuyển chậm trong khu vực so với kẻ đang chuẩn bị trộm cắp.
+[0194]: Sự thiếu hụt khả năng suy luận ngữ cảnh này là nguyên nhân chính dẫn đến tỷ lệ báo động giả cao khi tích hợp thêm cảm biến chuyển động đơn giản vào hệ thống truyền thống.
+[0195]: c) Hạn chế trong xử lý dữ liệu lớn
+[0196]: Một hệ thống giám sát quy mô vừa có thể tạo ra hàng chục terabyte dữ liệu video mỗi tháng. Hệ thống truyền thống chủ yếu lưu trữ video thô để tra cứu khi có sự cố xảy ra, không có khả năng tự động trích xuất thông tin, lập chỉ mục sự kiện hay thống kê hành vi theo thời gian.
+[0197]: d) Khả năng mở rộng kém
+[0198]: Mỗi camera được kết nối độc lập hoặc theo nhóm nhỏ. Khi cần mở rộng hệ thống, chi phí tăng tuyến tính theo số lượng camera và nhân sự giám sát, không có cơ chế tự động hóa hay tích hợp trung tâm thông minh.
+[0199]: e) Không có khả năng học từ dữ liệu lịch sử
+[0200]: Khi một sự kiện bất thường xảy ra, hệ thống truyền thống không có cơ chế tự cập nhật để nhận dạng tốt hơn các sự kiện tương tự trong tương lai. Tri thức chỉ tồn tại trong con người vận hành, không được mã hóa vào hệ thống.
+[0201]: Bảng 1.2: So sánh hệ thống camera truyền thống và hệ thống thông minh
+[0202]: 1.1.3. Xu hướng ứng dụng trí tuệ nhân tạo trong giám sát 
+[0203]: Sự phát triển vượt bậc của trí tuệ nhân tạo (AI) trong thập kỷ qua, đặc biệt là các đột phá trong học sâu (Deep Learning) từ năm 2012 trở đi, đã tạo ra làn sóng chuyển đổi mạnh mẽ trong lĩnh vực giám sát an ninh. Các xu hướng chính đang định hình ngành công nghiệp này bao gồm:
+[0204]: a) Phát hiện và theo dõi đối tượng (Object Detection & Tracking)
+[0205]: Các mô hình phát hiện đối tượng thế hệ mới như YOLO (You Only Look Once), Faster R-CNN và SSD đã đạt độ chính xác cao với tốc độ xử lý đủ để chạy thời gian thực ngay cả trên phần cứng giá thành thấp. YOLOv8 - phiên bản được sử dụng trong hệ thống của đề tài này - có thể phát hiện người và phương tiện với mAP50 đạt 53% trên tập COCO khi dùng model YOLOv8n (nano), đồng thời vẫn duy trì tốc độ xử lý >30 FPS trên CPU .
+[0206]: Kết hợp với các thuật toán theo dõi đa đối tượng như ByteTrack, DeepSORT, StrongSORT, hệ thống có thể duy trì nhận dạng liên tục từng cá nhân qua nhiều frame, ngay cả khi đối tượng bị che khuất tạm thời, tạo nền tảng cho phân tích hành vi theo thời gian.
+[0207]: b) Nhận diện vai trò và danh tính (Role & Identity Recognition)
+[0208]: Một trong những xu hướng quan trọng nhất là khả năng nhận diện ai đang xuất hiện trong vùng giám sát. Điều này bao gồm hai nhánh chính:
+[0209]: Nhận diện khuôn mặt (Face Recognition): Sử dụng các mô hình như FaceNet, ArcFace, InsightFace để so khớp đối tượng với cơ sở dữ liệu đã biết.
+[0210]: Nhận diện vai trò qua trang phục và phụ kiện (Appearance-Based Role Recognition): Phân loại đối tượng theo nghề nghiệp hoặc địa vị dựa trên đặc điểm ngoại hình như màu sắc đồng phục, phụ kiện đặc trưng (mũ bảo hiểm, áo shipper, đồng phục y tế...). Trong đề tài này, mô hình RoleNet được xây dựng theo hướng này, sử dụng kiến trúc ConvNeXt-Tiny fine-tune trên 16 lớp vai trò đặc thù môi trường Việt Nam với độ chính xác xác nhận đạt ~99.96%.
+[0211]: c) Nhận diện hành động nguy hiểm (Action Recognition)
+[0212]: Nhận diện hành động (Action Recognition) là một trong những bài toán thách thức nhất trong thị giác máy tính. Các hướng tiếp cận phổ biến hiện nay bao gồm:
+[0213]: Dựa trên khung xương người (Skeleton-based): Sử dụng công cụ ước lượng tư thế như MediaPipe Pose, OpenPose để trích xuất chuỗi keypoints, sau đó đưa vào mô hình chuỗi thời gian như LSTM, GRU hoặc Transformer để phân loại hành động. Phương pháp này có ưu điểm bảo vệ quyền riêng tư (không lưu pixel thô) và bất biến với điều kiện ánh sáng.
+[0214]: Dựa trên quang học dòng (Optical Flow): Sử dụng thông tin di chuyển giữa các frame để nhận diện hành động, thường cho kết quả tốt với các hành động có đặc trưng chuyển động rõ ràng.
+[0215]: Dựa trên video 3D-CNN: Sử dụng mạng tích chập 3 chiều để học đặc trưng không gian - thời gian trực tiếp từ video thô, tiêu biểu là các kiến trúc C3D, I3D, SlowFast.
+[0216]: Trong hệ thống của đề tài này, ActionNet sử dụng kết hợp MediaPipe Pose và mạng GRU (Gated Recurrent Unit) 2 lớp để nhận diện 8 hành động: đứng yên, đi bộ, chạy, ngã, leo trèo, đánh nhau, giơ tay và tụ tập - đạt độ chính xác xác nhận 95.31% và trên tập kiểm thử 90.62%.
+[0217]: d) Phân tích ngữ cảnh thông minh (Context-Aware Intelligence)
+[0218]: Xu hướng mới nhất và quan trọng nhất là chuyển từ phân tích từng sự kiện đơn lẻ sang hiểu toàn bộ ngữ cảnh của tình huống. Một hệ thống ngữ cảnh thông minh xét đến đồng thời nhiều yếu tố:
+[0219]: Vai trò/danh tính của đối tượng (nhân viên được phép hay người lạ?)
+[0220]: Hành động đang thực hiện (đang đi bộ bình thường hay đang chạy?)
+[0221]: Vị trí trong không gian (đúng khu vực được phép hay khu vực cấm?)
+[0222]: Hành vi theo thời gian (đã lảng vảng bao lâu? Đây lần thứ mấy trong ngày?)
+[0223]: Thời điểm trong ngày (giờ làm việc hay ngoài giờ?)
+[0224]: Các mô hình học máy như XGBoost, LightGBM và các mạng neural đa tầng đã được ứng dụng để học cách ra quyết định cảnh báo từ dữ liệu lịch sử. Trong đề tài này, ContextNet được xây dựng trên nền XGBoost với đầu vào là vector đặc trưng 14 chiều kết hợp đầu ra của RoleNet, ActionNet và module phân tích hành vi (loitering, zone, direction...), cho phép đưa ra quyết định cảnh báo ở 6 mức độ với khả năng giải thích kết quả (explainability).
+[0225]: e) Điện toán biên (Edge Computing) và AI nhúng
+[0226]: Thay vì truyền toàn bộ dữ liệu video về trung tâm xử lý, xu hướng hiện đại là đưa năng lực AI trực tiếp vào thiết bị biên (camera thông minh, Jetson Nano, Raspberry Pi). Điều này giảm độ trễ, tiết kiệm băng thông và tăng cường bảo mật dữ liệu. Các chip AI chuyên dụng như NVIDIA Jetson, Google Coral TPU và Apple Neural Engine đang ngày càng phổ biến và giảm giá thành.
+[0228]: f) Bảo vệ quyền riêng tư (Privacy-Preserving AI)
+[0229]: Song song với sức mạnh của AI giám sát, các quy định pháp lý về bảo vệ dữ liệu cá nhân (GDPR tại châu Âu, Nghị định 13/2023/NĐ-CP tại Việt Nam) đang thúc đẩy xu hướng phát triển các giải pháp giám sát bảo toàn quyền riêng tư: làm mờ khuôn mặt tự động, phân tích chỉ trên dữ liệu khung xương mà không lưu ảnh gốc, và federated learning để học mô hình mà không tập trung dữ liệu cá nhân.
+[0230]: Tổng kết mục 1.1:
+[0231]: Sự kết hợp giữa các xu hướng trên tạo nền tảng kỹ thuật vững chắc cho hệ thống camera giám sát an ninh thông minh. Với khả năng nhận diện đối tượng (RoleNet), phân tích hành động (ActionNet) và suy luận ngữ cảnh (ContextNet), hệ thống được xây dựng trong đề tài này hướng đến mục tiêu tự động hóa quá trình giám sát, giảm phụ thuộc vào con người và tăng độ chính xác trong phát hiện tình huống an ninh thực sự nguy hiểm. Các mục tiếp theo của chương sẽ trình bày chi tiết về các công nghệ nền tảng, kiến trúc hệ thống và phương pháp triển khai.
+[0232]: 1.2. Các thành phần kỹ thuật cốt lõi 
+[0233]: Hệ thống camera giám sát an ninh thông minh được xây dựng theo kiến trúc pipeline đa tầng, trong đó mỗi thành phần kỹ thuật đảm nhận một nhiệm vụ chuyên biệt và truyền kết quả cho tầng tiếp theo. Kiến trúc tổng thể bao gồm sáu thành phần cốt lõi được mô tả chi tiết trong các mục dưới đây.
+[0234]: 1.2.1. Phát hiện và theo dõi đối tượng (Object Detection & Tracking) 
+[0235]: a) Phát hiện đối tượng (Object Detection)
+[0236]: Phát hiện đối tượng là bước đầu tiên và nền tảng của toàn bộ pipeline. Nhiệm vụ của module này là xác định vị trí (bounding box) và danh mục (class) của từng đối tượng trong mỗi khung hình video.
+[0237]: Trong hệ thống này, module phát hiện đối tượng sử dụng YOLOv8n (You Only Look Once version 8, biến thể nano) — mô hình thuộc họ kiến trúc Real-Time Object Detection một giai đoạn (one-stage detector) do Ultralytics phát triển. YOLOv8 áp dụng chiến lược tách đầu dự đoán (decoupled head), sử dụng anchor-free detection và hàm mất mát CIoU kết hợp với DFL (Distribution Focal Loss) để cải thiện độ chính xác định vị bounding box.
+[0240]: Các thông số kỹ thuật của module phát hiện đối tượng trong hệ thống:
+[0241]: Hệ thống theo dõi 14 nhãn đối tượng thuộc 4 nhóm chính: person (người), vehicle (phương tiện: car, motorcycle, bus, truck), animal (động vật: bird, cat, dog, horse, sheep, cow) và accessory (phụ kiện: backpack, handbag, suitcase). Việc theo dõi phụ kiện đồng thời với người cho phép module RoleNet sử dụng tín hiệu ngữ cảnh bổ sung ("co-occurrence") để cải thiện độ chính xác phân loại vai trò.
+[0242]: b) Theo dõi đối tượng đa khung hình (Multi-Object Tracking)
+[0243]: Phát hiện đối tượng chỉ hoạt động trên từng frame riêng lẻ và không duy trì danh tính (identity) của đối tượng qua nhiều frame. Module theo dõi đối tượng (Object Tracker) giải quyết vấn đề này bằng cách gán một track ID duy nhất và ổn định cho mỗi đối tượng từ khi xuất hiện đến khi rời khỏi vùng giám sát.
+[0244]: Hệ thống sử dụng thuật toán theo dõi dựa trên IoU Matching (Intersection over Union) kết hợp với cơ chế buffer theo phong cách ByteTrack. Nguyên lý hoạt động gồm bốn bước:
+[0245]: Ma trận IoU: Xây dựng ma trận IoU giữa tất cả các track hiện có và các detection mới trong frame.
+[0246]: Greedy Matching: Gán detection cho track có IoU cao nhất, lặp lại cho đến khi không còn cặp nào đạt ngưỡng.
+[0247]: Khởi tạo track mới: Các detection không khớp với track nào tạo ra track mới.
+[0248]: Xóa track mất: Track không nhận được detection trong track_buffer = 30 frame liên tiếp bị loại bỏ.
+[0249]: Thông số cấu hình của ObjectTracker:
+[0250]: Module tracker còn tính toán vận tốc (velocity) của mỗi đối tượng theo pixel/frame dựa trên độ dịch chuyển của tâm bounding box giữa hai frame liên tiếp, phục vụ cho module ActionRecognizer và BehaviorAnalyzer ở tầng sau.
+[0251]: 1.2.2. Nhận diện vai trò (Role Classification) 
+[0252]: a) Bài toán và động lực
+[0253]: Nhận diện vai trò (Role Classification) là bài toán phân loại đa lớp nhằm xác định loại đối tượng người đang xuất hiện trong vùng giám sát dựa vào đặc điểm ngoại hình, trang phục và phụ kiện. Đây là thành phần quan trọng giúp hệ thống phân biệt được shipper giao hàng hợp lệ với người lạ xâm nhập trái phép, bác sĩ với bệnh nhân, hay bảo vệ với công nhân xây dựng — những phân biệt mà hệ thống camera truyền thống hoàn toàn không thể thực hiện.
+[0254]: Hệ thống nhận diện 16 vai trò xã hội đặc thù môi trường Việt Nam, được chia thành bốn nhóm:
+[0255]: b) Kiến trúc RoleNet — ba thế hệ mô hình
+[0256]: Module RoleClassifier được xây dựng qua ba thế hệ mô hình, với chiến lược fallback tự động theo thứ tự ưu tiên :
+[0257]: RoleNet V1 (MobileNetV3-Small):
+[0259]: Dữ liệu huấn luyện: ~5,000 ảnh
+[0260]: Độ chính xác validation: 59.05%
+[0261]: RoleNet V2 (EfficientNet-B2):
+[0263]: Dữ liệu huấn luyện: ~8,000 ảnh
+[0264]: Độ chính xác validation: 64.41%
+[0265]: Bổ sung: Test-Time Augmentation (TTA) — gốc + flip ngang, trung bình softmax
+[0266]: RoleNet V3 (ConvNeXt-Tiny) — ACTIVE:
+[0267]: LayerNorm(768)GELU
+[0268]: Dữ liệu huấn luyện: 21,785 ảnh (đa dạng nguồn: Google Images, Open Images, tự thu thập)
+[0269]: Độ chính xác validation: ~99.96% (trên validation set)
+[0270]: Input: Person crop 128×256 px, chuẩn hóa ImageNet (mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+[0271]: TTA: Bật (gốc + flip ngang)
+[0272]: Dung lượng model: ~107 MB
+[0273]: ConvNeXt-Tiny được chọn cho V3 vì ưu điểm vượt trội so với EfficientNet: sử dụng LayerNorm thay BatchNorm giúp ổn định training hơn, đồng thời kiến trúc chia sẻ biểu diễn toàn cục (global features) phù hợp với bài toán phân biệt trang phục toàn thân.
+[0274]: c) Chế độ dự phòng dựa trên luật màu (Rule-based Fallback)
+[0275]: Khi không có model nào, hệ thống sử dụng phân tích màu HSV vùng torso kết hợp kiểm tra phụ kiện đồng xuất hiện. Công thức tính điểm:
+[0276]: Score = 0.65 × color_score + 0.35 × accessory_score
+[0278]: Hệ thống định nghĩa 13 dải màu HSV đặc trưng bao gồm: bright_green (áo Grab), bright_orange (áo Shopee/GHN), navy_blue (công an), dark_green (bộ đội), white (bác sĩ/học sinh), neon_orange/yellow (áo phản quang công nhân), black (bảo vệ), v.v.
+[0279]: 1.2.3. Nhận diện hành động (Action Recognition) 
+[0280]: a) Bài toán và hướng tiếp cận
+[0281]: Nhận diện hành động (Action Recognition) là bài toán phân loại chuỗi thời gian nhằm xác định hành động hiện tại của đối tượng người từ chuỗi nhiều frame video liên tiếp. Đây là thành phần phức tạp nhất trong toàn hệ thống do đặc trưng không gian-thời gian (spatiotemporal) của hành động đòi hỏi mô hình phải hiểu được sự thay đổi tư thế qua nhiều khung hình.
+[0282]: Hệ thống chọn hướng tiếp cận skeleton-based action recognition sử dụng ước lượng tư thế (pose estimation) thay vì RGB video trực tiếp, vì:
+[0283]: Bất biến với điều kiện ánh sáng và màu sắc trang phục
+[0284]: Bảo vệ quyền riêng tư (không lưu pixel thô)
+[0285]: Nhẹ và nhanh hơn các phương pháp 3D-CNN
+[0286]: b) Kiến trúc ActionNet (MediaPipe Pose + GRU)
+[0287]: Giai đoạn trích xuất keypoints (MediaPipe Pose):
+[0288]: MediaPipe Pose ước lượng tư thế 3D của người từ ảnh RGB, cung cấp 33 điểm khung xương (keypoints) bao gồm các khớp chính: mũi, vai, khuỷu tay, cổ tay, hông, đầu gối, mắt cá chân, và 6 điểm khuôn mặt. Mỗi điểm có 4 giá trị: tọa độ chuẩn hóa (x, y, z, visibility), tạo ra vector đặc trưng 132 chiều mỗi frame (33 × 4 = 132).
+[0289]: Hệ thống hỗ trợ cả hai phiên bản API của MediaPipe:
+[0290]: MediaPipe < 0.10: mp.solutions.pose.Pose (legacy API)
+[0292]: Giai đoạn phân loại hành động (ActionNet GRU):
+[0294]: Cơ chế cửa sổ trượt (Sliding Window):
+[0295]: Mỗi đối tượng duy trì một buffer riêng lưu 30 frame keypoints gần nhất
+[0296]: Sau mỗi step_frames = 5 frame mới, model thực hiện inference trên cửa sổ 30 frame
+[0298]: Kết quả: 8 lớp hành động được nhận diện, kèm ánh xạ sang mức cảnh báo:
+[0299]: Kết quả huấn luyện:
+[0300]: Độ chính xác validation: 95.31%
+[0301]: Độ chính xác test: 90.62%
+[0302]: Dung lượng model: 840 KB
+[0303]: c) Cơ chế dự phòng thông minh (Smart Fallback)
+[0304]: ActionNet được thiết kế với ba tầng dự phòng để đảm bảo hệ thống luôn có thể ước lượng hành động ngay cả khi thiếu thư viện:
+[0306]: 1.2.4. Phân tích hành vi và ngữ cảnh (Behavior & Context Analysis) 
+[0307]: Tầng phân tích hành vi và ngữ cảnh là "bộ não" ra quyết định của hệ thống, kết hợp tất cả thông tin từ các tầng trước để đánh giá mức độ nguy hiểm của từng đối tượng.
+[0308]: a) Module phân tích hành vi không gian-thời gian (BehaviorAnalyzer)
+[0309]: BehaviorAnalyzer theo dõi hành vi của từng đối tượng theo thời gian thông qua bốn chỉ số:
+[0310]: Thời gian trong vùng (time_in_zone): Tính tổng thời gian đối tượng đã ở trong zone kể từ khi vào. Ngưỡng lảng vảng: loitering_time_threshold = 20 giây.
+[0311]: Cờ lảng vảng (loitering): True khi time_in_zone ≥ 20 giây. Đây là một trong các dấu hiệu nguy hiểm tiềm tàng quan trọng nhất, đặc biệt trong khu vực hạn chế.
+[0312]: Hướng di chuyển (direction): Được tính từ 5 vị trí gần nhất trong lịch sử:
+[0313]: stationary: di chuyển < 8 pixel (đứng yên)
+[0314]: moving_in: đang tiến về phía camera (dy > 0)
+[0315]: moving_out: đang rời khỏi camera (dy < 0)
+[0316]: moving: di chuyển ngang
+[0317]: Số lần vào zone (visit_count): Đếm số lần đối tượng vào-rời-vào trong cửa sổ 5 phút. Ngưỡng đáng ngờ: ≥ 3 lần/5 phút. Lịch sử vị trí được lưu tối đa 300 điểm.
+[0318]: b) Module đánh giá ngữ cảnh bằng ML (ContextEngineML / ContextNet)
+[0319]: ContextNet là mô hình học máy trung tâm tích hợp đầu ra của tất cả các module khác để đưa ra quyết định cảnh báo cuối cùng. Đây là điểm khác biệt cơ bản so với hệ thống rule-based truyền thống: thay vì dùng các luật cứng if-else, ContextNet học cách ra quyết định từ dữ liệu.
+[0320]: Kiến trúc: XGBoost (300 estimators, max_depth=6) với đầu vào là vector đặc trưng 16 chiều:
+[0321]: Đầu ra: 6 mức cảnh báo — ignore (bỏ qua), normal (bình thường), watch (theo dõi), warning (cảnh báo), alert (nguy hiểm cao), critical (nghiêm trọng).
+[0322]: Dữ liệu huấn luyện: 60,000 mẫu dữ liệu tổng hợp được sinh từ rule engine gốc qua script generate_context_data.py. Điều này cho phép ContextNet học được các pattern mà rule engine đã encode, đồng thời có thể tổng quát hóa sang các tình huống chưa được lập trình tường minh. Độ chính xác trên validation: 100% (do train và test trên cùng phân phối dữ liệu tổng hợp).
+[0323]: Cơ chế fallback: Nếu model XGBoost chưa được train hoặc không tải được, hệ thống tự động chuyển sang ContextEngine rule-based gốc với 17 luật cứng.
+[0324]: Cooldown cảnh báo: Mỗi cặp (rule_name, track_id) chỉ phát AlertEvent tối đa 1 lần mỗi 8 giây để tránh spam cảnh báo.
+[0325]: 1.2.5. Nhận diện khuôn mặt (Face Recognition) 
+[0326]: a) Hướng tiếp cận bảo vệ quyền riêng tư
+[0327]: Module nhận diện khuôn mặt trong hệ thống này được thiết kế theo hướng appearance-based identity matching thay vì face recognition truyền thống, nhằm đảm bảo tuân thủ các quy định về quyền riêng tư (GDPR, Nghị định 13/2023/NĐ-CP). Cụ thể, hệ thống không lưu ảnh khuôn mặt thực tế hay tên thật của đối tượng, mà sử dụng color histogram của toàn thân người như một "chữ ký ngoại hình" để phân biệt người quen (KNOWN) và người lạ (UNKNOWN).
+[0328]: b) Quy trình kỹ thuật (IdentityManager)
+[0329]: Tính chữ ký ngoại hình:
+[0330]: Crop vùng người từ frame, resize về 64×128 pixel
+[0331]: Chuyển sang không gian màu HSV
+[0333]: Chuẩn hóa histogram về khoảng [0, 1]
+[0334]: So khớp danh tính:
+[0335]: Tính cosine similarity giữa chữ ký hiện tại và danh sách chữ ký đã đăng ký
+[0336]: Ngưỡng nhận diện: similarity_threshold = 0.62
+[0338]: Tối ưu hiệu năng:
+[0339]: Cache kết quả nhận diện cho từng track_id, chỉ re-check sau mỗi 25 frame (recheck_interval)
+[0340]: Tối đa 200 người quen đăng ký (max_known_persons)
+[0341]: Đăng ký người quen:
+[0342]: Hệ thống hỗ trợ đăng ký từ thư mục ảnh với cấu trúc known_faces/<person_id>/*.jpg. Mỗi người có thể đăng ký nhiều ảnh để nâng cao độ chính xác nhận diện.
+[0343]: Thông tin identity (KNOWN/UNKNOWN) sau đó được chuyển cho ContextNet như một đặc trưng quan trọng trong vector đầu vào, giúp hệ thống áp dụng mức cảnh báo khác nhau cho người quen và người lạ trong cùng một zone.
+[0344]: Lưu ý: Phương pháp histogram-based không tương đương với face recognition chuẩn (như FaceNet, ArcFace). Độ chính xác bị ảnh hưởng bởi sự thay đổi trang phục và góc nhìn. Trong các phiên bản tương lai, có thể tích hợp thư viện nhận diện khuôn mặt chuyên dụng như InsightFace.
+[0346]: 1.2.6. Phân vùng giám sát (Zone Detection) 
+[0347]: a) Khái niệm và mục đích
+[0348]: Phân vùng giám sát (Zone Detection) cho phép người quản trị định nghĩa các khu vực quan tâm (Region of Interest – ROI) dưới dạng đa giác (polygon) trực tiếp trên màn hình camera. Mỗi zone được gán một loại (type) xác định mức độ nhạy cảm:
+[0349]: allowed (Được phép): Khu vực công cộng, hành lang — đối tượng xuất hiện không gây cảnh báo.
+[0350]: restricted (Hạn chế): Khu vực nhạy cảm (phòng server, kho vũ khí, khu vực cấm) — bất kỳ đối tượng nào xâm nhập sẽ kích hoạt cảnh báo cao hơn.
+[0351]: b) Thuật toán kiểm tra điểm trong đa giác
+[0352]: Kiểm tra xem một đối tượng có nằm trong zone hay không sử dụng hàm cv2.pointPolygonTest() của OpenCV — thuật toán Ray Casting với độ phức tạp O(n) trong đó n là số đỉnh của đa giác. Điểm kiểm tra là tâm của bounding box đối tượng (cx, cy).
+[0353]: c) Theo dõi trạng thái zone
+[0354]: ZoneDetector duy trì trạng thái zone cho từng track qua bốn trạng thái ZoneStatus:
+[0355]: Các trạng thái chuyển tiếp ENTERING và LEAVING giúp BehaviorAnalyzer tính chính xác thời gian trong zone và cập nhật visit_count.
+[0356]: d) Persistence và cập nhật runtime
+[0357]: Zones hỗ trợ hai tính năng quan trọng:
+[0358]: Lưu trữ bền vững (Persistence): Khi người dùng cập nhật zones qua dashboard, hệ thống tự động ghi xuống file data/zones.json. Khi server khởi động lại, zones được tự động tải lại từ file này, tránh mất cấu hình.
+[0359]: Cập nhật runtime: API POST /api/zones cho phép cập nhật zones mà không cần khởi động lại hệ thống. Cấu hình zone có định dạng:
+[0360]: {
+  "name": "restricted_area",
+  "type": "restricted",
+  "polygon": [[360, 80], [620, 80], [620, 360], [360, 360]],
+  "color": [0, 0, 220]
+}
+
+[0361]: Zone Editor trực quan: Dashboard web cung cấp giao diện vẽ zone trực tiếp trên stream video bằng canvas HTML5, cho phép người quản lý tự định nghĩa khu vực giám sát mà không cần kiến thức kỹ thuật.
+[0362]: Tổng kết mục 1.2:
+[0363]: Sáu thành phần kỹ thuật trên tạo thành pipeline xử lý liên tục, trong đó mỗi frame video được truyền qua chuỗi: YOLOv8 (phát hiện) → ObjectTracker (theo dõi) → RoleClassifier + ActionRecognizer + IdentityManager (phân tích đối tượng đơn lẻ song song) → ZoneDetector + BehaviorAnalyzer (phân tích không gian-thời gian) → ContextEngineML (ra quyết định cảnh báo). Kiến trúc module hóa này đảm bảo tính mở rộng: mỗi thành phần có thể được nâng cấp hoặc thay thế độc lập mà không ảnh hưởng đến toàn bộ hệ thống.
+[0364]: 1.3. Ứng dụng học sâu trong hệ thống giám sát 
+[0365]: Học sâu (Deep Learning) là nền tảng kỹ thuật cốt lõi cho phép hệ thống camera giám sát thông minh vượt qua giới hạn của các phương pháp xử lý ảnh truyền thống. Thay vì dựa vào đặc trưng do con người thiết kế thủ công (hand-crafted features) như HOG, SIFT hay histogram màu sắc đơn thuần, các mô hình học sâu tự động học được biểu diễn đặc trưng phân cấp từ dữ liệu thô — từ các cạnh và góc đơn giản ở lớp đầu đến các khái niệm trừu tượng như "đồng phục shipper" hay "tư thế ngã" ở các lớp sâu hơn
+[0366]: 1.3.1. Mạng nơ-ron tích chập (CNN) trong nhận dạng hình ảnh
+[0367]: a) Nguyên lý hoạt động của CNN
+[0368]: Mạng nơ-ron tích chập (Convolutional Neural Network — CNN) là kiến trúc học sâu nền tảng cho hầu hết các bài toán thị giác máy tính. Ba thành phần cốt lõi tạo nên một khối CNN điển hình:
+[0369]: Lớp tích chập (Convolutional Layer):
+[0370]: Áp dụng tập hợp các bộ lọc (filter/kernel) kích thước nhỏ (thường 3×3 hoặc 5×5) trượt qua toàn bộ ảnh đầu vào. Mỗi bộ lọc học cách phát hiện một đặc trưng cục bộ cụ thể (cạnh ngang, cạnh dọc, góc, kết cấu). Phép tích chập rời rạc 2D được biểu diễn:
+[0371]: (I * K)[i,j] = ΣΣ I[i+m, j+n] · K[m,n]
+[0372]: trong đó I là ảnh đầu vào, K là kernel, và [i,j] là vị trí đầu ra.
+[0374]: Lớp gộp (Pooling Layer):
+[0375]: Giảm kích thước không gian của feature map, tăng tính bất biến với dịch chuyển nhỏ (translation invariance). Max-pooling thường dùng nhất: lấy giá trị lớn nhất trong mỗi cửa sổ không chồng lấp.
+[0376]: Lớp kích hoạt phi tuyến (Activation):
+[0377]: Hàm ReLU (Rectified Linear Unit) f(x) = max(0, x) là phổ biến nhất, giúp mạng học được quan hệ phi tuyến. Các biến thể hiện đại gồm GELU (sử dụng trong ConvNeXt và BERT), SiLU/Swish (sử dụng trong EfficientNet).
+[0378]: b) Ứng dụng CNN trong hệ thống — Module RoleNet và YOLOv8
+[0379]: Trong hệ thống của đề tài, CNN được ứng dụng trực tiếp trong hai thành phần:
+[0380]: YOLOv8 cho phát hiện đối tượng:
+[0381]: YOLOv8 sử dụng backbone CSP-Darknet (Cross Stage Partial Network) kết hợp các khối C2f (Cross Stage Partial with 2 convolutions) cho phép tái sử dụng đặc trưng hiệu quả. Đầu dự đoán (detection head) được tách biệt (decoupled head) thành hai nhánh độc lập: nhánh phân loại (classification) và nhánh hồi quy tọa độ (regression), trái với thiết kế coupled head trước đó. Mô hình anchor-free DFL (Distribution Focal Loss) dự đoán phân phối xác suất liên tục của tọa độ bounding box thay vì chỉ một giá trị điểm [2].
+[0382]: RoleNet cho phân loại vai trò:
+[0383]: Toàn bộ ba thế hệ RoleNet đều dựa trên kiến trúc CNN, nhưng khác nhau về độ sâu và thiết kế:
+[0384]: c) Kỹ thuật Transfer Learning và Fine-tuning
+[0385]: Cả ba phiên bản RoleNet đều áp dụng Transfer Learning — sử dụng trọng số đã được pre-train trên tập ImageNet (1.2 triệu ảnh, 1000 lớp) làm điểm khởi đầu, sau đó fine-tune trên tập dữ liệu 21,785 ảnh vai trò của đề tài.
+[0386]: Chiến lược fine-tuning thực tế gồm hai giai đoạn:
+[0387]: Giai đoạn 1 (Head-only training): Đóng băng (freeze) toàn bộ backbone, chỉ train classification head mới. Cho phép head thích nghi với phân phối đặc trưng mới mà không phá vỡ biểu diễn tổng quát.
+[0388]: Giai đoạn 2 (Full fine-tuning): Mở khóa toàn bộ mạng, train với learning rate nhỏ hơn (~1/10). Cho phép backbone học các đặc trưng đặc thù của trang phục Việt Nam.
+[0389]: Transfer Learning mang lại hiệu quả cao đặc biệt khi dữ liệu huấn luyện hạn chế: V1 với chỉ 5,000 ảnh vẫn đạt 59% accuracy, và V3 với 21,785 ảnh đạt ~99.96% — không thể đạt được nếu training từ đầu (from scratch).
+[0390]: d) Kỹ thuật Test-Time Augmentation (TTA)
+[0391]: RoleNet V2 và V3 áp dụng TTA tại thời điểm inference để cải thiện độ chính xác mà không cần retrain. Cụ thể, mỗi ảnh đầu vào được xử lý hai lần:
+[0394]: Kết quả cuối: p_final = (p₁ + p₂) / 2.0
+[0395]: TTA khai thác tính đối xứng của bài toán — trang phục của một bác sĩ nhìn từ bên phải hay bên trái đều là bác sĩ — giúp giảm phương sai dự đoán và tăng độ chính xác trung bình khoảng 1–3%.
+[0396]: 1.3.2. Mạng nơ-ron hồi tiếp (GRU/LSTM) trong phân tích chuỗi thời gian
+[0397]: a) Động lực: Tại sao cần mô hình chuỗi thời gian?
+[0398]: CNN xuất sắc trong phân tích một ảnh tĩnh, nhưng hành động của con người là một hiện tượng không gian-thời gian (spatiotemporal): "ngã" không chỉ là một tư thế tại một thời điểm mà là quá trình chuyển động từ đứng sang nằm; "đánh nhau" là chuỗi chuyển động nhanh của hai người. Do đó, phân loại hành động đòi hỏi mô hình phải nhớ và phân tích chuỗi thông tin theo thời gian.
+[0399]: b) Hạn chế của RNN truyền thống và sự ra đời của LSTM/GRU
+[0400]: Mạng nơ-ron hồi tiếp (Recurrent Neural Network — RNN) truyền thống gặp phải vấn đề vanishing gradient: trong quá trình backpropagation qua chuỗi dài, gradient bị nhân với ma trận trọng số nhiều lần, dẫn đến gradient tiến về 0 (vanishing) hoặc bùng nổ (exploding). Kết quả là RNN gần như không học được sự phụ thuộc dài hạn (long-term dependency).
+[0401]: LSTM (Long Short-Term Memory) — được Hochreiter và Schmidhuber đề xuất năm 1997 — giải quyết vấn đề này bằng cơ chế cell state và ba cổng (gates) điều hướng luồng thông tin:
+[0402]: Forget gate f_t = σ(W_f · [h_{t-1}, x_t] + b_f): Quyết định thông tin nào trong cell state cũ cần "quên".
+[0403]: Input gate i_t = σ(W_i · [h_{t-1}, x_t] + b_i): Quyết định thông tin mới nào cần ghi vào cell state.
+[0404]: Output gate o_t = σ(W_o · [h_{t-1}, x_t] + b_o): Quyết định phần nào của cell state trở thành hidden state đầu ra.
+[0405]: GRU (Gated Recurrent Unit) [4] — Cho và cộng sự đề xuất năm 2014 — là phiên bản đơn giản hóa của LSTM, hợp nhất forget gate và input gate thành update gate và thêm reset gate:
+[0408]: c) Lựa chọn GRU cho ActionNet và lý do
+[0409]: Hệ thống chọn GRU thay vì LSTM vì ba lý do thực tiễn:
+[0410]: Ít tham số hơn: GRU có 2 cổng so với 3 cổng của LSTM, giảm khoảng 25% số tham số — quan trọng khi cần chạy real-time trên CPU.
+[0411]: Hội tụ nhanh hơn: Với dataset training nhỏ (~200 video clip/hành động), GRU thường hội tụ nhanh và ổn định hơn so với LSTM.
+[0412]: Hiệu suất tương đương: Trên các bài toán chuỗi ngắn (30 frame ≈ 2 giây), GRU và LSTM thường có hiệu suất tương đương nhau theo nhiều nghiên cứu benchmark.
+[0416]: d) Kiến trúc ActionNet GRU chi tiết
+[0418]: Hình 2: Sơ đồ kiến trúc AcationNet GRU chi tiết
+[0419]: Giải thích thiết kế:
+[0420]: Nhiều GRU layers (2 lớp): Lớp đầu học đặc trưng cục bộ như chuyển động từng khớp; lớp hai tổng hợp thành biểu diễn hành động toàn cục.
+[0421]: LayerNorm thay BatchNorm: LayerNorm chuẩn hóa theo chiều feature (không theo batch), hoạt động tốt hơn với batch size nhỏ và chuỗi có độ dài biến thiên.
+[0422]: Hàm mất mát: Cross-Entropy Loss kết hợp Class Weights để xử lý mất cân bằng dữ liệu (ít clip "fighting" hơn "standing").
+[0423]: e) Cơ chế Sliding Window trong inference
+[0424]: Để xử lý luồng video thời gian thực liên tục, ActionNet sử dụng cửa sổ trượt (sliding window) thay vì xử lý từng frame riêng lẻ:
+[0425]: Frame buffer (FIFO queue, maxlen=30):
+  Frame t-29, t-28, ..., t-1, t (frame mới nhất)
+      ↓
+Inference mỗi 5 frame mới (step_frames)
+      ↓
+Output: ActionLabel + confidence
+        Giữ nguyên nhãn cũ cho 4 frame giữa
+[0426]: Cơ chế này tạo ra hiệu ứng temporal smoothing tự nhiên — kết quả phân loại ổn định hơn, ít nhảy vọt hơn so với xử lý frame-by-frame.
+[0427]: 1.3.3.  Kiến trúc ConvNeXt và các mô hình hiện đại 
+[0428]: a) Bối cảnh: Sự cạnh tranh CNN vs Vision Transformer
+[0429]: Từ năm 2020, kiến trúc Vision Transformer (ViT) [6] đã thách thức sự thống trị của CNN trong thị giác máy tính bằng cách áp dụng cơ chế Self-Attention (vốn phổ biến trong NLP) vào xử lý ảnh. ViT chia ảnh thành các "patch" nhỏ và xử lý chúng như chuỗi token, đạt accuracy vượt CNN trên nhiều benchmark khi có đủ dữ liệu (ImageNet-21k, JFT-300M).
+[0430]: Tuy nhiên, ViT đòi hỏi dữ liệu cực lớn để đạt hiệu quả tối đa và có chi phí tính toán cao hơn đáng kể, đặc biệt trên ảnh độ phân giải cao. Điều này đặt ra câu hỏi: Liệu CNN có thể cạnh tranh nếu được thiết kế lại theo các nguyên tắc từ Transformer?
+[0431]: b) ConvNeXt — "Hiện đại hóa ResNet"
+[0432]: ConvNeXt — được Liu và cộng sự đề xuất năm 2022 (Meta AI Research & UC Berkeley) — trả lời câu hỏi trên bằng cách hệ thống hóa quá trình "hiện đại hóa" ResNet theo từng bước, đúc kết nguyên tắc thiết kế từ Swin Transformer. Kết quả là một kiến trúc CNN thuần túy đạt accuracy ngang bằng hoặc vượt Swin Transformer trên ImageNet, với tốc độ suy luận nhanh hơn.
+[0433]: Năm thay đổi thiết kế chính của ConvNeXt so với ResNet-50:
+[0434]: Giải thích ý nghĩa từng thay đổi:
+[0435]: 7×7 Depthwise Convolution: Mở rộng vùng tiếp nhận (receptive field) giống Self-Attention trong Transformer — mỗi pixel "nhìn thấy" vùng lân cận 7×7 thay vì 3×3 như ResNet truyền thống. Depthwise (không cross-channel) giảm tham số, channel-mixing được xử lý bởi pointwise conv 1×1 sau đó — cấu trúc giống MobileNet nhưng kernel lớn hơn.
+[0436]: LayerNorm thay BatchNorm: BatchNorm tính mean/variance theo batch dimension — không ổn định với batch nhỏ và không tương thích với autoregressive generation. LayerNorm chuẩn hóa theo feature dimension của từng sample độc lập — ổn định hơn và nhất quán giữa train/inference. Thay đổi này là một trong những nguyên nhân chính ConvNeXt đạt hiệu suất cao hơn ResNet.
+[0437]: GELU (Gaussian Error Linear Unit): GELU(x) = x · Φ(x) trong đó Φ(x) là CDF của phân phối chuẩn. GELU mượt hơn ReLU tại vùng âm (không bị "chết nơ-ron") và là hàm kích hoạt mặc định trong GPT, BERT, ViT — đã chứng minh hiệu quả tốt hơn trong nhiều bài toán phân loại.
+[0438]: Inverted Bottleneck: Mở rộng số kênh lên 4× trong middle layer rồi nén lại — trái với bottleneck truyền thống nén → xử lý → mở rộng. Thiết kế này cho phép mạng học biểu diễn đặc trưng phong phú hơn trong không gian chiều cao.
+[0439]: c) ConvNeXt-Tiny — Lựa chọn cho RoleNet V3
+[0440]: ConvNeXt-Tiny là biến thể nhỏ nhất của họ ConvNeXt, với cấu hình:
+[0441]: Kiến trúc RoleNet V3 sử dụng ConvNeXt-Tiny vì:
+[0442]: Phù hợp với bài toán: ConvNeXt được thiết kế tối ưu cho fine-grained classification — phân biệt các lớp có đặc trưng tinh tế (màu sắc, texture, logo đồng phục) tương tự phân loại vai trò.
+[0443]: Cân bằng accuracy/speed: Tiny version đủ nhẹ để chạy inferenceon CPU với độ trễ chấp nhận được (~50-100ms/frame), đồng thời đạt accuracy cao hơn EfficientNet-B2 trong thực nghiệm.
+[0444]: LayerNorm tương thích fine-tuning: LayerNorm hoạt động tốt hơn BatchNorm trong fine-tuning few-shot (21K ảnh là ít so với quy mô ImageNet), do không bị phụ thuộc vào batch statistics.
+[0445]: d) So sánh với các kiến trúc hiện đại khác
+[0446]: Để đặt RoleNet V3 trong bối cảnh, bảng dưới đây so sánh một số kiến trúc hiện đại:
+[0447]: ConvNeXt-Tiny nổi bật vì đạt accuracy cao nhất trong nhóm có tham số tương đương, đồng thời giữ được inference speed nhanh hơn ViT do tránh được attention matrix quadratic complexity.
+[0448]: 1.3.4. Học máy truyền thống kết hợp (XGBoost, LightGBM)
+[0449]: a) Vị trí của học máy truyền thống trong kiến trúc hệ thống
+[0450]: Mặc dù học sâu thống trị trong xử lý ảnh và chuỗi thời gian, học máy truyền thống — đặc biệt là các phương pháp boosting dựa trên cây quyết định — vẫn chiếm ưu thế trong bài toán học từ vector đặc trưng có cấu trúc (tabular data). Trong hệ thống của đề tài, module ContextNet sử dụng XGBoost để tích hợp và ra quyết định từ các đặc trưng số đã được trích xuất bởi các mô hình học sâu phía trước.
+[0451]: Đây là kiến trúc hybrid (lai ghép): học sâu đảm nhận các tác vụ nhận thức (perception) phức tạp như phân tích ảnh và chuỗi, trong khi học máy truyền thống đảm nhận tác vụ suy luận (reasoning) từ vector đặc trưng có ngữ nghĩa rõ ràng — sự phân công này phù hợp với thế mạnh của từng loại mô hình.
+[0452]: b) XGBoost — Extreme Gradient Boosting
+[0453]: XGBoost [8] (Chen và Guestrin, 2016) là một thuật toán Gradient Boosted Decision Trees (GBDT) được tối ưu hóa cao về tốc độ và hiệu suất, đã giành chiến thắng tại nhiều cuộc thi học máy trên Kaggle.
+[0454]: Nguyên lý Gradient Boosting:
+[0455]: Boosting là kỹ thuật ensemble học tuần tự (sequential), trong đó mỗi mô hình mới cố gắng sửa lỗi của mô hình trước. Với XGBoost:
+[0456]: Bắt đầu với mô hình dự đoán hằng số (thường là mean của target).
+[0457]: Tính pseudo-residuals — gradient của hàm mất mát theo dự đoán hiện tại.
+[0458]: Fit một cây quyết định (weak learner) trên pseudo-residuals.
+[0459]: Thêm cây mới vào ensemble với learning rate η: F_{t}(x) = F_{t-1}(x) + η · h_t(x)
+[0460]: Lặp lại cho đến khi đạt số cây n_estimators.
+[0461]: Hàm mục tiêu XGBoost với regularization:
+[0462]: L = Σ l(y_i, ŷ_i) + Σ Ω(f_k)
+              Regularization: Ω(f) = γT + ½λ||w||²
+	Trong đó T là số lá cây, w là trọng số lá, γ và λ là siêu tham số regularization. Regularization này là điểm mạnh của XGBoost so với GBDT gốc, giúp tránh overfitting hiệu quả.
+[0464]: Cải tiến kỹ thuật của XGBoost so với GBDT truyền thống:
+[0465]: Column subsampling: Ngẫu nhiên hóa cột đặc trưng cho mỗi cây (giống Random Forest), giảm variance.
+[0466]: Approximate split finding: Sử dụng histogram-based quantile sketch thay vì duyệt toàn bộ điểm dữ liệu — tăng tốc độ O(n) → O(K) với K bins.
+[0467]: Sparsity-aware split: Xử lý giá trị missing mà không cần imputation.
+[0468]: Parallel tree construction: Xây dựng cây song song theo cấp độ (level-wise).
+[0469]: Cấu hình ContextNet trong hệ thống:
+[0470]: c) LightGBM — Light Gradient Boosting Machine
+[0471]: LightGBM (Microsoft, 2017) là đối thủ cạnh tranh trực tiếp của XGBoost với hai cải tiến kỹ thuật quan trọng làm tăng tốc độ đáng kể:
+[0472]: Gradient-based One-Side Sampling (GOSS):
+[0473]: Thay vì lấy mẫu ngẫu nhiên, GOSS giữ lại toàn bộ các mẫu có gradient lớn (sai số lớn) và lấy mẫu ngẫu nhiên từ các mẫu có gradient nhỏ. Điều này đảm bảo thông tin training quan trọng được giữ lại trong khi giảm kích thước dataset hiệu quả.
+[0474]: Exclusive Feature Bundling (EFB):
+[0475]: Nhận thấy rằng trong các tập đặc trưng thưa (sparse), nhiều đặc trưng hiếm khi có giá trị khác 0 đồng thời, LightGBM gộp nhóm (bundle) chúng lại thành một đặc trưng tổng hợp, giảm số chiều đặc trưng mà không mất thông tin đáng kể.
+[0476]: Leaf-wise tree growth (vs Level-wise của XGBoost):
+[0477]: LightGBM mở rộng cây theo lá có lợi ích giảm loss lớn nhất, dẫn đến cây sâu hơn và chính xác hơn với cùng số lá, nhưng dễ overfit hơn nếu không có regularization phù hợp.
+[0478]: So sánh thực tế:
+[0479]: Trong hệ thống của đề tài, XGBoost được chọn vì tập dữ liệu ContextNet chỉ có 60,000 mẫu với 16 đặc trưng — quy mô nhỏ vừa phải mà XGBoost xử lý tốt hơn. Tuy nhiên, LightGBM được dự kiến là lựa chọn thay thế khi tập dữ liệu mở rộng từ logs thực tế.
+[0480]: d) Explainability — Lý do chọn Tree-based Models cho ContextNet
+[0481]: Một lý do quan trọng khác để sử dụng XGBoost (thay vì MLP hay các mô hình học sâu) cho tác vụ context reasoning là khả năng giải thích (explainability):
+[0482]: Feature Importance: XGBoost cung cấp điểm quan trọng cho từng đặc trưng dựa trên số lần đặc trưng đó được chọn để phân tách dữ liệu, giúp người dùng hiểu "AI đang dựa vào gì để ra quyết định".
+[0483]: SHAP (SHapley Additive exPlanations): Thư viện SHAP [9] đã được tích hợp vào requirements (shap>=0.44.0), cho phép giải thích từng dự đoán cụ thể: "Đối tượng này bị đánh giá CRITICAL vì: hành động fighting (+2.1), zone restricted (+1.8), ngoài giờ làm việc (+0.9), người lạ (+0.7)...". Điều này đặc biệt quan trọng trong ứng dụng an ninh, nơi người vận hành cần hiểu lý do cảnh báo để đưa ra phản ứng phù hợp.
+[0484]: Compliance: Trong bối cảnh các quy định về AI minh bạch (EU AI Act, Nghị định 13/2023), khả năng giải thích quyết định là yêu cầu pháp lý ngày càng quan trọng cho các hệ thống AI có ảnh hưởng đến cá nhân.
+[0485]: e) Kiến trúc hybrid: Học sâu + Học máy truyền thống
+[0486]: Sự kết hợp giữa học sâu và học máy truyền thống trong hệ thống tạo ra một pipeline hybrid tận dụng thế mạnh của cả hai nhóm:
+[0488]: Hình 3: Sơ đồ cấu trúc hệ thống nhận diện sự kiện/hành vi
+[0490]: Ưu điểm của kiến trúc hybrid này:
+[0491]: CNN/GRU xử lý tốt dữ liệu không có cấu trúc (ảnh, chuỗi thời gian) — lĩnh vực mà feature engineering thủ công rất khó.
+[0492]: XGBoost xử lý tốt vector đặc trưng có cấu trúc với ngữ nghĩa rõ ràng — lĩnh vực mà học sâu thường underperform do thiếu inductive bias phù hợp.
+[0493]: Kết hợp cho phép end-to-end reasoning từ pixel thô đến quyết định cảnh báo, với mỗi tầng sử dụng công cụ phù hợp nhất cho nhiệm vụ của mình.
+[0494]: Tổng kết mục 1.3:
+[0495]: Hệ thống camera giám sát an ninh thông minh trong đề tài này áp dụng một tập hợp đa dạng các kỹ thuật học sâu và học máy, mỗi kỹ thuật được lựa chọn dựa trên đặc điểm của bài toán con:
+[0496]: CNN (YOLOv8, ConvNeXt-Tiny): Phân tích không gian — phát hiện và phân loại từ ảnh tĩnh
+[0497]: GRU: Phân tích chuỗi thời gian — nhận diện hành động qua 30 frame liên tiếp
+[0498]: XGBoost: Suy luận từ vector đặc trưng — tích hợp đa nguồn thông tin, giải thích được
+[0499]: Sự kết hợp này thể hiện một nguyên tắc thiết kế quan trọng: không có một kiến trúc "thần kỳ" giải quyết mọi bài toán — thay vào đó, hệ thống tốt nhất là hệ thống sử dụng đúng công cụ cho đúng nhiệm vụ.
+[0500]: 1.4. Các phương pháp đánh giá mô hình
+[0501]: Trong hệ thống camera giám sát thông minh của đề tài, các mô hình không chỉ cần đạt độ chính xác cao trên tập kiểm thử, mà còn phải đáp ứng yêu cầu thời gian thực (real-time), ổn định trong môi trường ánh sáng biến đổi, và giảm tối đa lỗi cảnh báo giả. Do đó, việc đánh giá được thực hiện theo nhiều chỉ số bổ sung lẫn nhau thay vì chỉ dùng một metric duy nhất.
+[0502]: Đối với các bài toán phân loại trong hệ thống (RoleNet 16 lớp, ActionNet 8 lớp, ContextNet 6 mức cảnh báo), bộ chỉ số cốt lõi gồm: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, kết hợp với Top-K Accuracy và Test-Time Augmentation (TTA) để phản ánh đầy đủ hiệu năng thực tế.
+[0505]: 1.4.1. Accuracy, Precision, Recall
+[0506]: a) Accuracy
+[0507]: Accuracy đo tỷ lệ mẫu được dự đoán đúng trên toàn bộ tập đánh giá:
+[0508]: Accuracy = (TP + TN) / (TP + TN + FP + FN)
+[0509]: Trong đó:
+[0510]: TP (True Positive): dự đoán đúng lớp dương.
+[0511]: TN (True Negative): dự đoán đúng lớp âm.
+[0512]: FP (False Positive): dự đoán dương nhưng thực tế âm.
+[0513]: FN (False Negative): dự đoán âm nhưng thực tế dương.
+[0514]: Accuracy là chỉ số trực quan và dễ hiểu, phù hợp khi dữ liệu tương đối cân bằng. Tuy nhiên, với bài toán giám sát an ninh, dữ liệu thường mất cân bằng mạnh (ví dụ: hành động standing xuất hiện nhiều hơn fighting), nên Accuracy cao chưa chắc phản ánh tốt khả năng phát hiện tình huống nguy hiểm hiếm.
+[0515]: b) Precision
+[0516]: Precision đo độ chính xác của các dự đoán dương:
+[0517]: Precision = TP / (TP + FP)
+[0518]: Precision cao nghĩa là khi hệ thống phát cảnh báo hoặc gán một vai trò cụ thể, xác suất đúng cao. Trong bối cảnh thực tế, Precision cao giúp giảm báo động giả (false alarm), tránh làm quá tải người vận hành.
+[0519]: c) Recall
+[0520]: Recall đo khả năng phát hiện đầy đủ các mẫu dương:
+[0521]: Recall = TP / (TP + FN)
+[0522]: Recall cao đặc biệt quan trọng cho lớp nguy hiểm (falling, fighting, critical), vì bỏ sót (FN) có thể gây hậu quả an ninh nghiêm trọng hơn so với cảnh báo nhầm (FP).
+[0523]: d) Ứng dụng trong hệ thống
+[0524]: Với RoleNet: Precision giúp giảm gán sai vai trò (ví dụ nhầm người thường thành nhân viên an ninh), Recall giúp không bỏ sót các vai trò đặc thù.
+[0525]: Với ActionNet: Recall cho các lớp nguy hiểm được ưu tiên theo dõi riêng.
+[0526]: Với ContextNet: Precision của các mức alert/critical ảnh hưởng trực tiếp đến độ tin cậy vận hành.
+[0527]: 1.4.2. F1-Score
+[0528]: F1-Score là trung bình điều hòa giữa Precision và Recall:
+[0529]: F1 = 2 * (Precision * Recall) / (Precision + Recall)
+[0530]: F1-Score đặc biệt hữu ích khi dữ liệu mất cân bằng, vì yêu cầu cả Precision và Recall cùng cao mới đạt điểm tốt. Trong hệ thống camera an ninh, F1 thường được dùng làm metric tổng hợp quan trọng cho:
+[0531]: RoleNet đa lớp (16 roles): đánh giá chất lượng phân loại đồng phục/phụ kiện.
+[0532]: ActionNet (8 actions): cân bằng giữa phát hiện đủ hành động nguy hiểm và hạn chế cảnh báo giả.
+[0533]: ContextNet (6 mức cảnh báo): kiểm soát chất lượng suy luận cuối cùng.
+[0534]: Trong thực hành, nên báo cáo cả:
+[0535]: Macro-F1: trung bình F1 theo lớp, phản ánh công bằng cho lớp hiếm.
+[0536]: Weighted-F1: có trọng số theo tần suất lớp, phản ánh hiệu năng tổng thể vận hành.
+[0537]: 1.4.3. Confusion Matrix
+[0538]: Confusion Matrix (ma trận nhầm lẫn) là công cụ trực quan hóa lỗi theo từng cặp lớp thực tế - dự đoán. Với bài toán đa lớp, ma trận kích thước N x N cho biết:
+[0539]: Đường chéo chính: số mẫu dự đoán đúng.
+[0540]: Các ô ngoài đường chéo: các cặp lớp dễ nhầm lẫn.
+[0541]: Trong đề tài, Confusion Matrix có giá trị thực tiễn cao vì giúp xác định các lỗi "có ý nghĩa nghiệp vụ", ví dụ:
+[0542]: shipper nhầm worker hoặc normal (tương đồng áo màu sáng).
+[0543]: running nhầm walking khi biên độ chuyển động nhỏ.
+[0544]: warning nhầm watch trong ContextNet khi tín hiệu ngữ cảnh gần ngưỡng.
+[0545]: Từ ma trận này, nhóm có thể đề xuất cải tiến mục tiêu:
+[0546]: bổ sung dữ liệu cho cặp lớp hay nhầm,
+[0547]: tinh chỉnh ngưỡng confidence (ROLE_CONFIG["confidence_threshold"] = 0.50, ACTION_CONFIG["confidence_threshold"] = 0.55),
+[0548]: cải thiện đặc trưng ngữ cảnh (zone, time, identity) trước khi đưa vào ContextNet.
+[0549]: 1.4.4. Top-K Accuracy và Test-Time Augmentation (TTA)
+[0550]: a) Top-K Accuracy
+[0551]: Top-K Accuracy kiểm tra xem nhãn đúng có nằm trong K dự đoán xác suất cao nhất hay không.
+[0553]: Trong bài toán phân vai trò 16 lớp, Top-1 có thể chưa phản ánh hết khả năng mô hình ở các lớp gần nhau về hình thái. Do đó, theo dõi thêm Top-3 giúp đánh giá mức độ "gần đúng" và hỗ trợ logic hậu xử lý (post-processing), đặc biệt khi hệ thống cần hiển thị gợi ý nhiều nhãn.
+[0554]: b) Test-Time Augmentation (TTA)
+[0555]: TTA là kỹ thuật tăng cường ở thời điểm suy luận: tạo nhiều biến thể của cùng một ảnh đầu vào, dự đoán riêng từng biến thể, sau đó trung bình xác suất để ra kết quả cuối:
+[0556]: p_final = (p_original + p_flip) / 2
+[0557]: Trong hệ thống, RoleNet V2/V3 áp dụng TTA với cặp:
+[0558]: Ảnh gốc.
+[0559]: Ảnh lật ngang (horizontal flip).
+[0560]: TTA giúp giảm phương sai dự đoán, tăng độ ổn định đối với thay đổi góc nhìn trái/phải, đặc biệt hữu ích với bài toán nhận diện đồng phục và phụ kiện khi camera bố trí đa hướng.
+[0561]: c) Lưu ý trade-off
+[0562]: TTA cải thiện độ chính xác nhưng tăng chi phí suy luận. Với yêu cầu thời gian thực, cần cân bằng:
+[0563]: chế độ giám sát tốc độ cao: ưu tiên Top-1 không TTA.
+[0564]: chế độ giám sát chất lượng cao: bật TTA cho các đối tượng quan trọng.
+[0565]: 1.5. Công nghệ xây dựng hệ thống
+[0566]: Hệ thống được triển khai theo kiến trúc hybrid gồm các công nghệ thị giác máy tính, học sâu và web backend hiện đại. Các thành phần công nghệ được lựa chọn theo tiêu chí: đủ chính xác, chạy được thời gian thực, dễ tích hợp, dễ mở rộng.
+[0567]: 1.5.1. Phát hiện đối tượng với YOLOv8
+[0568]: YOLOv8 (Ultralytics) được sử dụng làm detector trung tâm trong module ObjectDetector (modules/object_detector.py). Hệ thống dùng biến thể yolov8n.pt để cân bằng tốc độ - độ chính xác trong bối cảnh edge/CPU.
+[0569]: Các điểm kỹ thuật triển khai trong dự án:
+[0570]: Model: yolov8n.pt (DETECTION_CONFIG["model_name"]).
+[0571]: Ngưỡng confidence: 0.45.
+[0572]: Ngưỡng IoU cho NMS: 0.45.
+[0573]: Device: auto (ưu tiên CUDA, fallback CPU).
+[0574]: Lọc class mục tiêu: 14 lớp COCO liên quan giám sát (person, car, motorcycle, bus, truck, backpack, handbag, suitcase, và nhóm animal).
+[0575]: Module detector trả về danh sách Detection chuẩn hóa theo models.py, bao gồm bounding box, class, confidence, category và frame ID, tạo đầu vào cho tracker và các tầng hiểu ngữ nghĩa phía sau.
+[0576]: Lý do chọn YOLOv8:
+[0577]: One-stage detector có tốc độ suy luận cao.
+[0578]: Hệ sinh thái Ultralytics dễ triển khai nhanh.
+[0579]: Chất lượng tốt trên dữ liệu thực địa với chi phí tính toán thấp hơn nhiều mô hình hai giai đoạn.
+[0580]: 1.5.2. Ước tính tư thế với MediaPipe Pose
+[0581]: MediaPipe Pose được tích hợp trong ActionRecognizer (modules/action_recognizer.py) để trích xuất đặc trưng khung xương phục vụ nhận diện hành động.
+[0582]: Đặc điểm triển khai:
+[0583]: Trích xuất 33 keypoints mỗi người.
+[0584]: Mỗi keypoint gồm (x, y, z, visibility) -> vector 132 chiều/frame.
+[0585]: Hỗ trợ hai API:
+[0586]: Legacy: mp.solutions.pose.Pose (MediaPipe < 0.10).
+[0587]: Tasks API: PoseLandmarker (MediaPipe >= 0.10, model pose_landmarker.task).
+[0588]: Ưu điểm của hướng skeleton-based:
+[0589]: Bền vững hơn trước thay đổi ánh sáng và màu nền.
+[0590]: Giảm phụ thuộc vào đặc trưng texture RGB.
+[0591]: Hỗ trợ bảo vệ riêng tư tốt hơn do tập trung vào hình học chuyển động.
+[0592]: Trong trường hợp thiếu model GRU, hệ thống vẫn có thể khai thác keypoints để suy luận theo luật (falling, raising_hand, running/walking/standing), bảo đảm tính liên tục vận hành.
+[0593]: 1.5.3. Xây dựng Web Dashboard với FastAPI
+[0594]: Phần backend và dashboard được xây dựng bằng FastAPI tại app.py, đóng vai trò lớp tương tác vận hành thời gian thực.
+[0595]: Các chức năng chính:
+[0596]: Cung cấp MJPEG stream: GET /video_feed.
+[0597]: Cung cấp trạng thái hệ thống và đối tượng: GET /api/status, GET /api/objects.
+[0598]: Cung cấp sự kiện và thống kê: GET /api/events, GET /api/stats.
+[0599]: Quản lý zone runtime + persistence: GET/POST/DELETE /api/zones.
+[0600]: Chuyển nguồn video trực tiếp: POST /api/source.
+[0601]: Upload video để chạy pipeline: POST /api/upload.
+[0602]: Giao diện dashboard:
+[0603]: Render từ template templates/dashboard.html.
+[0604]: Có bảng thống kê live, danh sách object/alert, chọn nguồn camera/file.
+[0605]: Có zone editor trực quan bằng canvas để vẽ và cập nhật polygon giám sát.
+[0606]: Lý do chọn FastAPI:
+[0607]: Hiệu năng cao trên ASGI, phù hợp API realtime.
+[0608]: Tích hợp type hints/Pydantic rõ ràng.
+[0609]: Dễ mở rộng sang websocket, auth, logging và triển khai cloud.
+[0610]: 1.5.4. Deep Learning Framework: PyTorch
+[0611]: PyTorch là framework học sâu cốt lõi của hệ thống, dùng để huấn luyện và suy luận các mô hình phân loại hành động/vai trò.
+[0612]: Trong dự án:
+[0613]: ActionNet dùng kiến trúc GRU được định nghĩa và load bằng torch.nn trong modules/action_recognizer.py.
+[0614]: Quy trình infer gồm:
+[0615]: nạp trọng số từ models/actionnet_gru.pt,
+[0616]: chạy torch.no_grad(),
+[0617]: lấy softmax để suy ra nhãn và xác suất.
+[0618]: Thiết bị được chọn tự động (cuda nếu có, ngược lại cpu).
+[0619]: PyTorch được lựa chọn nhờ:
+[0620]: Cú pháp linh hoạt, thuận lợi cho thử nghiệm mô hình mới.
+[0621]: Hệ sinh thái mạnh (torchvision, timm, ONNX export).
+[0622]: Hỗ trợ tốt cho pipeline nghiên cứu -> triển khai thực tế.
+[0623]: Ngoài ra, dự án còn kết hợp onnxruntime cho kịch bản tối ưu inference và timm để tận dụng backbone hiện đại (EfficientNet, ConvNeXt) trong RoleNet.
+[0645]: CHƯƠNG 2. XÂY DỰNG CÁC MÔ HÌNH HỌC SÂU
+[0646]: 2.1. Tổng quan kiến trúc pipeline 3 mô hình
+[0647]: Khác với các hệ thống giám sát truyền thống chỉ dừng ở phát hiện chuyển động hoặc hiển thị video thụ động, hệ thống trong đề tài được thiết kế theo kiến trúc pipeline đa tầng với ba mô hình học sâu phối hợp tuần tự:
+[0648]: YOLOv8: phát hiện đối tượng trong từng frame (đầu vào nhận thức thị giác mức thấp).
+[0649]: RoleNet (ConvNeXt-based): phân loại vai trò xã hội của đối tượng người (mức ngữ nghĩa trung gian).
+[0650]: ActionNet (MediaPipe Pose + GRU): nhận diện hành động theo chuỗi thời gian (mức hành vi động).
+[0651]: Ba mô hình này tạo thành "xương sống nhận thức" của toàn hệ thống. Đầu ra của chúng tiếp tục được tổng hợp với thông tin vùng giám sát (zone), danh tính (known/unknown) và ngữ cảnh thời gian để tạo cảnh báo cuối cùng.
+[0652]:   2.1.1. Sự cần thiết của kiến trúc đa mô hình 
+[0653]: a) Một mô hình đơn lẻ không đủ cho bài toán an ninh ngữ cảnh
+[0654]: Bài toán giám sát an ninh thông minh có bản chất đa chiều: hệ thống phải trả lời đồng thời nhiều câu hỏi khác nhau:
+[0655]: Có ai/đối tượng gì xuất hiện? (what)
+[0656]: Người đó là ai hoặc thuộc nhóm vai trò nào? (who)
+[0657]: Đang làm gì? (doing what)
+[0658]: Xảy ra ở đâu và vào thời điểm nào? (where/when)
+[0659]: Không có một mô hình học sâu đơn lẻ nào tối ưu cho toàn bộ bốn câu hỏi trên. Ví dụ:
+[0660]: Detector mạnh về định vị nhưng không giỏi phân biệt vai trò tinh vi.
+[0661]: Classifier ảnh tĩnh không nắm bắt tốt chuyển động theo thời gian.
+[0662]: Mô hình chuỗi thời gian không tự xử lý tốt việc định vị nhiều người trong ảnh.
+[0663]: Vì vậy, kiến trúc đa mô hình là lựa chọn bắt buộc để tách bài toán lớn thành các bài toán con phù hợp với thế mạnh từng kiến trúc.
+[0666]: b) Vai trò của từng mô hình trong pipeline
+[0667]: Sự phân công này tạo ra pipeline có tính mô-đun cao: mỗi mô hình có thể nâng cấp độc lập (đổi backbone, đổi trọng số, đổi ngưỡng) mà không phá vỡ toàn bộ hệ thống.
+[0668]: c) Lợi ích kỹ thuật của kiến trúc đa mô hình
+[0669]: Kiến trúc đa mô hình mang lại ba lợi ích cốt lõi:
+[0670]: Chuyên môn hóa theo tác vụ: mỗi mô hình tối ưu cho một loại tín hiệu (không gian, ngoại hình, thời gian).
+[0671]: Độ chính xác hệ thống cao hơn: kết hợp nhiều góc nhìn làm giảm sai số khi ra quyết định cảnh báo.
+[0672]: Khả năng dự phòng và bảo trì: pipeline hỗ trợ fallback (rule-based) khi thiếu model hoặc thiếu thư viện, giúp hệ thống vẫn hoạt động liên tục trong môi trường thực tế.
+[0673]: d) Phù hợp với yêu cầu vận hành thực tế
+[0674]: Trong môi trường triển khai thật, hệ thống cần đáp ứng đồng thời:
+[0675]: chạy gần thời gian thực trên phần cứng phổ thông,
+[0676]: hạn chế cảnh báo giả gây "mỏi cảnh báo" cho người giám sát,
+[0677]: vẫn không bỏ sót tình huống nguy hiểm.
+[0678]: Kiến trúc đa mô hình giải quyết tốt bài toán cân bằng này bằng cách đưa ra quyết định dựa trên nhiều tín hiệu bổ trợ thay vì phụ thuộc vào một nguồn dự đoán đơn lẻ.
+[0679]:   2.1.2. Luồng xử lý tổng thể từ frame đến cảnh báo
+[0680]: a) Luồng xử lý mức cao
+[0681]: Mỗi frame video đi qua chuỗi xử lý chuẩn như sau:
+[0682]: Frame video
+   ↓
+YOLOv8 Detection
+   ↓
+Object Tracking (gán track ID ổn định)
+   ↓
+RoleNet (vai trò) + ActionNet (hành động)
+   ↓
+Identity + Zone + Behavior features
+   ↓
+Context reasoning
+   ↓
+Alert level (ignore/normal/watch/warning/alert/critical)
+
+[0683]: Luồng trên tương ứng trực tiếp với kiến trúc mã nguồn trong pipeline.py, nơi các module được gọi tuần tự cho từng đối tượng theo frame.
+[0684]: b) Bước 1 - Thu nhận frame và phát hiện đối tượng
+[0685]: Hệ thống lấy frame từ webcam, file video hoặc nguồn RTSP thông qua module video processor. Frame sau đó được đưa vào YOLOv8 với ngưỡng confidence=0.45, iou=0.45 để thu được các detection hợp lệ.
+[0686]: Kết quả detection gồm:
+[0687]: tọa độ bounding box,
+[0688]: lớp đối tượng (person, vehicle, accessory, ...),
+[0689]: độ tin cậy dự đoán.
+[0690]: Đây là bước nền tảng để xác định vùng crop đầu vào cho các mô hình phía sau.
+[0692]: c) Bước 2 - Theo dõi đa đối tượng
+[0693]: Các detection của frame hiện tại được ghép với track cũ bằng IoU matching để duy trì track_id ổn định. Việc duy trì ID theo thời gian là điều kiện bắt buộc cho:
+[0694]: trích xuất chuỗi hành động (ActionNet cần window 30 frame),
+[0695]: tính toán hành vi kéo dài (time_in_zone, loitering, visit_count),
+[0696]: quản lý danh tính và lịch sử sự kiện theo từng người.
+[0697]: d) Bước 3 - Suy luận vai trò và hành động
+[0698]: Sau khi có đối tượng người (category=person), pipeline kích hoạt hai nhánh song song theo ngữ nghĩa:
+[0699]: Nhánh vai trò (RoleNet): dùng crop toàn thân để phân loại 16 vai trò xã hội.
+[0700]: Nhánh hành động (ActionNet): dùng keypoints pose theo cửa sổ trượt 30 frame để phân loại 8 hành động.
+[0701]: Hai đầu ra này cung cấp thông tin "người đó là ai theo vai trò xã hội" và "đang thực hiện hành vi gì" - là hai trục quyết định quan trọng nhất của bài toán cảnh báo ngữ cảnh.
+[0702]: e) Bước 4 - Hợp nhất ngữ cảnh và phát cảnh báo
+[0703]: Đầu ra từ ba mô hình học sâu tiếp tục được kết hợp với:
+[0704]: trạng thái zone (outside/entering/inside/leaving),
+[0705]: danh tính known/unknown,
+[0706]: đặc trưng thời gian (ban ngày/ban đêm, giờ làm việc),
+[0707]: hành vi thời gian dài (loitering, hướng di chuyển, tần suất quay lại).
+[0708]: Khối context reasoning sau đó suy ra mức cảnh báo cuối cùng theo 6 mức:
+[0709]: ignore, normal, watch, warning, alert, critical.
+[0710]: Kết quả được:
+[0711]: vẽ trực tiếp lên khung hình (visualizer),
+[0712]: ghi vào log sự kiện,
+[0713]: trả ra dashboard/API thời gian thực.
+[0714]: f) Ý nghĩa kiến trúc từ góc nhìn hệ thống
+[0715]: Luồng từ frame đến cảnh báo cho thấy đây không phải bài toán "phân loại ảnh" đơn giản, mà là bài toán ra quyết định đa nguồn trong thời gian thực. Kiến trúc pipeline giúp chuyển đổi dữ liệu thô (pixel) thành thông tin có thể hành động (actionable intelligence), đáp ứng đúng mục tiêu của một hệ thống camera an ninh thế hệ mới.
+[0716]: 2.2. Mô hình RoleNet — Nhận diện vai trò người
+[0717]: RoleNet là mô hình phân loại vai trò xã hội của đối tượng người trong hệ thống camera an ninh thông minh. Nếu YOLOv8 trả lời câu hỏi "trong khung hình có ai", thì RoleNet đi xa hơn bằng cách trả lời "người đó thuộc nhóm vai trò nào" (shipper, bác sĩ, công an, bảo vệ, học sinh, v.v.). Đây là thành phần then chốt để chuyển từ giám sát hình ảnh đơn thuần sang giám sát theo ngữ nghĩa xã hội.
+[0718]: Trong triển khai hiện tại, RoleNet được tích hợp qua module modules/role_classifier.py với chiến lược fallback nhiều tầng:
+[0720]: Cách thiết kế này cho phép hệ thống vừa đạt độ chính xác cao khi có mô hình đầy đủ, vừa đảm bảo tính sẵn sàng vận hành khi thiếu một số dependency hoặc thiếu trọng số.
+[0721]:   2.2.1. Bài toán nhận diện vai trò
+[0722]: a) Định nghĩa bài toán
+[0723]: Nhận diện vai trò người (Role Classification) là bài toán phân loại đa lớp trên ảnh crop toàn thân của đối tượng person, với đầu ra là một trong 16 nhãn vai trò mục tiêu. Dữ liệu đầu vào được cắt từ bounding box YOLO, resize về kích thước chuẩn 128 x 256 và chuẩn hóa theo ImageNet trước khi đưa vào mạng.
+[0724]: Về mặt toán học, với ảnh đầu vào x, mô hình học hàm:
+[0725]: f(x) -> p(y | x), y in {1..16}
+[0726]: trong đó p(y | x) là phân phối xác suất qua 16 lớp vai trò.
+[0727]: b) Thách thức đặc thù của bài toán
+[0728]: So với phân loại ảnh thông thường, bài toán vai trò trong giám sát có các khó khăn:
+[0729]: Tương đồng liên lớp cao: nhiều vai trò có đồng phục gần giống nhau (ví dụ worker và construction).
+[0730]: Điều kiện ngoại cảnh biến thiên: ánh sáng yếu, mưa, blur chuyển động, occlusion.
+[0731]: Thay đổi góc nhìn mạnh: camera lắp cao/thấp, chính diện/lệch góc.
+[0732]: Mất cân bằng dữ liệu: một số lớp hiếm hơn rõ rệt (civil_guard, postman...).
+[0733]: Do đó, mô hình cần vừa có năng lực biểu diễn mạnh, vừa có chiến lược huấn luyện và tăng cường dữ liệu phù hợp.
+[0734]:   2.2.2. Kiến trúc và quá trình phát triển qua 3 phiên bản 
+[0735]: RoleNet được phát triển theo hướng tiến hóa qua ba thế hệ kiến trúc backbone, với mục tiêu tăng dần độ chính xác nhưng vẫn giữ khả năng chạy thực tế.
+[0736]: a) RoleNet V1 — MobileNetV3-Small (59.05% val accuracy)
+[0737]: Vai trò trong lộ trình: baseline đầu tiên, ưu tiên nhẹ và nhanh.
+[0738]: Kiến trúc chính:
+[0739]: Backbone: MobileNetV3-Small.
+[0740]: Head phân loại:
+[0741]: Linear(in_features -> 256)
+[0742]: Hardswish
+[0743]: Dropout(0.4)
+[0744]: Linear(256 -> 16)
+[0745]: Kết quả: đạt 59.05% validation accuracy.
+[0746]: Đánh giá: V1 phù hợp làm mốc khởi đầu và kiểm chứng pipeline end-to-end, nhưng chưa đủ tốt cho triển khai an ninh đòi hỏi độ tin cậy cao.
+[0747]: b) RoleNet V2 — EfficientNet-B2 với TTA (64.41% val accuracy)
+[0748]: Mục tiêu nâng cấp: tăng năng lực biểu diễn đặc trưng so với MobileNet.
+[0749]: Kiến trúc chính:
+[0750]: Backbone: EfficientNet-B2 (timm).
+[0751]: Head:
+[0752]: AdaptiveAvgPool2d
+[0753]: Flatten
+[0754]: BatchNorm1d(1408)
+[0755]: Dropout(0.35)
+[0756]: Linear(1408 -> 512)
+[0757]: SiLU
+[0758]: BatchNorm1d(512)
+[0759]: Dropout(0.175)
+[0760]: Linear(512 -> 16)
+[0761]: Kỹ thuật bổ sung: bật Test-Time Augmentation (TTA) với ảnh gốc + lật ngang, lấy trung bình softmax.
+[0762]: Kết quả: 64.41% validation accuracy.
+[0763]: Đánh giá: V2 cải thiện đáng kể so với V1 và đặt nền tảng cho các kỹ thuật inference ổn định hơn (TTA), tuy nhiên vẫn còn khoảng cách lớn so với mục tiêu triển khai production.
+[0764]: c) RoleNet V3 — ConvNeXt-Tiny (phiên bản hiện hành, ~99.96%)
+[0765]: Mục tiêu nâng cấp: đạt độ chính xác cao cho phân loại vai trò tinh vi trong bối cảnh Việt Nam.
+[0766]: Kiến trúc chính:
+[0767]: Backbone: ConvNeXt-Tiny.
+[0768]: Head:
+[0769]: AdaptiveAvgPool2d(1)
+[0770]: Flatten
+[0771]: LayerNorm(768)
+[0772]: Dropout(0.3)
+[0773]: Linear(768 -> 256)
+[0774]: GELU
+[0775]: Dropout(0.15)
+[0776]: Linear(256 -> 16)
+[0777]: Thiết lập vận hành:
+[0778]: Input chuẩn: 128 x 256.
+[0779]: Chuẩn hóa: ImageNet mean/std.
+[0780]: TTA: bật cho đường PyTorch V3.
+[0781]: Export ONNX để tăng tốc CPU inference (ưu tiên onnx_int8 nếu có).
+[0782]: Kết quả: validation accuracy xấp xỉ ~99.96% trên tập validation nội bộ.
+[0783]: Đánh giá: V3 là phiên bản đang hoạt động chính trong hệ thống, đồng thời có cơ chế fallback về V2/V1/rule-based để bảo đảm tính liên tục dịch vụ.
+[0786]:   2.2.3. Tập dữ liệu và phương pháp thu thập
+[0787]: a) 16 lớp vai trò mục tiêu
+[0788]: Bộ nhãn RoleNet gồm 16 lớp:
+[0789]: shipper, doctor, police, military, security, student, chef, janitor, construction, nurse, postman, technician, worker, civil_guard, normal, unknown.
+[0790]: Các lớp này phản ánh nhóm vai trò có ý nghĩa vận hành an ninh trong bối cảnh thực tế tại Việt Nam (dịch vụ giao nhận, y tế, an ninh, lao động phổ thông, người thường, trường hợp không rõ).
+[0791]: b) Thu thập ảnh từ Google Images và OpenImages
+[0792]: Pipeline dữ liệu của RoleNet gồm hai hướng bổ sung:
+[0793]: Thu thập web tự động qua script scripts/collect_images.py:
+[0794]: hỗ trợ engine tìm kiếm (Google/Bing),
+[0795]: dùng tập từ khóa song ngữ Việt - Anh theo từng role,
+[0796]: lưu dữ liệu raw theo cấu trúc thư mục lớp.
+[0797]: Bổ sung dữ liệu nguồn mở có nhãn (OpenImages) và dữ liệu tự thu thập:
+[0798]: tăng đa dạng bối cảnh, góc nhìn, trang phục,
+[0799]: giảm overfitting theo nguồn dữ liệu web crawler đơn lẻ.
+[0800]: Sau thu thập, dữ liệu đi qua bước tiền xử lý (scripts/preprocess_dataset.py):
+[0801]: lọc ảnh mờ/tối/quá sáng/quá nhỏ,
+[0802]: khử trùng lặp hash-based,
+[0803]: resize chuẩn 128 x 256,
+[0804]: chia tập train/val/test theo tỷ lệ 70/15/15.
+[0805]: c) Augmentation (TrivialAugmentWide, MixUp, CutMix)
+[0806]: Để tăng khả năng tổng quát hóa, quy trình huấn luyện áp dụng nhóm kỹ thuật augmentation hiện đại:
+[0807]: TrivialAugmentWide: chọn ngẫu nhiên phép biến đổi với biên độ rộng, giúp mô hình bền hơn với nhiễu ngoại cảnh.
+[0808]: MixUp: trộn tuyến tính hai ảnh và hai nhãn theo hệ số lambda, làm mượt biên quyết định.
+[0809]: CutMix: cắt-dán vùng ảnh giữa hai mẫu và trộn nhãn theo tỷ lệ diện tích, giúp mô hình học ngữ cảnh cục bộ mạnh hơn.
+[0810]: Trong giai đoạn xây dựng dataset tại mã nguồn hiện tại, script augment_dataset.py đã triển khai các phép tăng cường nền tảng (flip, rotate, brightness/contrast, HSV, blur, noise, crop). Ba kỹ thuật TrivialAugmentWide/MixUp/CutMix được sử dụng ở tầng huấn luyện để nâng chất lượng mô hình ở các phiên bản cao.
+[0811]:   2.2.4. Quá trình huấn luyện 
+[0812]: a) Transfer learning từ ImageNet
+[0813]: Cả ba phiên bản RoleNet đều khởi tạo từ trọng số pretrained trên ImageNet thay vì huấn luyện từ đầu. Lợi ích:
+[0814]: rút ngắn thời gian hội tụ,
+[0815]: giảm yêu cầu dữ liệu gán nhãn lớn,
+[0816]: tăng ổn định trên các lớp hiếm.
+[0817]: Transfer learning đặc biệt hiệu quả cho bài toán vai trò vì mô hình có thể tái sử dụng đặc trưng thị giác phổ quát (texture, shape, color pattern) rồi thích nghi vào ngữ cảnh đồng phục chuyên biệt.
+[0818]: b) Progressive unfreezing và OneCycleLR scheduler
+[0819]: Quy trình fine-tuning được triển khai theo hướng hai pha:
+[0820]: Pha 1 (head training): đóng băng backbone, chỉ huấn luyện classifier head để thích nghi nhanh với không gian nhãn mới.
+[0821]: Pha 2 (progressive unfreezing): mở khóa dần các block sâu hơn của backbone, tinh chỉnh toàn mạng với learning rate nhỏ hơn.
+[0822]: Lịch học OneCycleLR được sử dụng để:
+[0823]: tăng nhanh learning rate giai đoạn đầu,
+[0824]: sau đó giảm dần về rất thấp,
+[0825]: giúp tối ưu hội tụ nhanh mà vẫn giữ tổng quát hóa tốt.
+[0826]: Cách kết hợp progressive unfreezing + OneCycleLR đặc biệt phù hợp cho các backbone lớn như EfficientNet/ConvNeXt khi fine-tune trên dữ liệu miền hẹp.
+[0827]: c) Weighted Random Sampling để cân bằng lớp
+[0828]: Do dữ liệu các lớp vai trò không cân bằng, dataloader dùng WeightedRandomSampler để tăng xác suất lấy mẫu từ lớp hiếm trong mỗi epoch.
+[0829]: Mục tiêu:
+[0830]: giảm thiên lệch mô hình về lớp phổ biến (normal, shipper...),
+[0831]: cải thiện recall của lớp ít mẫu (postman, civil_guard, technician...),
+[0832]: ổn định macro-F1 giữa các lớp.
+[0833]: Kỹ thuật này có ý nghĩa thực tế cao vì trong giám sát an ninh, lớp hiếm thường lại là lớp quan trọng về nghiệp vụ.
+[0834]:   2.2.5. Ưu điểm và hạn chế 
+[0835]: a) Ưu điểm
+[0836]: Độ chính xác cao ở phiên bản hiện hành (V3): phù hợp yêu cầu giám sát theo ngữ nghĩa.
+[0837]: Kiến trúc tiến hóa rõ ràng: V1 -> V2 -> V3 giúp đo lường hiệu quả cải tiến theo từng bước.
+[0838]: Khả năng triển khai linh hoạt: hỗ trợ ONNX/INT8 để tăng tốc CPU.
+[0839]: Tính bền vững vận hành: có fallback đa tầng (V3/V2/V1/rule-based).
+[0840]: Gắn chặt nghiệp vụ thực địa: bộ nhãn 16 vai trò phản ánh môi trường Việt Nam.
+[0841]: b) Hạn chế
+[0842]: Nguy cơ lệch miền dữ liệu (domain shift): mô hình giảm chất lượng khi khác xa dữ liệu huấn luyện (camera đêm, mưa lớn, che khuất mạnh).
+[0843]: Nhầm lẫn giữa lớp tương đồng ngoại hình: đặc biệt ở các nhóm đồng phục gần nhau.
+[0844]: Kết quả validation rất cao cần theo dõi chặt khả năng tổng quát hóa ngoài hiện trường (cần thêm kiểm định thực địa và cross-domain test).
+[0845]: Phụ thuộc vào chất lượng person crop từ detector/tracker: lỗi upstream lan truyền sang RoleNet.
+[0846]: Chi phí huấn luyện/backbone lớn: ConvNeXt-Tiny yêu cầu tài nguyên cao hơn V1/V2.
+[0847]: c) Hướng cải tiến
+[0848]: Trong các pha tiếp theo, có thể nâng cấp RoleNet theo các hướng:
+[0849]: mở rộng dữ liệu hiện trường thật và hard-negative mining,
+[0850]: huấn luyện đa nhiệm (role + uniform attributes),
+[0851]: distillation sang model nhẹ để tối ưu edge deployment,
+[0852]: calibration xác suất (temperature scaling) để tăng độ tin cậy confidence.
+[0854]: 2.3. Mô hình ContextNet — Đánh giá mức độ cảnh báo  
+[0855]: ContextNet là tầng suy luận ngữ cảnh (context reasoning) của hệ thống, đảm nhiệm bước cuối cùng: chuyển các tín hiệu đầu vào từ detection/tracking/role/action/zone/behavior thành mức cảnh báo vận hành có thể hành động. Nếu RoleNet và ActionNet trả lời câu hỏi "ai" và "đang làm gì", thì ContextNet trả lời câu hỏi quan trọng nhất trong an ninh: "mức độ nguy hiểm hiện tại là bao nhiêu?"
+[0856]: Trong dự án, ContextNet được hiện thực tại modules/context_engine_ml.py bằng mô hình XGBoost, đồng thời luôn duy trì RuleEngine (modules/context_engine.py) như một lớp dự phòng.
+[0857]:   2.3.1. Bài toán ra quyết định cảnh báo từ ngữ cảnh 
+[0858]: a) Bản chất bài toán
+[0859]: Bài toán của ContextNet là multi-class classification trên dữ liệu tabular ngữ cảnh. Mỗi đối tượng theo dõi (TrackedObject) tại một thời điểm được biểu diễn bởi vector đặc trưng tổng hợp (vai trò, hành động, khu vực, thời gian, hành vi, danh tính...), và mô hình dự đoán một trong các mức cảnh báo.
+[0860]: Khác với bài toán thị giác thuần túy, đây là bài toán ra quyết định có tính nghiệp vụ:
+[0861]: cùng một hành động có thể cho cảnh báo khác nhau tùy zone/thời điểm,
+[0862]: cùng một zone có thể khác mức cảnh báo tùy role và identity,
+[0863]: hệ thống phải tối ưu cả độ đúng lẫn tính ổn định khi chạy realtime.
+[0864]: b) Vai trò trong pipeline tổng thể
+[0865]: ContextNet nhận đầu vào đã được trích xuất từ các tầng trước:
+[0866]: RoleNet: vai trò + độ tin cậy vai trò,
+[0867]: ActionNet: hành động + độ tin cậy hành động,
+[0868]: Zone/Behavior: time_in_zone, loitering, visit_count, direction,
+[0869]: Metadata runtime: hour, business hour, night flag, frames_tracked...
+[0870]: Đầu ra của ContextNet quyết định:
+[0871]: nhãn alert_level của đối tượng,
+[0872]: lý do cảnh báo (alert_reason),
+[0873]: phát hay không phát AlertEvent (có cooldown chống spam).
+[0875]:   2.3.2. Kiến trúc XGBoost và feature engineering 
+[0876]: a) 14 features đầu vào (role_id, zone_type, loitering, time_in_zone, ...)
+[0877]: Theo thiết kế gốc, ContextNet sử dụng 14 đặc trưng ngữ cảnh dạng số để huấn luyện mô hình. Đây là bộ feature nền tảng bao gồm:
+[0878]: role_id
+[0879]: identity_id
+[0880]: zone_type_id
+[0881]: zone_status_id
+[0882]: loitering
+[0883]: time_in_zone
+[0884]: visit_count
+[0885]: direction_id
+[0886]: hour
+[0887]: role_confidence
+[0888]: category_id
+[0889]: frames_tracked
+[0890]: is_night
+[0891]: is_business_hour
+[0892]: Lưu ý kỹ thuật quan trọng: phiên bản hiện tại trong mã nguồn đã mở rộng lên 16 features bằng cách thêm:
+[0893]: action_id
+[0894]: action_confidence
+[0895]: để tích hợp trực tiếp tín hiệu từ ActionNet. Tuy nhiên, ContextEngineML có cơ chế tương thích ngược: nếu model cũ chỉ có 14 features, hệ thống tự cắt vector đầu vào phù hợp để vẫn chạy được.
+[0896]: b) 6 mức cảnh báo đầu ra (ignore -> critical)
+[0897]: ContextNet dự đoán 6 lớp cảnh báo theo thứ tự mức độ:
+[0898]: ignore
+[0899]: normal
+[0900]: watch
+[0901]: warning
+[0902]: alert
+[0903]: critical
+[0904]: Đây cũng là thứ tự severity được cố định trong quá trình encode nhãn khi huấn luyện (ALERT_ORDER) để đảm bảo nhất quán giữa train và inference.
+[0905]: c) Kiến trúc mô hình XGBoost
+[0906]: Mô hình sử dụng XGBClassifier với cấu hình chính:
+[0907]: n_estimators = 300
+[0908]: max_depth = 6
+[0909]: learning_rate = 0.1
+[0910]: subsample = 0.85
+[0911]: colsample_bytree = 0.85
+[0912]: min_child_weight = 3
+[0913]: eval_metric = mlogloss
+[0914]: XGBoost được chọn vì phù hợp dữ liệu tabular, huấn luyện nhanh, và có khả năng giải thích (feature importance, SHAP).
+[0915]:   2.3.3. Sinh dữ liệu huấn luyện tổng hợp (60,000 mẫu) 
+[0916]: a) Nguyên tắc sinh dữ liệu
+[0917]: Dữ liệu ContextNet được sinh tổng hợp bằng script scripts/generate_context_data.py:
+[0918]: Sinh ngẫu nhiên TrackedObject theo phân phối gần thực tế (category, role, zone, hành vi, thời gian, action...).
+[0919]: Đưa object qua RuleEngine để lấy nhãn cảnh báo mục tiêu.
+[0920]: Chuyển object sang vector feature + label.
+[0921]: Ghi CSV để dùng train XGBoost.
+[0922]: Đây là chiến lược rule distillation: dùng tri thức nghiệp vụ đã encode trong rule để bootstrap mô hình học máy.
+[0923]: b) Quy mô 60.000 mẫu
+[0924]: Trong thực nghiệm đồ án, tập huấn luyện được sinh ở quy mô 60.000 mẫu để:
+[0925]: phủ nhiều tổ hợp ngữ cảnh hiếm,
+[0926]: giảm phương sai của mô hình tree-based,
+[0927]: tăng độ ổn định khi chia train/test.
+[0928]: Script hỗ trợ cấu hình số mẫu linh hoạt qua tham số --samples, giúp mở rộng dữ liệu khi cần.
+[0930]: c) Lợi ích và rủi ro của dữ liệu tổng hợp
+[0931]: Lợi ích:
+[0932]: tạo dữ liệu nhanh, chi phí thấp,
+[0933]: kiểm soát được phân phối nhãn,
+[0934]: phản ánh trực tiếp logic nghiệp vụ của hệ thống.
+[0935]: Rủi ro:
+[0936]: mô hình học quá sát phân phối synthetic,
+[0937]: có thể đạt accuracy rất cao trên test cùng phân phối nhưng giảm hiệu năng ngoài hiện trường thực.
+[0938]: Vì vậy, cần bổ sung dữ liệu từ log vận hành thật ở các phiên bản tiếp theo.
+[0939]:   2.3.4. Cơ chế fallback tự động về rule-based engine 
+[0940]: Một điểm mạnh vận hành của ContextNet là cơ chế fallback tự động:
+[0941]: Nếu không tìm thấy model (models/context_net.pkl) hoặc load/predict lỗi, hệ thống tự chuyển sang RuleEngine.
+[0942]: RuleEngine vẫn xử lý đầy đủ các luật cảnh báo quan trọng (action-based rules, role-zone rules, time-based rules...).
+[0943]: API evaluate() giữ nguyên giao diện, nên pipeline không cần thay đổi khi chuyển mode.
+[0944]: Ngoài ra, cả ML mode và rule mode đều dùng cooldown khi phát sự kiện để tránh spam cảnh báo.
+[0945]: Nhờ đó, hệ thống đảm bảo tính sẵn sàng cao trong môi trường thực tế, ngay cả khi model chưa train xong hoặc deployment lỗi.
+[0946]:   2.3.5. Ưu điểm và hạn chế 
+[0947]: a) Ưu điểm
+[0948]: Tích hợp đa nguồn ngữ cảnh vào một quyết định thống nhất.
+[0949]: Linh hoạt mở rộng feature (từ 14 lên 16 features khi thêm action).
+[0950]: Tốc độ suy luận nhanh với XGBoost, phù hợp realtime backend.
+[0951]: Khả năng giải thích tốt qua feature importance/SHAP.
+[0952]: An toàn vận hành nhờ fallback tự động về rule-based engine.
+[0953]: b) Hạn chế
+[0954]: Phụ thuộc dữ liệu synthetic nên nguy cơ domain gap với dữ liệu thực.
+[0955]: Giới hạn biểu diễn theo feature thủ công (không học trực tiếp từ chuỗi dài hay quan hệ đa đối tượng phức tạp).
+[0956]: Độ chính xác cao trên dữ liệu cùng phân phối chưa đủ để kết luận năng lực ngoài hiện trường.
+[0957]: Cần đồng bộ version feature-model khi nâng cấp pipeline (14 vs 16 features), dù hiện đã có backward compatibility.
+[0958]: c) Hướng cải tiến
+[0959]: bổ sung dữ liệu huấn luyện từ logs thực tế (semi-supervised + human-in-the-loop),
+[0960]: hiệu chỉnh xác suất đầu ra (calibration) để cải thiện độ tin cậy mức cảnh báo,
+[0961]: mở rộng feature theo tương tác đa đối tượng và lịch sử temporal dài hơn,
+[0962]: thử nghiệm mô hình tabular nâng cao (LightGBM/CatBoost) để so sánh.
+[0963]: 2.4. Mô hình ActionNet — Nhận diện hành động nguy hiểm 
+[0964]: ActionNet là mô hình nhận diện hành động theo chuỗi thời gian của hệ thống. Nếu RoleNet tập trung vào "đối tượng là ai theo vai trò xã hội", thì ActionNet tập trung vào "đối tượng đang làm gì", đặc biệt là các hành động có nguy cơ an ninh như falling, climbing, fighting.
+[0965]: Trong triển khai hiện tại, ActionNet được thiết kế theo kiến trúc hybrid:
+[0966]: Perception: MediaPipe Pose trích xuất skeleton keypoints từ từng frame.
+[0967]: Temporal modeling: GRU học diễn tiến hành vi qua cửa sổ 30 frame.
+[0968]: Operational robustness: fallback 3 tầng khi thiếu model/thư viện.
+[0969]: Kiến trúc này được hiện thực trực tiếp trong modules/action_recognizer.py và cấu hình tại ACTION_CONFIG trong config.py.
+[0970]: 2.4.1. Bài toán nhận diện hành động từ chuỗi khung ảnh 
+[0971]: a) Định nghĩa bài toán
+[0972]: Nhận diện hành động là bài toán phân loại chuỗi:
+[0973]: X = {x1, x2, ..., xT} -> y
+[0974]: trong đó x_t là đặc trưng tại frame thứ t, T = 30 frame, và y là một trong 8 nhãn hành động.
+[0975]: Khác với phân loại ảnh tĩnh, hành động chỉ có thể xác định chính xác khi xét ngữ cảnh thời gian. Ví dụ:
+[0976]: falling là quá trình chuyển trạng thái, không phải một tư thế đơn lẻ.
+[0977]: running và walking có tư thế gần giống, khác chủ yếu ở động học theo thời gian.
+[0978]: b) Thách thức kỹ thuật
+[0979]: Biến thiên không gian-thời gian mạnh (góc quay, khoảng cách camera, tốc độ chuyển động).
+[0980]: Nhiễu thị giác thực địa (blur, thiếu sáng, che khuất một phần).
+[0981]: Yêu cầu realtime nên không thể dùng mô hình 3D-CNN quá nặng.
+[0982]: Vì vậy, đề tài chọn hướng skeleton-based để giảm độ phức tạp đầu vào, sau đó dùng RNN hiện đại (GRU) để mô hình hóa chuỗi.
+[0984]: a) Trích xuất 33 keypoints bằng MediaPipe Pose (132 chiều)
+[0985]: Mỗi frame người được đưa vào MediaPipe Pose để trích xuất:
+[0986]: 33 keypoints,
+[0987]: mỗi keypoint gồm 4 thành phần (x, y, z, visibility).
+[0988]: Do đó, vector đặc trưng mỗi frame có kích thước:
+[0989]: 33 x 4 = 132 chiều
+[0990]: Pipeline trích xuất trong hệ thống:
+[0991]: crop vùng người theo bounding box tracker (có padding 10%),
+[0992]: đổi sang RGB,
+[0993]: chạy MediaPipe (legacy hoặc Tasks API),
+[0994]: flatten keypoints thành vector 132 chiều.
+[0995]: Kết quả được lưu vào buffer theo từng track_id để phục vụ dự đoán chuỗi.
+[0996]: b) Kiến trúc GRU (hidden=128, 2 layers) phân loại chuỗi 30 frame
+[0997]: ActionNet sử dụng cửa sổ trượt:
+[0998]: window_frames = 30,
+[0999]: step_frames = 5 (dự đoán mỗi 5 frame mới).
+[1000]: Kiến trúc mạng:
+[1001]: Input: (batch, 30, 132)
+[1002]: GRU: hidden_size=128, num_layers=2, dropout=0.4
+[1003]: Head: LayerNorm -> Dropout -> Linear(128->64) -> GELU -> Dropout -> Linear(64->8)
+[1004]: Output: xác suất 8 lớp hành động (softmax)
+[1005]: Ngưỡng tin cậy khi suy luận:
+[1006]: confidence_threshold = 0.55
+[1007]: dưới ngưỡng: gán UNKNOWN để tránh dự đoán nhiễu.
+[1008]: Thiết kế này cân bằng tốt giữa tốc độ và độ chính xác cho bài toán realtime.
+[1009]: 2.4.3. Tập dữ liệu và 8 lớp hành động 
+[1010]:  a) 8 hành động: standing, walking, running, falling, climbing, fighting, raising_hand, gathering
+[1011]: ActionNet học trên 8 lớp hành động mục tiêu:
+[1012]: standing
+[1013]: walking
+[1014]: running
+[1015]: falling
+[1016]: climbing
+[1017]: fighting
+[1018]: raising_hand
+[1019]: gathering
+[1020]: Đây là tập nhãn vừa bao quát hành vi thường nhật, vừa chứa nhóm hành vi nguy cơ cao cho ngữ cảnh an ninh.
+[1021]: b) Thu thập từ UCF-101 và YouTube
+[1022]: Nguồn dữ liệu chính:
+[1023]: UCF-101 (chuẩn học thuật):
+[1024]: dùng các category liên quan, ánh xạ về 8 nhãn mục tiêu,
+[1025]: xử lý video thành clip 30 frame và trích xuất keypoints.
+[1026]: YouTube (bổ sung thực địa):
+[1027]: tìm kiếm theo query theo từng action,
+[1028]: tải clip ngắn, lọc và trích xuất keypoints tương tự.
+[1029]: Pipeline data chung (theo script download_action_data.py, fetch_ucf101_keypoints.py):
+[1031]: Video -> sample frames theo FPS mục tiêu -> MediaPipe Pose -> 30x132 keypoints -> CSV
+[1032]: Ngoài ra có script collect_action_data.py để thu thập thủ công từ webcam/video local, và cơ chế augment keypoints để tăng dữ liệu khi lớp còn thiếu.
+[1033]: 2.4.4. Hàm mất mát và chiến lược tối ưu hóa 
+[1034]: Trong huấn luyện ActionNet, hàm mất mát sử dụng Cross-Entropy Loss cho bài toán phân loại đa lớp 8 nhãn.
+[1035]: Để xử lý mất cân bằng dữ liệu (các lớp nguy hiểm thường ít mẫu hơn), chiến lược tối ưu hóa áp dụng:
+[1036]: Class weights trong loss để tăng trọng số lỗi của lớp hiếm.
+[1037]: Regularization bằng dropout (0.4 trong GRU/head) để giảm overfitting.
+[1038]: Sliding-window inference (step=5) giúp làm mượt dự đoán theo thời gian.
+[1039]: Với chiến lược này, mô hình đạt kết quả tốt giữa độ nhạy hành vi nguy hiểm và độ ổn định dự đoán.
+[1040]: 2.4.5. Cơ chế fallback 3 tầng thông minh 
+[1041]: ActionNet được thiết kế "graceful degradation": thiếu thành phần nào thì tự giảm cấp hợp lý thay vì dừng hệ thống.
+[1042]: a) Tầng 1: MediaPipe + GRU (độ chính xác cao nhất)
+[1043]: Điều kiện:
+[1044]: có MediaPipe,
+[1045]: có trọng số actionnet_gru.pt.
+[1046]: Pipeline đầy đủ keypoints -> GRU -> top-1 + top-3 xác suất.
+[1047]: Đây là mode mặc định ưu tiên (ml_actionnet_gru).
+[1048]: b) Tầng 2: MediaPipe + Rule từ keypoints
+[1049]: Điều kiện:
+[1050]: có MediaPipe,
+[1051]: chưa có/không load được GRU.
+[1052]: Hệ thống dùng heuristic từ keypoints:
+[1053]: phát hiện falling theo độ thu hẹp span dọc vai-cổ chân,
+[1054]: phát hiện raising_hand theo vị trí cổ tay so với vai,
+[1055]: phân biệt standing/walking/running qua độ dao động hip theo thời gian.
+[1056]: Mode này giữ được ngữ nghĩa hình học của skeleton dù không có model học sâu.
+[1057]: c) Tầng 3: Rule từ velocity và tỉ lệ bounding box
+[1058]: Điều kiện:
+[1059]: không có MediaPipe.
+[1060]: Heuristic cuối cùng:
+[1061]: falling nếu tỉ lệ height/width của bbox nhỏ (aspect < 1.2) và bbox đủ rộng,
+[1062]: running theo ngưỡng tốc độ (rule_run_speed_px),
+[1063]: còn lại suy ra walking/standing theo vận tốc.
+[1064]: Đây là tầng dự phòng tối thiểu để đảm bảo hệ thống không "mù hành động" khi thiếu dependency.
+[1065]:        2.4.6. Ưu điểm và hạn chế 
+[1066]: a) Ưu điểm
+[1067]: Kiến trúc phù hợp realtime: nhẹ hơn nhiều so với 3D-CNN trực tiếp trên RGB.
+[1068]: Độ bền tốt với thay đổi ánh sáng/nền nhờ đặc trưng skeleton.
+[1069]: Khả năng mở rộng rõ ràng: thêm action class chủ yếu ở tầng dữ liệu + retrain.
+[1070]: Fallback 3 tầng giúp vận hành ổn định trong môi trường triển khai thực tế.
+[1071]: Tích hợp chặt với ContextNet qua action_id và action_confidence.
+[1072]: b) Hạn chế
+[1073]: Phụ thuộc chất lượng pose estimation: occlusion nặng làm giảm chất lượng keypoints.
+[1074]: Một số hành động phức tạp còn khó phân biệt nếu chuỗi ngắn hoặc nhiều người chồng lấn.
+[1075]: Rule-based fallback tầng 2/3 chỉ là xấp xỉ, không thay thế hoàn toàn mô hình học sâu.
+[1076]: Dữ liệu ngoài hiện trường có thể lệch miền so với UCF-101/YouTube.
+[1081]: c) Hướng cải tiến
+[1082]: mở rộng dữ liệu thực địa có gán nhãn và hard-negative mining,
+[1083]: bổ sung multi-person interaction features cho hành động tập thể/xung đột,
+[1084]: thử nghiệm mô hình temporal mạnh hơn (BiGRU/Temporal Transformer nhẹ),
+[1085]: tối ưu triển khai ONNX/TensorRT c
+[1086]: ho inference edge.
+[1110]: CHƯƠNG 3. XÂY DỰNG VÀ ĐÁNH GIÁ HỆ THỐNG HOÀN CHỈNH 
+[1111]: 3.1. Giới thiệu về hệ thống  
+[1112]: 3.1.1. Mục tiêu và phạm vi hệ thống
+[1113]: a) Mục tiêu tổng thể
+[1114]: Hệ thống camera giám sát an ninh thông minh được xây dựng trong đề tài này hướng đến mục tiêu tự động hóa toàn bộ quy trình nhận thức, phân tích và cảnh báo từ luồng video camera thời gian thực, thay thế dần vai trò của nhân viên giám sát trong việc theo dõi màn hình liên tục. Cụ thể, hệ thống phải đạt được bốn mục tiêu kỹ thuật cốt lõi:
+[1115]: Mục tiêu 1 — Nhận thức đa tầng (Multi-level Perception):
+[1116]: Hệ thống không chỉ phát hiện sự hiện diện của đối tượng (who is there) mà còn hiểu được ai đang ở đó (vai trò xã hội), đang làm gì (hành động) và đang ở đâu (vùng giám sát) — ba câu hỏi cơ bản mà các hệ thống camera truyền thống không thể trả lời tự động.
+[1117]: Mục tiêu 2 — Suy luận ngữ cảnh thông minh (Context-Aware Reasoning):
+[1118]: Mức độ cảnh báo phải phản ánh đúng bối cảnh thực tế: cùng một người (shipper) có thể nhận mức normal khi ở lối vào nhưng alert khi vào khu vực hạn chế. Hệ thống cần học và áp dụng quy tắc nghiệp vụ phức tạp này một cách tự động và nhất quán.
+[1119]: Mục tiêu 3 — Vận hành thời gian thực (Real-Time Operation):
+[1120]: Toàn bộ pipeline từ nhận frame đến phát cảnh báo phải hoàn thành trong giới hạn thời gian cho phép, duy trì tốc độ xử lý ≥ 15 FPS trên phần cứng CPU phổ thông (không yêu cầu GPU) để đảm bảo khả năng triển khai rộng rãi.
+[1121]: Mục tiêu 4 — Tính sẵn sàng cao (High Availability):
+[1122]: Hệ thống phải tiếp tục hoạt động ở mức độ chấp nhận được ngay cả khi thiếu một số thành phần (model file, thư viện). Điều này đạt được thông qua chuỗi fallback đa tầng: mỗi module đều có ít nhất một phương án dự phòng dựa trên luật (rule-based).
+[1123]: b) Phạm vi hệ thống
+[1124]: Phạm vi đầu vào: Hệ thống hỗ trợ ba loại nguồn video:
+[1125]: Webcam kết nối trực tiếp (index 0, 1, 2...)
+[1126]: File video (MP4, AVI, MOV) upload qua dashboard
+[1127]: Đường dẫn file hoặc URL luồng RTSP từ camera IP
+[1128]: Phạm vi nhận diện đối tượng: 14 lớp COCO bao gồm person (người), nhóm vehicle (car, motorcycle, bus, truck), nhóm animal và nhóm accessory (backpack, handbag, suitcase). Tất cả được theo dõi đồng thời trong cùng một frame.
+[1129]: Phạm vi nhận diện vai trò: 16 vai trò xã hội đặc thù môi trường Việt Nam, phân thành 4 nhóm chính:
+[1130]: Phạm vi nhận diện hành động: 8 lớp hành động từ thông thường đến nguy hiểm: standing, walking, running, falling, climbing, fighting, raising_hand, gathering.
+[1131]: Phạm vi cảnh báo: 6 mức độ cảnh báo theo thứ tự tăng dần: ignore → normal → watch → warning → alert → critical.
+[1132]: Phạm vi triển khai:
+[1134]: 3.1.2. Kiến trúc tổng thể và công nghệ sử dụng
+[1135]: a) Kiến trúc pipeline đa tầng
+[1136]: Hệ thống được thiết kế theo kiến trúc pipeline đa tầng tuyến tính (layered linear pipeline), trong đó mỗi frame video đi qua một chuỗi xử lý cố định từ tầng nhận thức cấp thấp đến tầng suy luận cấp cao:
+[1138]: Hình 1: Sơ đồ kiến trúc hệ thống xử lý video thông minh 
+[1139]: Đặc điểm kiến trúc nổi bật:
+[1140]: Module hóa cao: Mỗi tầng là một module Python độc lập trong thư mục modules/, có thể nâng cấp hoặc thay thế mà không ảnh hưởng đến các tầng khác.
+[1141]: Fallback đa tầng: Tất cả các module suy luận (RoleClassifier, ActionRecognizer, ContextEngineML) đều có ít nhất một tầng dự phòng rule-based.
+[1142]: Thread-safe: Pipeline chạy trong background thread riêng biệt, trạng thái chia sẻ được bảo vệ bởi threading.Lock().
+[1143]: Tối ưu hiệu năng: Round-robin scheduling cho MediaPipe, adaptive skip rate theo FPS thực tế, per-track inference cache.
+[1148]: b) Sơ đồ module và file tương ứng
+[1152]: c) Ngăn xếp công nghệ (Technology Stack)
+[1153]: Hệ thống được xây dựng hoàn toàn trên nền Python 3.10, sử dụng các thư viện mã nguồn mở sau:
+[1154]: Tầng thị giác máy tính và học sâu:
+[1156]: Tầng học máy và phân tích:
+[1157]: Tầng backend và API:
+[1158]: Cấu hình phần cứng thử nghiệm:
+[1160]: 3.2. Các module chức năng trong pipeline  
+[1161]: Pipeline xử lý của hệ thống được tổ chức thành 9 module chức năng chính, mỗi module đảm nhận một nhiệm vụ chuyên biệt và truyền kết quả cho module tiếp theo thông qua cấu trúc dữ liệu TrackedObject được định nghĩa trong models.py. Toàn bộ các module được điều phối bởi CameraPipeline trong pipeline.py.
+[1162]: 3.2.1. Object Detector — modules/object_detector.py (YOLOv8n)
+[1163]: a) Chức năng và vị trí trong pipeline
+[1164]: ObjectDetector là module đầu tiên trong pipeline, nhận vào frame BGR thô từ VideoProcessor và trả ra danh sách các Detection object chứa bounding box, class, confidence, và category.
+[1165]: b) Cấu hình triển khai
+[1166]: Module sử dụng model YOLOv8n (nano variant) — phiên bản nhỏ nhất và nhanh nhất của họ YOLOv8, phù hợp với yêu cầu real-time trên CPU:
+[1167]: c) Quy trình xử lý
+[1169]: Hình 3: Luồng xử lý trong ObjectDetector.detect()
+[1170]: Hệ thống theo dõi 4 nhóm category: person, vehicle, animal, accessory. Việc theo dõi accessory đồng thời với person cho phép RoleClassifier sử dụng tín hiệu phụ kiện (backpack → student, motorcycle → shipper) để cải thiện độ chính xác phân loại vai trò.
+[1171]: 3.2.2. Object Tracker — modules/object_tracker.py (ByteTrack)
+[1172]: a) Chức năng
+[1173]: ObjectTracker nhận danh sách Detection từ frame hiện tại và duy trì danh sách TrackedObject với track ID ổn định và duy nhất qua các frame. Track ID là điều kiện bắt buộc để ActionRecognizer tích lũy chuỗi keypoints (window 20 frame) và BehaviorAnalyzer tính time_in_zone chính xác.
+[1174]: b) Thuật toán theo dõi
+[1175]: Hệ thống sử dụng cơ chế IoU Matching lấy cảm hứng từ ByteTrack [1]:
+[1176]: Velocity prediction: Mỗi track dự đoán vị trí tiếp theo dựa trên vận tốc trung bình 3 frame gần nhất, tạo predicted_bbox trước khi tính IoU.
+[1177]: IoU Matrix: Tính ma trận IoU giữa predicted_bbox của tất cả track hiện có và tất cả detection mới.
+[1178]: Greedy Matching: Ghép cặp track-detection có IoU lớn nhất vượt ngưỡng match_thresh = 0.25.
+[1179]: Track Management:
+[1182]: c) Thông tin bổ sung trên TrackedObject
+[1183]: Tracker tính thêm vận tốc pixel (vx, vy) từ delta tọa độ tâm bbox giữa hai frame liên tiếp, phục vụ ActionRecognizer (phân biệt standing/walking/running) và BehaviorAnalyzer (hướng di chuyển).
+[1185]: a) Chức năng và thiết kế fallback
+[1186]: RoleClassifier nhận vào frame gốc và TrackedObject (có bbox), cắt crop toàn thân người và phân loại vào 1 trong 16 vai trò xã hội. Module được thiết kế theo chuỗi fallback ưu tiên giảm dần về độ chính xác:
+[1190]: Hình 5: Sơ đồ quy trình tải mô hình RoleNet (Ưu tiên lựa chọn) 
+[1191]: b) Quy trình inference
+[1193]: Hình 6: Quy trình phân loại vai trò đối tượng 
+[1194]: c) Tối ưu hiệu năng — Per-track Cache
+[1195]: Inference RoleNet (ConvNeXt-Tiny) tốn khoảng 50–100ms/frame trên CPU. Để đạt real-time, pipeline áp dụng per-track inference cache: mỗi track_id chỉ chạy RoleNet sau mỗi role_skip_frames = 8 frame. Giữa các lần inference, kết quả cũ được giữ nguyên:
+[1196]: # pipeline.py
+if (frame_count - last_infer_frame[track_id]) >= role_skip_frames:
+    result = role_clf.classify(frame, obj)
+    role_cache[track_id] = (result, frame_count)
+else:
+    result = role_cache[track_id][0]  # dùng cache
+[1197]: d) Rule-based fallback (HSV Color Analysis)
+[1198]: Khi không có bất kỳ model nào, hệ thống phân tích màu HSV vùng torso của person crop:
+[1199]: 13 dải màu HSV đặc trưng được định nghĩa (bright_green → Grab shipper, navy_blue → Công an VN, dark_green → Bộ đội, white → Bác sĩ/Chef...)
+[1200]: Điểm số = 0.65 × color_score + 0.35 × accessory_score
+[1201]: Vai trò có điểm cao nhất được chọn, nếu dưới threshold → unknown
+[1202]: 3.2.4. Action Recognizer — modules/action_recognizer.py
+[1203]: a) Chức năng
+[1204]: ActionRecognizer nhận diện hành động của từng đối tượng người dựa trên chuỗi keypoints tư thế qua nhiều frame, sử dụng kiến trúc MediaPipe Pose + GRU được mô tả chi tiết trong Mục 2.4.
+[1205]: b) Cấu hình vận hành hiện tại
+[1206]: Các tham số quan trọng được cập nhật trong config.py:
+[1207]: c) Round-robin scheduling
+[1208]: MediaPipe Pose không thread-safe và tốn CPU đáng kể. Pipeline áp dụng round-robin: trong frame thứ t có N người, chỉ người thứ (t % N) được chạy ActionNet. Các người còn lại giữ nguyên nhãn hành động từ lần inference trước. Nhờ đó, tổng tải MediaPipe giảm từ N× xuống còn 1× mỗi frame.
+[1212]: d) Ánh xạ hành động → mức cảnh báo
+[1213]: 3.2.5. Identity Manager — modules/identity_manager.py
+[1214]: a) Chức năng
+[1215]: IdentityManager xác định đối tượng là KNOWN (người đã đăng ký) hay UNKNOWN (người lạ) dựa trên phân tích ngoại hình. Thông tin này là một trong 16 đặc trưng đầu vào của ContextNet.
+[1217]: b) Phương pháp: HSV Color Histogram
+[1218]: Thay vì nhận diện khuôn mặt (face recognition) truyền thống, module sử dụng color histogram của toàn thân làm "chữ ký ngoại hình" để bảo vệ quyền riêng tư:
+[1219]: Person crop (bbox)
+    → resize 64×128 px
+    → chuyển HSV
+    → tính histogram: 32 bins × 3 channels = 96-dim vector
+    → chuẩn hóa [0, 1]
+    → cosine similarity với danh sách đã đăng ký
+    → similarity ≥ 0.62 → KNOWN, ngược lại → UNKNOWN
+[1220]: c) Cấu hình và hạn chế
+[1221]: Hạn chế hiện tại: Thư mục data/known_faces/ hiện trống — chưa có dữ liệu người quen được đăng ký. Tất cả đối tượng đều nhận UNKNOWN. Để sử dụng, cần thêm ảnh theo cấu trúc known_faces/<person_id>/*.jpg.
+[1222]: 3.2.6. Zone Detector — modules/zone_detector.py
+[1223]: a) Chức năng
+[1224]: ZoneDetector kiểm tra xem tâm bounding box của đối tượng có nằm trong các vùng giám sát (zone) được định nghĩa trước hay không. Thông tin zone (zone_type, zone_status) là đặc trưng quan trọng quyết định mức cảnh báo trong ContextNet.
+[1225]: b) Cấu hình zone mặc định
+[1226]: Hệ thống mặc định có 2 zone tại frame 640×480:
+[1227]: c) Thuật toán và trạng thái
+[1228]: Sử dụng cv2.pointPolygonTest() — Ray Casting O(n) với n là số đỉnh polygon. Điểm kiểm tra là tâm bbox (cx, cy).
+[1229]: Bốn trạng thái ZoneStatus được theo dõi per-track:
+[1231]: Các trạng thái chuyển tiếp ENTERING và LEAVING giúp BehaviorAnalyzer tính chính xác thời gian trong zone và cập nhật visit_count.
+[1232]: d) Cập nhật runtime
+[1233]: API POST /api/zones cho phép cập nhật zones mà không cần restart server. Zone Editor trên dashboard cho phép vẽ polygon trực tiếp trên snapshot thực của camera.
+[1234]: Lưu ý: Zone hiện chỉ lưu in-memory, mất khi restart server. Tính năng persist xuống data/zones.json đang trong kế hoạch.
+[1236]: 3.2.7. Behavior Analyzer — modules/behavior_analyzer.py
+[1237]: a) Chức năng
+[1238]: BehaviorAnalyzer phân tích hành vi theo thời gian của từng đối tượng, bổ sung các đặc trưng hành vi vào TrackedObject trước khi đưa vào ContextNet.
+[1239]: b) Bốn chỉ số hành vi
+[1240]: time_in_zone (float, giây): Tổng thời gian đối tượng đã ở trong zone kể từ khi vào. Tăng liên tục khi ZoneStatus = INSIDE.
+[1241]: loitering (bool): True khi time_in_zone ≥ 20.0 giây — ngưỡng lảng vảng. Đây là tín hiệu nguy hiểm quan trọng, đặc biệt trong khu vực restricted.
+[1242]: direction (str): Tính từ 5 vị trí lịch sử gần nhất:
+[1243]: stationary: delta < 8 px → đứng yên
+[1246]: moving: di chuyển ngang
+[1247]: visit_count (int): Số lần đối tượng vào-rời-vào trong cửa sổ 300 giây (5 phút). visit_count ≥ 3 kích hoạt rule "frequent visitor".
+[1248]: 3.2.8. Context Engine ML — modules/context_engine_ml.py
+[1249]: a) Chức năng
+[1250]: ContextEngineML là module ra quyết định cuối cùng của pipeline. Nhận vào TrackedObject đã được enrich đầy đủ thông tin từ tất cả các module trước, trả ra alert_level (6 mức) và phát AlertEvent khi cần thiết.
+[1251]: b) Hai chế độ hoạt động
+[1252]: Chế độ ML (XGBoost): Khi model context_net.pkl tải thành công, module extract vector đặc trưng 16 chiều từ TrackedObject và dự đoán alert level bằng XGBoost:
+[1253]: Chế độ Rule-based (fallback): Khi model không tải được, tự động chuyển sang ContextEngine với 20+ luật cứng có priority. Các luật action-based (priority 175–200) được xét trước, sau đó đến luật role+zone (priority 55–100).
+[1254]: c) Cooldown chống spam
+[1255]: Mỗi cặp (rule_name, track_id) chỉ phát AlertEvent tối đa 1 lần mỗi 30 giây (alert_cooldown = 30.0). Sau khi phát event, đồng hồ cooldown được reset.
+[1256]: 3.2.9. Event Logger và Visualizer
+[1257]: a) EventLogger — modules/event_logger.py
+[1258]: EventLogger ghi tất cả AlertEvent vào file logs/events.jsonl theo định dạng JSONL (JSON Lines — mỗi dòng là một JSON object). Mỗi event chứa:
+[1259]: {
+  "event_id": "evt_20260507_192345_abc123",
+  "datetime": "2026-05-07 19:23:45",
+  "timestamp": 1746617025.3,
+  "level": "alert",
+  "track_id": 154,
+  "object_role": "shipper",
+  "action": "falling",
+  "zone_name": "restricted_area",
+  "reason": "🔴 [ALERT-ML] #154 shipper, action=🚨falling(65%)",
+  "bbox": [120, 80, 340, 420]
+}
+
+[1260]: API GET /api/events hỗ trợ filter theo level, limit, since_timestamp để truy vấn linh hoạt. File JSONL hiện có 12,182 events được ghi từ 2026-03-04 đến 2026-05-07.
+[1261]: b) Visualizer — modules/visualizer.py
+[1262]: Visualizer vẽ annotation lên frame BGR sử dụng OpenCV:
+[1263]: Bounding box: màu theo alert_level (xanh lá=normal, vàng=watch, cam=warning, đỏ=alert, đỏ đậm=critical)
+[1264]: Label: role_icon + role_name + confidence% | action_icon + action_name
+[1265]: Zone overlay: vẽ polygon với màu fill bán trong suốt (alpha=0.15)
+[1266]: FPS counter: góc trên trái
+[1267]: Alert banner: thông báo nổi bật khi có critical event
+[1268]: Frame đã annotate được gửi vào AlertRecorder.push_frame() (pre-buffer) và _latest_frame để stream MJPEG.
+[1269]: 3.3. Giao diện hệ thống — Web Dashboard  
+[1270]: 3.3.1. Cấu trúc giao diện (FastAPI + MJPEG streaming)
+[1271]: a) Kiến trúc web tổng thể
+[1272]: Giao diện người dùng của hệ thống được xây dựng theo mô hình Single Page Application (SPA) trên nền FastAPI, không sử dụng framework frontend nặng (React, Vue) mà dùng HTML5 + CSS3 + Vanilla JavaScript thuần túy để đơn giản hóa việc triển khai.
+[1273]: Kiến trúc client-server hoạt động theo nguyên lý sau:
+[1275]: Hình 8: Kiến trúc của client - server
+[1276]: Lý do chọn MJPEG thay vì WebSocket/WebRTC:
+[1277]: MJPEG hoạt động trực tiếp trên thẻ <img src="/video_feed"> mà không cần JavaScript phức tạp
+[1278]: Tương thích hoàn toàn với mọi browser không cần plugin
+[1279]: Độ trễ chấp nhận được (< 200ms trên LAN) cho ứng dụng giám sát
+[1296]: b) Thiết kế giao diện
+[1297]: Dashboard được thiết kế với theme dark (nền tối #0a0e1a) theo phong cách modern dark UI phù hợp với môi trường vận hành an ninh. Bố cục chia thành hai phần chính:
+[1299]: Hình 9: giao diện DashBoard của hệ thống
+[1300]: Bảng màu alert level trên giao diện:
+[1303]: 3.3.2. Live video stream và danh sách đối tượng theo dõi
+[1304]: a) Video stream (MJPEG)
+[1305]: Frame video được annotate bởi Visualizer (bounding box, nhãn role+action, zone overlay) và encode thành JPEG chất lượng 80% trước khi push qua MJPEG stream. Mỗi frame được bọc trong boundary header chuẩn:
+[1306]: --frame\r\n
+Content-Type: image/jpeg\r\n\r\n
+<JPEG bytes>
+\r\n
+[1307]: b) Danh sách đối tượng theo dõi (Objects Panel)
+[1308]: Panel bên phải hiển thị danh sách tất cả TrackedObject trong frame hiện tại, được cập nhật mỗi 1 giây qua polling GET /api/objects. Mỗi dòng hiển thị:
+[1309]: [alert_badge] 🛵 Shipper (85%) | 🚶 walking (72%) | Track#154
+[1310]: 3.3.3. Bảng cảnh báo (Alert Feed) và thống kê thời gian thực
+[1311]: a) Stats Card (4 chỉ số thời gian thực)
+[1313]: b) Alert Feed
+[1314]: Bảng cảnh báo hiển thị 10 sự kiện mới nhất từ GET /api/events?limit=10, cập nhật mỗi 3 giây.
+[1315]: 🔴 [19:44:22] ALERT — #610 shipper, action=🚨falling(60%) (conf=100%)
+⚠️ [19:47:57] WARNING — #672 worker in 'zone_1', action=🏃running(65%)
+[1316]: 3.3.4. Zone Editor — vẽ vùng giám sát trực tiếp trên video
+[1317]: Zone Editor là tính năng nổi bật của dashboard, cho phép người quản trị tự định nghĩa các vùng giám sát (polygon) bằng cách vẽ trực tiếp trên canvas mà không cần kiến thức kỹ thuật.
+[1318]: 3.4. Hệ thống API (FastAPI)
+[1319]: Hệ thống cung cấp 15 endpoint RESTful (8 GET, 4 POST, 1 DELETE, 2 GET streaming).
+[1320]: 3.4.1. Các endpoint GET
+[1321]: 3.4.2. Các endpoint POST
+[1323]: 3.4. Hệ thống API (FastAPI)  
+[1324]: Hệ thống cung cấp 15 endpoint RESTful (8 GET, 4 POST, 1 DELETE, 2 GET streaming).
+[1325]: 3.4.1. Các endpoint GET
+[1326]: 3.4.2. Các endpoint POST
+[1327]: 3.5. Chuẩn bị và tiền xử lý dữ liệu  
+[1328]: Hệ thống sử dụng ba tập dữ liệu hoàn toàn độc lập cho ba mô hình khác nhau. Mỗi tập có quy trình thu thập, tiền xử lý và augmentation riêng phù hợp với đặc thù bài toán.
+[1329]: 3.5.1. Thu thập dữ liệu ảnh cho RoleNet (21,785 ảnh)
+[1330]: a) Tổng quan tập dữ liệu
+[1331]: b) Phương pháp thu thập — Script collect_images.py
+[1332]: Dữ liệu ảnh được thu thập bán tự động qua script scripts/collect_images.py với hai nguồn bổ sung nhau:
+[1333]: Nguồn 1 — Thu thập web (Google/Bing Images):
+[1334]: Script sử dụng từ khóa tìm kiếm song ngữ Việt-Anh cho từng vai trò:
+[1335]: Mỗi query thu thập tối đa 200 ảnh, lưu vào thư mục con theo cấu trúc:
+[1337]: Nguồn 2 — Open Images Dataset v7:
+[1338]: Bổ sung ảnh từ tập Open Images (Google) với nhãn đã được kiểm duyệt. Các category được ánh xạ thủ công về 16 nhãn mục tiêu:
+[1342]: ...
+[1343]: Nguồn 3 — Tự thu thập:
+[1344]: Sử dụng script scripts/extract_crops_from_video.py để trích xuất person crops từ video thực tế, bổ sung dữ liệu cho các lớp hiếm (civil_guard, postman) khó tìm online.
+[1345]: c) Phân phối dữ liệu theo lớp
+[1346]: Sau thu thập, phân phối ảnh theo vai trò không đồng đều — các lớp phổ biến (shipper, normal, police) có nhiều ảnh hơn các lớp hiếm (civil_guard, postman, technician). Điều này được xử lý ở bước huấn luyện bằng WeightedRandomSampler.
+[1347]: 3.5.2. Xử lý và trích xuất keypoints cho ActionNet
+[1348]: a) Tổng quan tập dữ liệu
+[1349]: b) Pipeline thu thập dữ liệu video
+[1350]: Nguồn 1 — UCF-101 Dataset:
+[1351]: UCF-101 [1] là tập dữ liệu benchmark gồm 13,320 video clip phân thành 101 lớp hành động. Script scripts/fetch_ucf101_keypoints.py ánh xạ các category liên quan về 8 nhãn mục tiêu:
+[1352]: Quy trình xử lý mỗi video:
+[1354]: Nguồn 2 — YouTube videos:
+[1355]: Script scripts/download_action_data.py tải video từ YouTube theo danh sách query cho từng action class. Quy trình tương tự UCF-101, bổ sung dữ liệu thực địa đa dạng hơn (góc camera, điều kiện ánh sáng, trang phục thực tế Việt Nam).
+[1356]: Nguồn 3 — Thu thập thủ công:
+[1357]: Script scripts/collect_action_data.py cho phép ghi nhận hành động trực tiếp từ webcam:
+[1358]: Người thực hiện hành động trước camera
+[1359]: Script tự động trích xuất keypoints và gán nhãn theo phím bấm
+[1360]: Đặc biệt hữu ích cho gathering (cần nhiều người) và fighting (cần demo cẩn thận)
+[1361]: c) Augmentation keypoints
+[1362]: Để tăng tính đa dạng của dữ liệu keypoint mà không cần thu thập thêm video, script áp dụng augmentation trực tiếp trên vector keypoints:
+[1363]: Scale: nhân tọa độ (x, y) với hệ số ngẫu nhiên ∈ [0.9, 1.1]
+[1364]: Translate: dịch chuyển toàn bộ skeleton ±5% theo cả hai chiều
+[1365]: Flip ngang: đảo ngược x-coordinate (x → 1-x), đồng thời hoán đổi keypoints trái-phải
+[1366]: Gaussian noise: thêm nhiễu N(0, 0.01) vào tọa độ
+[1367]: 3.5.3. Sinh dữ liệu tổng hợp cho ContextNet (50,000 mẫu)
+[1368]: a) Chiến lược Rule Distillation
+[1369]: Thay vì thu thập dữ liệu nhãn thật (đòi hỏi nhiều giờ vận hành và gán nhãn thủ công), ContextNet được train trên dữ liệu tổng hợp được sinh bằng script scripts/generate_context_data.py.
+[1370]: Chiến lược sử dụng là Rule Distillation: dùng tri thức đã được encode trong ContextEngine (rule-based) để sinh nhãn huấn luyện cho mô hình học máy. Kết quả là ContextNet học được cùng logic ra quyết định với rule engine, nhưng có khả năng tổng quát hóa tốt hơn sang các tình huống chưa được lập trình tường minh.
+[1371]: b) Quy trình sinh dữ liệu
+[1372]: # Pseudocode của generate_context_data.py
+for i in range(50_000):
+    # 1. Sinh ngẫu nhiên TrackedObject theo phân phối thực tế
+    obj = TrackedObject(
+        role_id        = random_weighted(role_distribution),
+        action_id      = random_weighted(action_distribution),
+        zone_type      = random_choice(['allowed', 'restricted', 'outside']),
+        zone_status    = random_choice(ZoneStatus),
+        loitering      = random_bool(p=0.1),
+        time_in_zone   = random_exponential(mean=30),
+        visit_count    = random_poisson(lambda=1),
+        direction      = random_choice(directions),
+        hour           = random_int(0, 23),
+        identity       = random_choice(['known', 'unknown']),
+        frames_tracked = random_int(1, 300),
+    )
+    
+    # 2. Dùng RuleEngine để lấy nhãn cảnh báo
+    alert_level = rule_engine.evaluate(obj).alert_level
+    
+    # 3. Extract feature vector 16 chiều
+    features = extract_features(obj)
+    
+    # 4. Ghi CSV
+    writer.writerow([*features, alert_level])
+
+[1373]: Phân phối vai trò trong dữ liệu sinh: tái tạo phân phối thực tế quan sát được từ logs (nhiều normal và unknown, ít military và civil_guard) để tránh mô hình bias về các lớp hiếm.
+[1374]: c) Quy mô và chất lượng
+[1375]: Lưu ý quan trọng: Accuracy 99.97% được đo trên tập test *cùng phân phối* với tập train (đều là synthetic). Điều này không phản ánh hiệu năng trên dữ liệu thực tế — trong vận hành thực, kết quả có thể thấp hơn do domain gap giữa dữ liệu tổng hợp và ngữ cảnh thực tế.
+[1376]: 3.5.4. Các bước tiền xử lý và augmentation
+[1377]: a) Tiền xử lý ảnh cho RoleNet — preprocess_dataset.py
+[1378]: Script scripts/preprocess_dataset.py thực hiện các bước sau theo thứ tự:
+[1379]: Bước 1 — Lọc ảnh không hợp lệ:
+[1383]: Ảnh bị mờ: độ lệch chuẩn Laplacian < 10 → loại bỏ
+[1384]: Bước 2 — Khử trùng lặp (Hash-based deduplication):
+[1385]: Tính MD5 hash của ảnh gốc
+[1386]: Loại bỏ ảnh có hash trùng để tránh data leakage giữa train/val/test
+[1387]: Bước 3 — Resize chuẩn hóa:
+[1388]: Resize về 128 × 256 px (Width × Height) bằng cv2.INTER_AREA (giảm kích thước) hoặc INTER_LANCZOS4 (tăng kích thước)
+[1389]: Padding zero nếu aspect ratio lệch quá nhiều
+[1390]: Bước 4 — Chia tập:
+[1391]: Train: 70% (StratifiedSplit theo class để giữ tỷ lệ)
+[1392]: Validation: 15%
+[1393]: Test: 15%
+[1394]: b) Augmentation dữ liệu huấn luyện — augment_dataset.py
+[1395]: Script scripts/augment_dataset.py áp dụng các phép tăng cường tại thời điểm tiền xử lý (offline augmentation) kết hợp với online augmentation trong DataLoader:
+[1396]: Offline augmentation (augment_dataset.py):
+[1397]: Horizontal flip (lật ngang) — nhãn không đổi
+[1398]: Rotation ±15° với padding reflect
+[1400]: HSV Hue jitter ±10 độ (để mô hình bền với biến đổi ánh sáng)
+[1401]: Gaussian blur (kernel 3×3, p=0.3)
+[1402]: Salt & pepper noise (density=0.02, p=0.2)
+[1403]: Random crop với padding 10% mỗi cạnh
+[1404]: Online augmentation (trong DataLoader khi training):
+[1405]: Khi huấn luyện RoleNet V3, DataLoader áp dụng thêm:
+[1406]: TrivialAugmentWide: tự động chọn phép biến đổi và biên độ — bao gồm AutoContrast, Equalize, Rotate, Solarize, Color, Posterize, Contrast, Brightness, Sharpness, ShearX/Y, TranslateX/Y
+[1407]: MixUp (p=0.3): trộn hai ảnh theo lambda ~ Beta(0.4, 0.4), label = weighted average
+[1408]: CutMix (p=0.3): cắt-dán vùng ảnh ngẫu nhiên, label = tỷ lệ diện tích
+[1409]: Chuẩn hóa đầu vào:
+[1410]: transforms.Normalize(
+    mean=[0.485, 0.456, 0.406],  # ImageNet mean
+    std =[0.229, 0.224, 0.225]   # ImageNet std
+)
+[1411]: c) Kiểm tra trạng thái dataset — dataset_status.py
+[1412]: Script scripts/dataset_status.py cung cấp báo cáo tổng hợp về trạng thái các tập dữ liệu:
+[1413]: Số lượng ảnh theo từng class
+[1414]: Tỷ lệ mất cân bằng (imbalance ratio)
+[1415]: Số ảnh sau augmentation
+[1416]: Cảnh báo nếu class có quá ít mẫu (< 50 ảnh)
+[1417]: 3.6. Huấn luyện các mô hình trên Google Colab  
+[1418]: Ba mô hình học sâu/học máy của hệ thống được huấn luyện theo quy trình riêng biệt, trong đó RoleNet và ActionNet được train trên GPU (Google Colab), còn ContextNet được train trên CPU do XGBoost không cần GPU.
+[1422]: 3.6.1. Huấn luyện RoleNet V3
+[1423]: a) Cấu hình và biên dịch mô hình
+[1424]: RoleNet V3 sử dụng backbone ConvNeXt-Tiny từ thư viện timm, được khởi tạo với trọng số pretrained ImageNet-1K (pretrained=True) và gắn thêm classification head tùy chỉnh:
+[1425]: # Tái tạo kiến trúc RoleNet V3
+backbone = timm.create_model(
+    "convnext_tiny",
+    pretrained=True,
+    num_classes=0,       # Bỏ head gốc của timm
+    drop_rate=0.3
+)
+in_features = backbone.num_features  # 768
+
+head = nn.Sequential(
+    nn.AdaptiveAvgPool2d(1),
+    nn.Flatten(),
+    nn.LayerNorm(in_features),    # 768
+    nn.Dropout(p=0.3),
+    nn.Linear(in_features, 256),
+    nn.GELU(),
+    nn.Dropout(p=0.15),
+    nn.Linear(256, 16),           # 16 vai trò
+)
+
+[1426]: Cấu hình huấn luyện:
+[1427]: Chiến lược Progressive Unfreezing:
+[1428]: Epoch 1–10 (Phase 1 — Head only): Đóng băng (freeze) toàn bộ backbone ConvNeXt, chỉ train classification head. Learning rate = 3e-4.
+[1429]: Epoch 11–50 (Phase 2 — Full fine-tuning): Mở khóa (unfreeze) toàn bộ backbone, giảm LR backbone xuống 3e-5. Backbone và head train đồng thời.
+[1430]: WeightedRandomSampler để xử lý mất cân bằng dữ liệu:
+[1431]: class_counts  = [n_samples_per_class]
+class_weights = 1.0 / torch.tensor(class_counts, dtype=torch.float)
+sample_weights = class_weights[y_train]
+sampler = WeightedRandomSampler(
+    weights     = sample_weights,
+    num_samples = len(sample_weights),
+    replacement = True
+)
+
+[1433]: b) Kết quả qua 3 phiên bản
+[1435]: Dữ liệu: Tăng từ ~8,000 lên 21,785 ảnh (~2.7×) — đây là yếu tố quan trọng nhất
+[1436]: Kiến trúc: ConvNeXt-Tiny với LayerNorm thay BatchNorm ổn định hơn khi fine-tune, đặc biệt khi batch size nhỏ
+[1437]: Lưu ý về validation accuracy ~99.96%: Kết quả này được đo trên tập validation nội bộ (cùng phân phối với tập train). Trong vận hành thực tế với camera Việt Nam, độ chính xác thấp hơn đáng kể do domain gap (ánh sáng, góc camera, chất lượng ảnh thấp hơn internet). Điều này được xác nhận qua eval_report thực tế (xem Mục 3.7).
+[1438]: c) Export sang ONNX (rolenet_v3.onnx, rolenet_v3_quant.onnx)
+[1439]: Sau khi huấn luyện, model PyTorch được export sang định dạng ONNX để tăng tốc inference trên CPU thông qua script scripts/export_onnx.py:
+[1440]: Quy trình export:
+[1441]: 1. Load checkpoint rolenet_v3_best.pt
+2. Tái tạo kiến trúc ConvNeXt-Tiny + head (phải khớp với lúc train)
+3. torch.onnx.export() với:
+   - opset_version = 17
+   - dynamic_axes  = {batch_size}      (hỗ trợ batch khác nhau)
+   - do_constant_folding = True        (tối ưu đồ thị tính toán)
+4. Verify: so sánh output PyTorch vs ONNX (max diff < 1e-4)
+5. [Tùy chọn] quantize_dynamic() → INT8
+
+[1442]: Kết quả export:
+[1443]: Tốc độ inference so sánh (CPU, 100 runs):
+[1444]: Pipeline ưu tiên ONNX INT8 nếu file rolenet_v3_quant.onnx tồn tại, giúp giảm thời gian inference RoleNet từ ~100ms xuống còn ~30ms/frame.
+[1445]: 3.6.2. Huấn luyện ContextNet (XGBoost, 300 estimators)
+[1446]: a) Quy trình huấn luyện — train_context_model.py
+[1447]: ContextNet được huấn luyện bằng script scripts/train_context_model.py với quy trình hoàn toàn tự động:
+[1448]: python scripts/generate_context_data.py   # Sinh 50,000 mẫu synthetic
+python scripts/train_context_model.py     # Train XGBoost, lưu pkl
+[1449]: Quy trình chi tiết trong train_context_model.py:
+[1450]: Bước 1 — Load dữ liệu:
+[1452]: Bước 2 — Encode nhãn theo thứ tự severity:
+[1453]: ALERT_ORDER = ["ignore", "normal", "watch", "warning", "alert", "critical"]
+# LabelEncoder theo thứ tự này đảm bảo:
+# ignore=0, normal=1, watch=2, warning=3, alert=4, critical=5
+
+[1454]: Thứ tự này quan trọng vì multi:softprob của XGBoost cần các class được đánh số nhất quán giữa train và inference.
+[1455]: Bước 3 — Chia tập (Stratified Split):
+[1456]: X_train, X_test = train_test_split(
+    X, y,
+    test_size    = 0.15,   # 42,500 train / 7,500 test
+    random_state = 42,
+    stratify     = y       # Giữ tỷ lệ class trong cả hai tập
+)
+
+[1457]: Bước 4 — Train với Sample Weights:
+[1458]: # Xử lý mất cân bằng bằng sample weights
+class_counts  = np.bincount(y_train)
+class_weights = len(y_train) / (len(class_counts) * (class_counts + 1e-9))
+sample_weights = class_weights[y_train]  # weight cao hơn cho class hiếm
+
+model = xgb.XGBClassifier(
+    n_estimators     = 300,
+    max_depth        = 6,
+    learning_rate    = 0.1,
+    subsample        = 0.85,
+    colsample_bytree = 0.85,
+    min_child_weight = 3,
+    eval_metric      = "mlogloss",
+    random_state     = 42,
+    n_jobs           = -1,    # Dùng toàn bộ CPU
+)
+model.fit(X_train, y_train, sample_weight=sample_weights)
+[1459]: Bước 5 — Lưu artifacts:
+[1460]: models/context_net.pkl: bundle chứa {model, label_encoder, feature_names, accuracy}
+[1461]: models/context_net_meta.json: metadata dạng JSON để đọc không cần pickle
+[1462]: Bước 6 — SHAP Explainability (tùy chọn):
+[1463]: Script tự động tạo SHAP summary plot (reports/context_net_shap.png) nếu thư viện shap đã cài. Plot này cho thấy feature nào ảnh hưởng nhiều nhất đến quyết định của model.
+[1464]: b) Kết quả và feature importance
+[1465]: Kết quả trên tập test:
+[1466]: Feature Importance (top 5 — từ XGBoost):
+[1467]: 3.6.3. Huấn luyện ActionNet (GRU, trên GPU Colab)
+[1468]: a) Kiến trúc model và cấu hình
+[1469]: ActionNet sử dụng mạng GRU 2 lớp được định nghĩa trong PyTorch:
+[1470]: class ActionGRU(nn.Module):
+    def __init__(self, input_dim=132, hidden_size=128, num_layers=2,
+                 num_classes=8, dropout=0.4):
+        super().__init__()
+        self.gru  = nn.GRU(
+            input_size  = input_dim,    # 33 keypoints × 4 = 132
+            hidden_size = hidden_size,  # 128
+            num_layers  = num_layers,   # 2
+            dropout     = dropout,      # 0.4 (giữa các GRU layer)
+            batch_first = True
+        )
+        self.head = nn.Sequential(
+            nn.LayerNorm(hidden_size),
+            nn.Dropout(p=dropout),
+            nn.Linear(hidden_size, 64),
+            nn.GELU(),
+            nn.Dropout(p=0.2),
+            nn.Linear(64, num_classes),  # 8 actions
+        )
+
+    def forward(self, x):
+        # x: (batch, seq=20, input_dim=132)
+        out, _ = self.gru(x)
+        return self.head(out[:, -1, :])  # Lấy hidden state cuối
+[1472]: Cấu hình huấn luyện:
+[1473]: Class weights để xử lý mất cân bằng:
+[1474]: # Số mẫu thực tế theo hành động (ước tính)
+class_counts = {
+    "standing"    : nhiều nhất,
+    "walking"     : nhiều,
+    "running"     : trung bình,
+    "raising_hand": trung bình,
+    "gathering"   : ít,
+    "falling"     : ít,
+    "climbing"    : ít nhất,
+    "fighting"    : ít nhất,
+}
+class_weights = total / (n_classes × class_counts)
+criterion = nn.CrossEntropyLoss(weight=class_weights)
+[1475]: b) Kết quả huấn luyện
+[1476]: Phân tích kết quả:
+[1477]: Val 95.31% vs Test 90.62% — Gap ~4.7% cho thấy có một mức overfitting nhỏ, chấp nhận được với bài toán chuỗi thời gian.
+[1478]: Model size 0.84 MB — Cực kỳ nhẹ so với RoleNet (112 MB), phù hợp để load nhanh và chạy nhiều instance (per-track buffer).
+[1479]: Các hành động standing và walking có accuracy cao nhất; fighting và gathering thấp hơn do ít dữ liệu và đặc trưng không gian-thời gian phức tạp hơn.
+[1480]: c) Đặc điểm quan trọng — Per-Track Buffer Management
+[1481]: ActionNet không load dữ liệu một lần mà duy trì buffer riêng cho từng track_id:
+[1483]: Khi track bị xóa (đối tượng rời camera), buffer tương ứng được giải phóng để tránh memory leak:
+[1484]: def cleanup_lost_tracks(self, active_track_ids: set):
+    lost = set(self._buffers.keys()) - active_track_ids
+    for tid in lost:
+        del self._buffers[tid]
+[1485]: 3.7. Đánh giá mô hình  
+[1486]: Phần đánh giá được thực hiện ở hai cấp độ: đánh giá offline (trên tập test chuẩn sau khi huấn luyện) và đánh giá online (quan sát trong quá trình vận hành thực tế qua eval_report).
+[1487]: 3.7.1. Đánh giá RoleNet qua Accuracy và Confusion Matrix
+[1488]: a) Kết quả tổng hợp ba phiên bản
+[1489]: b) Phân tích Confusion Matrix (RoleNet V3)
+[1490]: Trên tập validation, RoleNet V3 cho kết quả rất cao trên hầu hết các lớp. Các trường hợp nhầm lẫn chính quan sát được:
+[1491]: Nhầm lẫn thường gặp nhất:
+[1492]: c) Đánh giá thực tế — Domain Gap
+[1493]: Eval report ngày 07/05/2026 ghi nhận người dùng đánh giá role classification = N (không chính xác) khi chạy với file video thực tế. Điều này phản ánh hiện tượng domain gap đã dự đoán:
+[1494]: Dữ liệu training: ảnh chất lượng cao từ internet, nhiều góc, ánh sáng tốt
+[1495]: Dữ liệu thực tế: camera góc cao, ảnh n nén, crop nhỏ (người ở xa), ánh sáng phức tạp
+[1496]: 3.7.2. Đánh giá ActionNet (Val: 95.31%, Test: 90.62%)
+[1497]: a) Kết quả đánh giá offline
+[1498]: b) Đánh giá thực tế
+[1499]: Eval report ghi nhận action recognition = N trong vận hành với file video, chủ yếu do:
+[1500]: action=unknown chiếm 12,029/12,182 events (98.7%) — Model không tự tin đủ (confidence < 0.45) hoặc buffer chưa đủ 20 frame
+[1501]: Nguyên nhân kỹ thuật: Với file video loop ở tốc độ thấp, mỗi track_id chỉ tồn tại vài giây trước khi reset → buffer không bao giờ đầy đủ 20 frame
+[1502]: Kết quả quan sát được từ log: standing: 102, falling: 38, running: 9, walking: 4 — một số hành động được nhận diện nhưng tỷ lệ thấp
+[1503]: 3.7.3. Đánh giá ContextNet (phân loại 6 mức cảnh báo)
+[1504]: a) Kết quả đánh giá offline (synthetic data)
+[1505]: 3.7.4. Đánh giá hiệu năng pipeline tổng thể (FPS, độ trễ)
+[1506]: a) Đo lường FPS thực tế
+[1508]: 3.8. Tích hợp mô hình vào hệ thống  
+[1509]: Việc tích hợp ba mô hình AI vào pipeline thống nhất là một trong những thách thức kỹ thuật quan trọng nhất của đề tài. Mỗi module được thiết kế độc lập nhưng cần giao tiếp linh hoạt thông qua cấu trúc dữ liệu TrackedObject chung.
+[1511]: a) Cơ chế khởi tạo với auto-detection
+[1512]: RoleClassifier.__init__() tự động phát hiện và tải model theo thứ tự ưu tiên khi khởi động:
+[1513]: class RoleClassifier:
+    def __init__(self):
+        self.mode = None  # "onnx_int8" | "onnx_fp32" | "pt_v3" | "pt_v2" | "pt_v1" | "rule"
+        self._setup_model()
+
+    def _setup_model(self):
+        # Ưu tiên 1: ONNX INT8 (nhanh nhất)
+        if self._try_load_onnx_int8():
+            self.mode = "onnx_int8"
+            return
+        # Ưu tiên 2: ONNX FP32
+        if self._try_load_onnx_fp32():
+            self.mode = "onnx_fp32"
+            return
+        # Ưu tiên 3: PyTorch V3
+        if self._try_load_pytorch("v3"):
+            self.mode = "pt_v3"
+            return
+        # Ưu tiên 4: PyTorch V2
+        if self._try_load_pytorch("v2"):
+            self.mode = "pt_v2"
+            return
+        # Ưu tiên 5: PyTorch V1
+        if self._try_load_pytorch("v1"):
+            self.mode = "pt_v1"
+            return
+        # Luôn hoạt động: Rule-based
+        self.mode = "rule"
+        logger.warning("RoleClassifier: chạy ở chế độ rule-based (không có model)")
+
+[1514]: Trong vận hành hiện tại, pipeline load thành công ONNX INT8 (rolenet_v3_quant.onnx, 28.4 MB) — chế độ nhanh nhất và ưu tiên nhất.
+[1515]: b) Inference pipeline với TTA
+[1516]: Khi gọi classify(frame, tracked_obj):
+[1517]: 1. Cắt person crop từ frame theo bbox
+2. Resize → 128×256 px
+3. Chuẩn hóa ImageNet (mean/std)
+
+4a. ONNX path:
+    - Chạy sess.run(["logits"], {"input": img_array})
+    - softmax → xác suất gốc
+    (không TTA để tiết kiệm thời gian)
+
+4b. PyTorch path (V2/V3):
+    - Forward pass ảnh gốc → p1
+    - Forward pass ảnh flip ngang → p2
+    - p_final = (p1 + p2) / 2.0  (TTA)
+
+5. argmax → role_id
+6. confidence < threshold → role = "unknown"
+7. Cập nhật TrackedObject.role, role_confidence
+[1518]: c) Per-track cache với adaptive skip
+[1519]: # pipeline.py — trong _process_person_parallel()
+def _should_run_role(self, track_id, frame_count):
+    last = self._role_last_frame.get(track_id, -999)
+    return (frame_count - last) >= self._role_skip
+
+def _run_role_cached(self, frame, obj, frame_count):
+    if self._should_run_role(obj.track_id, frame_count):
+        result = self.role_clf.classify(frame, obj)
+        self._role_cache[obj.track_id] = result
+        self._role_last_frame[obj.track_id] = frame_count
+    else:
+        result = self._role_cache.get(obj.track_id)
+    return result
+[1521]: 3.8.2. Tích hợp ActionNet — cơ chế 3 tầng
+[1522]: a) Cơ chế Thread-Safety với MediaPipe Lock
+[1523]: MediaPipe Pose không thread-safe. Tất cả lần gọi MediaPipe phải được serialize bằng global lock:
+[1524]: # action_recognizer.py
+_mp_lock = threading.Lock()  # Global lock — chia sẻ cho tất cả instance
+
+class ActionRecognizer:
+    def _extract_keypoints(self, frame_rgb):
+        with _mp_lock:  # Chỉ 1 thread được gọi MediaPipe tại 1 thời điểm
+            results = self._pose.process(frame_rgb)
+        return self._parse_landmarks(results)
+
+[1525]: ActionRecognizer được gọi tuần tự (không dùng ThreadPoolExecutor), trong khi RoleClassifier và IdentityManager chạy song song trong thread pool. Điều này đảm bảo MediaPipe luôn được gọi từ 1 thread duy nhất.
+[1526]: b) Round-Robin Scheduling
+[1527]: # pipeline.py — trong _process_frame()
+persons = [obj for obj in tracked if obj.category == "person"]
+n = len(persons)
+if n > 0:
+    # Chỉ xử lý 1 người được luân phiên mỗi frame
+    action_idx = self._frame_count % n
+    person_for_action = persons[action_idx]
+
+    if (self._frame_count - self._action_last_frame.get(
+            person_for_action.track_id, -999)) >= self._action_skip:
+        self.action_rec.recognize(frame, person_for_action)
+        self._action_last_frame[person_for_action.track_id] = self._frame_count
+
+[1528]: Hiệu quả: với N=3 người và action_skip=3, MediaPipe chạy 1 lần mỗi 3 frame thay vì 3 lần mỗi frame.
+[1529]: c) Fallback detection tự động
+[1530]: Khi khởi động, ActionRecognizer tự kiểm tra:
+[1531]: def _detect_mode(self):
+    if self._try_load_gru() and self._try_load_mediapipe():
+        return "ml_actionnet_gru"     # Chế độ đầy đủ
+    elif self._try_load_mediapipe():
+        return "rule_keypoint"         # MediaPipe có, GRU không có
+    else:
+        return "rule_velocity"         # Chỉ dùng bbox + velocity
+
+[1532]: Status hiện tại (từ eval_report): action_mode: ml_actionnet_gru, gru_available: True, mp_available: True — đang chạy ở chế độ tốt nhất.
+[1533]: 3.8.3. Tích hợp ContextNet — XGBoost + Rule fallback
+[1534]: a) Feature extraction từ TrackedObject
+[1535]: ContextEngineML extract vector đặc trưng 16 chiều từ TrackedObject trước mỗi lần inference:
+[1536]: # context_engine_ml.py
+def _extract_features(self, obj: TrackedObject) -> np.ndarray:
+    # Encode categorical thành số nguyên
+    role_id      = ROLE_ID_MAP.get(obj.role, 0)
+    identity_id  = 1 if obj.identity == "KNOWN" else 0
+    zone_type_id = ZONE_TYPE_MAP.get(obj.zone_type, 0)
+    zone_status_id = ZONE_STATUS_MAP.get(str(obj.zone_status), 0)
+    action_id    = ACTION_ID_MAP.get(obj.action, 0)
+    category_id  = CATEGORY_ID_MAP.get(obj.category, 0)
+    direction_id = DIRECTION_MAP.get(obj.direction, 0)
+
+    # Thời gian
+    now  = time.localtime()
+    hour = now.tm_hour
+    is_night         = 1 if (hour >= 22 or hour < 6) else 0
+    is_business_hour = 1 if (8 <= hour <= 18 and now.tm_wday < 5) else 0
+
+    return np.array([[
+        role_id, identity_id, zone_type_id, zone_status_id,
+        int(obj.loitering), obj.time_in_zone, obj.visit_count, direction_id,
+        hour, obj.role_confidence, category_id, obj.frames_tracked,
+        is_night, is_business_hour,
+        action_id, obj.action_confidence,
+    ]], dtype=np.float32)
+
+[1537]: b) Cooldown mechanism
+[1538]: # context_engine_ml.py
+def _should_emit_event(self, rule_name: str, track_id: int) -> bool:
+    key = (rule_name, track_id)
+    last_time = self._cooldown_map.get(key, 0)
+    if time.time() - last_time >= self._cooldown:  # 30 giây
+        self._cooldown_map[key] = time.time()
+        return True
+    return False
+
+[1539]: Cooldown 30 giây đảm bảo mỗi cặp (loại cảnh báo, đối tượng) không spam quá 1 alert mỗi 30s.
+[1543]: class ContextEngineML:
+    def evaluate(self, obj: TrackedObject) -> AlertResult:
+        if self._model is not None:
+            try:
+                features = self._extract_features(obj)
+                pred = self._model.predict(features)[0]
+                level = self._le.inverse_transform([pred])[0]
+                return AlertResult(level=level, source="ml")
+            except Exception as e:
+                logger.warning(f"ML predict failed: {e}, fallback to rules")
+
+        # Fallback hoàn toàn trong suốt với caller
+        return self._rule_engine.evaluate(obj)
+
+[1544]: Giao diện evaluate() giữ nguyên bất kể đang dùng ML hay rule-based, nên toàn bộ pipeline không cần biết chế độ nào đang chạy.
+[1545]: 3.8.4. Orchestrator đa luồng — pipeline.py
+[1546]: a) Kiến trúc CameraPipeline
+[1547]: CameraPipeline là lớp trung tâm kết nối tất cả 14 module thành một pipeline hoàn chỉnh. Có hai chế độ chạy:
+[1548]: Standalone: pipeline.run() — vòng lặp blocking trong main thread
+[1549]: Background thread: pipeline.start_background() — khởi động daemon thread, dùng cho FastAPI
+[1550]: class CameraPipeline:
+    def __init__(self, source=None):
+        # Khởi tạo 14 module
+        self.video      = VideoProcessor(source)
+        self.detector   = ObjectDetector()
+        self.tracker    = ObjectTracker()
+        self.role_clf   = RoleClassifier()
+        self.action_rec = ActionRecognizer()
+        self.identity   = IdentityManager(KNOWN_FACES_DIR)
+        self.zone_det   = ZoneDetector()
+        self.behavior   = BehaviorAnalyzer()
+        self.ctx_eng    = ContextEngine()        # ContextEngineML
+        self.visualizer = Visualizer()
+        self.evt_log    = EventLogger(...)
+        self.telegram   = TelegramNotifier()
+        self.recorder   = AlertRecorder(RECORDINGS_DIR)
+
+        # Thread safety
+        self._result_lock = threading.Lock()
+        self._latest_result: Optional[FrameResult] = None
+        self._latest_frame: Optional[np.ndarray] = None
+
+    def start_background(self):
+        self._thread = threading.Thread(
+            target=self._run_loop,
+            daemon=True,
+            name="CameraPipeline"
+        )
+        self._thread.start()
+
+[1561]: b) Vòng lặp xử lý chính — _process_frame()
+[1562]: Mỗi frame đi qua chuỗi xử lý sau:
+[1564]: Hình 10: sơ đồ pipeline xử lý video AI realtime 
+[1565]: c) Adaptive Skip Rate — _adapt_skip_rates()
+[1566]: def _adapt_skip_rates(self):
+    """Tự động điều chỉnh skip rates dựa trên FPS thực tế."""
+    fps = self.get_fps()
+    target = PERF_CONFIG["fps_target"]  # 15 FPS
+
+    if fps < target * 0.6:  # FPS < 9 (60% target)
+        # Tăng skip → giảm tải
+        self._role_skip   = min(self._role_skip + 1,   PERF_CONFIG["max_role_skip"])   # max 20
+        self._action_skip = min(self._action_skip + 1, PERF_CONFIG["max_action_skip"]) # max 15
+    elif fps > target * 0.9:  # FPS > 13.5 (90% target)
+        # Giảm skip → tăng chất lượng
+        self._role_skip   = max(self._role_skip - 1,   PERF_CONFIG["role_skip_frames"])   # min 8
+        self._action_skip = max(self._action_skip - 1, PERF_CONFIG["action_skip_frames"]) # min 3
+
+[1567]: Adaptive skip được gọi mỗi 30 frame, cho phép pipeline tự cân bằng giữa chất lượng inference và tốc độ xử lý.
+[1568]: d) AlertRecorder — Ghi clip video theo sự kiện
+[1569]: AlertRecorder duy trì một pre-buffer circular gồm 5 giây frame gần nhất (75 frame @ 15 FPS):
+[1570]: Trạng thái IDLE:
+    push_frame(frame) → lưu vào pre_buffer (deque maxlen=75)
+    Khi nhận alert event → chuyển sang RECORDING
+
+Trạng thái RECORDING:
+    Ghi pre_buffer (5s đã qua) + các frame mới vào file MP4
+    Ghi tiếp post_buffer_sec=8 giây
+    → Tổng clip: 5 + 8 = 13 giây per event
+    Sau đó → quay về IDLE (cooldown 20 giây)
+
+[1571]: File clip được lưu tại recordings/alert_YYYYMMDD_HHMMSS_trackNN.mp4. API GET /api/recorder/clips trả danh sách và GET /api/recorder/clips/{filename} cho phép download trực tiếp.
+[1572]: e) TelegramNotifier — Push notification
+[1574]: def notify(self, event: AlertEvent, frame: np.ndarray):
+    if not self.enabled or event.level < self.min_level:
+        return
+    if time.time() - self._last_sent.get(event.track_id, 0) < self.cooldown_sec:
+        return  # Cooldown per track_id
+
+    message = (
+        f"🚨 *AI Security Alert*\n"
+        f"Level: `{event.level.upper()}`\n"
+        f"Track: #{event.track_id} ({event.object_role})\n"
+        f"Action: {event.action}\n"
+        f"Zone: {event.zone_name}\n"
+        f"Time: {event.datetime}\n"
+        f"Reason: {event.reason}"
+    )
+
+    if self.send_photo and frame is not None:
+        # Encode frame → JPEG → gửi kèm ảnh snapshot
+        self._send_photo_message(message, frame)
+    else:
+        self._send_text_message(message)
+
+[1575]: Cấu hình Telegram được cập nhật runtime qua API POST /api/telegram/config mà không cần restart server.
+[1593]: ĐẠI HỌC THÁI NGUYÊN	           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+[1594]:  TRƯỜNG ĐẠI HỌC CÔNG NGHỆ                    Độc lập - Tự do - Hạnh phúc
+[1595]:   THÔNG TIN VÀ TRUYỀN THÔNG 	        
+[1597]: LỜI CAM ĐOAN
+[1598]: (kèm theo Thông báo số: … /TB-ĐH CNTT&TT ngày … tháng 3 năm 2025 
+[1599]: của Hiệu trưởng Trường ĐH CNTT&TT)
+[1601]: Em xin cam đoan đã thực hiện việc kiểm tra mức độ tương đồng nội dung (ĐA/KLTN) qua phần mềm Turnitin một cách trung thực và đạt kết quả mức độ tương đồng 14 %. Bản đề tài (ĐA/KLTN/TTĐA) kiểm tra qua phần mềm là bản cứng đã nộp để bảo vệ trước hội đồng. 
+[1602]: Nếu sai em xin hoàn toàn chịu trách nhiệm.
+[1603]: Xin chân thành cảm ơn./.
+[1604]: Thái Nguyên, ngày   tháng 4  năm 2026
+[1607]: NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN
+[1608]: …………………………………………………………………………………………...
+[1609]: …………………………………………………………………………………………...
+[1610]: …………………………………………………………………………………………...
+[1611]: …………………………………………………………………………………………...
+[1612]: …………………………………………………………………………………………...
+[1613]: …………………………………………………………………………………………...
+[1614]: …………………………………………………………………………………………...
+[1615]: …………………………………………………………………………………………...
+[1616]: …………………………………………………………………………………………...
+[1617]: …………………………………………………………………………………………...
+[1618]: …………………………………………………………………………………………...
+[1619]: …………………………………………………………………………………………...
+[1620]: …………………………………………………………………………………………...
+[1621]: …………………………………………………………………………………………...
+[1622]: …………………………………………………………………………………………...
+[1623]: …………………………………………………………………………………………...
+[1624]: …………………………………………………………………………………………...
+[1625]: …………………………………………………………………………………………...
+[1626]: …………………………………………………………………………………………...
+[1627]: Thái Nguyên, ngày …. tháng …. năm 2026
+[1628]: 						  GIÁO VIÊN HƯỚNG DẪN

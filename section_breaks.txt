@@ -1,0 +1,4 @@
+Paragraphs with section breaks:
+Paragraph [0049] has a section break. Text: 'Thái Nguyên, tháng 4  năm 2026'
+Paragraph [0079] has a section break. Text: 'DANH MỤC BẢNG BIỂU'
+Paragraph [0144] has a section break. Text: ''

@@ -1,0 +1,233 @@
+<svg viewBox="0 0 1000 650" width="1000" height="650" xmlns="http://www.w3.org/2000/svg">
+  <!-- CSS -->
+  <style>
+    .title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 26px; font-weight: bold; fill: #2b6cb0; }
+    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; fill: #4a5568; }
+    .box-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #2d3748; text-anchor: middle; alignment-baseline: middle; }
+    .sub-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 15px; fill: #718096; text-anchor: middle; }
+    .line { stroke: #2b6cb0; stroke-width: 3; marker-end: url(#arrow); }
+    .nn-line { stroke: #cbd5e0; stroke-width: 1.5; }
+    .nn-node-input { fill: #63b3ed; stroke: #3182ce; stroke-width: 2; }
+    .nn-node-hidden { fill: #fbd38d; stroke: #dd6b20; stroke-width: 2; }
+    .nn-node-output { fill: #9ae6b4; stroke: #38a169; stroke-width: 2; }
+    .box { fill: #ffffff; stroke: #cbd5e0; stroke-width: 2; rx: 12; ry: 12; }
+  </style>
+
+  <!-- Defs for arrowheads -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2b6cb0" />
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="650" fill="#f7fafc" rx="15" ry="15" />
+
+  <!-- SECTION 1: MACHINE LEARNING -->
+  <text x="500" y="50" class="title" text-anchor="middle">Học Máy (Machine Learning)</text>
+  
+  <!-- Input -->
+  <rect x="80" y="80" width="140" height="80" class="box" />
+  <text x="150" y="125" class="box-text">Đầu vào</text>
+  <line x1="220" y1="120" x2="280" y2="120" class="line" />
+
+  <!-- Feature Extraction -->
+  <rect x="280" y="80" width="220" height="80" class="box" />
+  <text x="390" y="125" class="box-text">Trích xuất đặc trưng</text>
+  <line x1="500" y1="120" x2="560" y2="120" class="line" />
+
+  <!-- Classification -->
+  <rect x="560" y="80" width="160" height="80" class="box" />
+  <text x="640" y="125" class="box-text">Phân loại</text>
+  <line x1="720" y1="120" x2="780" y2="120" class="line" />
+
+  <!-- Output -->
+  <rect x="780" y="80" width="140" height="80" class="box" />
+  <text x="850" y="125" class="box-text">Đầu ra</text>
+  
+  <text x="500" y="210" class="subtitle" text-anchor="middle">Học máy truyền thống sử dụng các đặc trưng được thiết kế thủ công, tốn nhiều thời gian và chi phí để phát triển.</text>
+
+  <!-- Divider -->
+  <line x1="50" y1="250" x2="950" y2="250" stroke="#e2e8f0" stroke-width="2" />
+
+  <!-- SECTION 2: DEEP LEARNING -->
+  <text x="500" y="300" class="title" text-anchor="middle">Học Sâu (Deep Learning)</text>
+
+  <!-- Input -->
+  <rect x="80" y="380" width="140" height="80" class="box" />
+  <text x="150" y="425" class="box-text">Đầu vào</text>
+  <line x1="220" y1="420" x2="260" y2="420" class="line" />
+
+  <!-- Neural Network Box -->
+  <rect x="260" y="320" width="480" height="250" class="box" fill="#ffffff" stroke="#e2e8f0" />
+  <text x="500" y="550" class="title" style="font-size:20px; fill:#4a5568;" text-anchor="middle">Mạng Nơ-ron (Neural Networks)</text>
+  
+  <!-- NN Nodes generation will be injected here -->
+  <line x1="310" y1="368" x2="405" y2="355" class="nn-line" />
+<line x1="310" y1="368" x2="405" y2="381" class="nn-line" />
+<line x1="310" y1="368" x2="405" y2="407" class="nn-line" />
+<line x1="310" y1="368" x2="405" y2="433" class="nn-line" />
+<line x1="310" y1="368" x2="405" y2="459" class="nn-line" />
+<line x1="310" y1="368" x2="405" y2="485" class="nn-line" />
+<line x1="310" y1="394" x2="405" y2="355" class="nn-line" />
+<line x1="310" y1="394" x2="405" y2="381" class="nn-line" />
+<line x1="310" y1="394" x2="405" y2="407" class="nn-line" />
+<line x1="310" y1="394" x2="405" y2="433" class="nn-line" />
+<line x1="310" y1="394" x2="405" y2="459" class="nn-line" />
+<line x1="310" y1="394" x2="405" y2="485" class="nn-line" />
+<line x1="310" y1="420" x2="405" y2="355" class="nn-line" />
+<line x1="310" y1="420" x2="405" y2="381" class="nn-line" />
+<line x1="310" y1="420" x2="405" y2="407" class="nn-line" />
+<line x1="310" y1="420" x2="405" y2="433" class="nn-line" />
+<line x1="310" y1="420" x2="405" y2="459" class="nn-line" />
+<line x1="310" y1="420" x2="405" y2="485" class="nn-line" />
+<line x1="310" y1="446" x2="405" y2="355" class="nn-line" />
+<line x1="310" y1="446" x2="405" y2="381" class="nn-line" />
+<line x1="310" y1="446" x2="405" y2="407" class="nn-line" />
+<line x1="310" y1="446" x2="405" y2="433" class="nn-line" />
+<line x1="310" y1="446" x2="405" y2="459" class="nn-line" />
+<line x1="310" y1="446" x2="405" y2="485" class="nn-line" />
+<line x1="310" y1="472" x2="405" y2="355" class="nn-line" />
+<line x1="310" y1="472" x2="405" y2="381" class="nn-line" />
+<line x1="310" y1="472" x2="405" y2="407" class="nn-line" />
+<line x1="310" y1="472" x2="405" y2="433" class="nn-line" />
+<line x1="310" y1="472" x2="405" y2="459" class="nn-line" />
+<line x1="310" y1="472" x2="405" y2="485" class="nn-line" />
+<line x1="405" y1="355" x2="500" y2="355" class="nn-line" />
+<line x1="405" y1="355" x2="500" y2="381" class="nn-line" />
+<line x1="405" y1="355" x2="500" y2="407" class="nn-line" />
+<line x1="405" y1="355" x2="500" y2="433" class="nn-line" />
+<line x1="405" y1="355" x2="500" y2="459" class="nn-line" />
+<line x1="405" y1="355" x2="500" y2="485" class="nn-line" />
+<line x1="405" y1="381" x2="500" y2="355" class="nn-line" />
+<line x1="405" y1="381" x2="500" y2="381" class="nn-line" />
+<line x1="405" y1="381" x2="500" y2="407" class="nn-line" />
+<line x1="405" y1="381" x2="500" y2="433" class="nn-line" />
+<line x1="405" y1="381" x2="500" y2="459" class="nn-line" />
+<line x1="405" y1="381" x2="500" y2="485" class="nn-line" />
+<line x1="405" y1="407" x2="500" y2="355" class="nn-line" />
+<line x1="405" y1="407" x2="500" y2="381" class="nn-line" />
+<line x1="405" y1="407" x2="500" y2="407" class="nn-line" />
+<line x1="405" y1="407" x2="500" y2="433" class="nn-line" />
+<line x1="405" y1="407" x2="500" y2="459" class="nn-line" />
+<line x1="405" y1="407" x2="500" y2="485" class="nn-line" />
+<line x1="405" y1="433" x2="500" y2="355" class="nn-line" />
+<line x1="405" y1="433" x2="500" y2="381" class="nn-line" />
+<line x1="405" y1="433" x2="500" y2="407" class="nn-line" />
+<line x1="405" y1="433" x2="500" y2="433" class="nn-line" />
+<line x1="405" y1="433" x2="500" y2="459" class="nn-line" />
+<line x1="405" y1="433" x2="500" y2="485" class="nn-line" />
+<line x1="405" y1="459" x2="500" y2="355" class="nn-line" />
+<line x1="405" y1="459" x2="500" y2="381" class="nn-line" />
+<line x1="405" y1="459" x2="500" y2="407" class="nn-line" />
+<line x1="405" y1="459" x2="500" y2="433" class="nn-line" />
+<line x1="405" y1="459" x2="500" y2="459" class="nn-line" />
+<line x1="405" y1="459" x2="500" y2="485" class="nn-line" />
+<line x1="405" y1="485" x2="500" y2="355" class="nn-line" />
+<line x1="405" y1="485" x2="500" y2="381" class="nn-line" />
+<line x1="405" y1="485" x2="500" y2="407" class="nn-line" />
+<line x1="405" y1="485" x2="500" y2="433" class="nn-line" />
+<line x1="405" y1="485" x2="500" y2="459" class="nn-line" />
+<line x1="405" y1="485" x2="500" y2="485" class="nn-line" />
+<line x1="500" y1="355" x2="595" y2="355" class="nn-line" />
+<line x1="500" y1="355" x2="595" y2="381" class="nn-line" />
+<line x1="500" y1="355" x2="595" y2="407" class="nn-line" />
+<line x1="500" y1="355" x2="595" y2="433" class="nn-line" />
+<line x1="500" y1="355" x2="595" y2="459" class="nn-line" />
+<line x1="500" y1="355" x2="595" y2="485" class="nn-line" />
+<line x1="500" y1="381" x2="595" y2="355" class="nn-line" />
+<line x1="500" y1="381" x2="595" y2="381" class="nn-line" />
+<line x1="500" y1="381" x2="595" y2="407" class="nn-line" />
+<line x1="500" y1="381" x2="595" y2="433" class="nn-line" />
+<line x1="500" y1="381" x2="595" y2="459" class="nn-line" />
+<line x1="500" y1="381" x2="595" y2="485" class="nn-line" />
+<line x1="500" y1="407" x2="595" y2="355" class="nn-line" />
+<line x1="500" y1="407" x2="595" y2="381" class="nn-line" />
+<line x1="500" y1="407" x2="595" y2="407" class="nn-line" />
+<line x1="500" y1="407" x2="595" y2="433" class="nn-line" />
+<line x1="500" y1="407" x2="595" y2="459" class="nn-line" />
+<line x1="500" y1="407" x2="595" y2="485" class="nn-line" />
+<line x1="500" y1="433" x2="595" y2="355" class="nn-line" />
+<line x1="500" y1="433" x2="595" y2="381" class="nn-line" />
+<line x1="500" y1="433" x2="595" y2="407" class="nn-line" />
+<line x1="500" y1="433" x2="595" y2="433" class="nn-line" />
+<line x1="500" y1="433" x2="595" y2="459" class="nn-line" />
+<line x1="500" y1="433" x2="595" y2="485" class="nn-line" />
+<line x1="500" y1="459" x2="595" y2="355" class="nn-line" />
+<line x1="500" y1="459" x2="595" y2="381" class="nn-line" />
+<line x1="500" y1="459" x2="595" y2="407" class="nn-line" />
+<line x1="500" y1="459" x2="595" y2="433" class="nn-line" />
+<line x1="500" y1="459" x2="595" y2="459" class="nn-line" />
+<line x1="500" y1="459" x2="595" y2="485" class="nn-line" />
+<line x1="500" y1="485" x2="595" y2="355" class="nn-line" />
+<line x1="500" y1="485" x2="595" y2="381" class="nn-line" />
+<line x1="500" y1="485" x2="595" y2="407" class="nn-line" />
+<line x1="500" y1="485" x2="595" y2="433" class="nn-line" />
+<line x1="500" y1="485" x2="595" y2="459" class="nn-line" />
+<line x1="500" y1="485" x2="595" y2="485" class="nn-line" />
+<line x1="595" y1="355" x2="690" y2="381" class="nn-line" />
+<line x1="595" y1="355" x2="690" y2="407" class="nn-line" />
+<line x1="595" y1="355" x2="690" y2="433" class="nn-line" />
+<line x1="595" y1="355" x2="690" y2="459" class="nn-line" />
+<line x1="595" y1="381" x2="690" y2="381" class="nn-line" />
+<line x1="595" y1="381" x2="690" y2="407" class="nn-line" />
+<line x1="595" y1="381" x2="690" y2="433" class="nn-line" />
+<line x1="595" y1="381" x2="690" y2="459" class="nn-line" />
+<line x1="595" y1="407" x2="690" y2="381" class="nn-line" />
+<line x1="595" y1="407" x2="690" y2="407" class="nn-line" />
+<line x1="595" y1="407" x2="690" y2="433" class="nn-line" />
+<line x1="595" y1="407" x2="690" y2="459" class="nn-line" />
+<line x1="595" y1="433" x2="690" y2="381" class="nn-line" />
+<line x1="595" y1="433" x2="690" y2="407" class="nn-line" />
+<line x1="595" y1="433" x2="690" y2="433" class="nn-line" />
+<line x1="595" y1="433" x2="690" y2="459" class="nn-line" />
+<line x1="595" y1="459" x2="690" y2="381" class="nn-line" />
+<line x1="595" y1="459" x2="690" y2="407" class="nn-line" />
+<line x1="595" y1="459" x2="690" y2="433" class="nn-line" />
+<line x1="595" y1="459" x2="690" y2="459" class="nn-line" />
+<line x1="595" y1="485" x2="690" y2="381" class="nn-line" />
+<line x1="595" y1="485" x2="690" y2="407" class="nn-line" />
+<line x1="595" y1="485" x2="690" y2="433" class="nn-line" />
+<line x1="595" y1="485" x2="690" y2="459" class="nn-line" />
+<circle cx="310" cy="368" r="9" class="nn-node-input" />
+<circle cx="310" cy="394" r="9" class="nn-node-input" />
+<circle cx="310" cy="420" r="9" class="nn-node-input" />
+<circle cx="310" cy="446" r="9" class="nn-node-input" />
+<circle cx="310" cy="472" r="9" class="nn-node-input" />
+<text x="310" y="513" class="sub-text">Nơ-ron</text>
+<text x="310" y="531" class="sub-text">đầu vào</text>
+<circle cx="405" cy="355" r="9" class="nn-node-hidden" />
+<circle cx="405" cy="381" r="9" class="nn-node-hidden" />
+<circle cx="405" cy="407" r="9" class="nn-node-hidden" />
+<circle cx="405" cy="433" r="9" class="nn-node-hidden" />
+<circle cx="405" cy="459" r="9" class="nn-node-hidden" />
+<circle cx="405" cy="485" r="9" class="nn-node-hidden" />
+<circle cx="500" cy="355" r="9" class="nn-node-hidden" />
+<circle cx="500" cy="381" r="9" class="nn-node-hidden" />
+<circle cx="500" cy="407" r="9" class="nn-node-hidden" />
+<circle cx="500" cy="433" r="9" class="nn-node-hidden" />
+<circle cx="500" cy="459" r="9" class="nn-node-hidden" />
+<circle cx="500" cy="485" r="9" class="nn-node-hidden" />
+<text x="500" y="513" class="sub-text">Các nơ-ron ẩn</text>
+<circle cx="595" cy="355" r="9" class="nn-node-hidden" />
+<circle cx="595" cy="381" r="9" class="nn-node-hidden" />
+<circle cx="595" cy="407" r="9" class="nn-node-hidden" />
+<circle cx="595" cy="433" r="9" class="nn-node-hidden" />
+<circle cx="595" cy="459" r="9" class="nn-node-hidden" />
+<circle cx="595" cy="485" r="9" class="nn-node-hidden" />
+<circle cx="690" cy="381" r="9" class="nn-node-output" />
+<circle cx="690" cy="407" r="9" class="nn-node-output" />
+<circle cx="690" cy="433" r="9" class="nn-node-output" />
+<circle cx="690" cy="459" r="9" class="nn-node-output" />
+<text x="690" y="513" class="sub-text">Nơ-ron</text>
+<text x="690" y="531" class="sub-text">đầu ra</text>
+
+
+  <!-- Output -->
+  <line x1="740" y1="420" x2="780" y2="420" class="line" />
+  <rect x="780" y="380" width="140" height="80" class="box" />
+  <text x="850" y="425" class="box-text">Đầu ra</text>
+
+  <text x="500" y="610" class="subtitle" text-anchor="middle">Học sâu tự động học các biểu diễn phân cấp trực tiếp từ dữ liệu, và tăng cường hiệu năng khi có nhiều dữ liệu hơn.</text>
+
+</svg>

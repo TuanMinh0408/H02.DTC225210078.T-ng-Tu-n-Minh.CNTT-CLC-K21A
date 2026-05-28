@@ -1,0 +1,762 @@
+TOTAL PARAGRAPHS: 1631
+TOTAL TABLES: 17
+TOTAL SECTIONS: 4
+
+Paragraph [00]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+    Run [01]: ''
+----------------------------------------
+Paragraph [01]:
+  Style: normal
+  Text: 'ĐẠI HỌC THÁI NGUYÊN'
+  Runs:
+    Run [00]: 'ĐẠI HỌC THÁI NGUYÊN'
+    Run [01]: ''
+----------------------------------------
+Paragraph [02]:
+  Style: normal
+  Text: 'TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG'
+  Runs:
+    Run [00]: 'TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG'
+----------------------------------------
+Paragraph [03]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [04]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [05]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [06]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [07]:
+  Style: normal
+  Text: 'NGUYỄN THANH TUÂN'
+  Runs:
+    Run [00]: 'NGUYỄN THANH TUÂN'
+----------------------------------------
+Paragraph [08]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [09]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [10]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [11]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [12]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [13]:
+  Style: normal
+  Text: 'XÂY DỰNG HỆ THỐNG GIÁM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU'
+  Runs:
+    Run [00]: 'XÂY DỰNG HỆ THỐNG GIÁM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU'
+    Run [01]: ''
+----------------------------------------
+Paragraph [14]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [15]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [16]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [17]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [18]:
+  Style: normal
+  Text: 'ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC'
+  Runs:
+    Run [00]: 'ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC'
+----------------------------------------
+Paragraph [19]:
+  Style: normal
+  Text: 'NGÀNH CÔNG NGHỆ THÔNG TIN'
+  Runs:
+    Run [00]: 'NGÀNH CÔNG NGHỆ THÔNG TIN'
+    Run [01]: ''
+----------------------------------------
+Paragraph [20]:
+  Style: normal
+  Text: '                        '
+  Runs:
+    Run [00]: '                        '
+----------------------------------------
+Paragraph [21]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [22]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [23]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [24]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [25]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [26]:
+  Style: normal
+  Text: 'THÁI NGUYÊN, THÁNG 4 NĂM 2026'
+  Runs:
+    Run [00]: 'THÁI NGUYÊN, THÁNG 4 NĂM 2026'
+    Run [01]: ''
+    Run [02]: ''
+----------------------------------------
+Paragraph [27]:
+  Style: normal
+  Text: 'ĐẠI HỌC THÁI NGUYÊN'
+  Runs:
+    Run [00]: 'ĐẠI HỌC THÁI NGUYÊN'
+    Run [01]: ''
+----------------------------------------
+Paragraph [28]:
+  Style: normal
+  Text: 'TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG'
+  Runs:
+    Run [00]: 'TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG'
+----------------------------------------
+Paragraph [29]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [30]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+    Run [01]: ''
+    Run [02]: ''
+----------------------------------------
+Paragraph [31]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [32]:
+  Style: normal
+  Text: 'ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC'
+  Runs:
+    Run [00]: 'ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC'
+----------------------------------------
+Paragraph [33]:
+  Style: normal
+  Text: 'KHOA CÔNG NGHỆ THÔNG TIN'
+  Runs:
+    Run [00]: 'KHOA CÔNG NGHỆ THÔNG TIN'
+----------------------------------------
+Paragraph [34]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [35]:
+  Style: normal
+  Text: 'ĐỀ TÀI:'
+  Runs:
+    Run [00]: 'ĐỀ TÀI:'
+----------------------------------------
+Paragraph [36]:
+  Style: normal
+  Text: ' XÂY DỤNG HỆ THỐNG GIAM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU'
+  Runs:
+    Run [00]: ' '
+    Run [01]: 'XÂY DỤNG HỆ THỐNG GIAM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU'
+    Run [02]: ''
+----------------------------------------
+Paragraph [37]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [38]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [39]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [40]:
+  Style: normal
+  Text: 'Giáo viên hướng dẫn: \tTS. Nguyễn Tuấn Anh'
+  Runs:
+    Run [00]: 'Giáo viên hướng dẫn: \tTS. Nguyễn Tuấn Anh'
+----------------------------------------
+Paragraph [41]:
+  Style: normal
+  Text: 'Sinh viên thực hiện: \t\tNguyễn Thanh Tuân'
+  Runs:
+    Run [00]: 'Sinh viên thực hiện: \t\tNguyễn Thanh Tuân'
+----------------------------------------
+Paragraph [42]:
+  Style: normal
+  Text: 'Lớp: \t\t\t\tCNTT K21 CLC'
+  Runs:
+    Run [00]: 'Lớp: \t\t\t\tCNTT K21 CLC'
+----------------------------------------
+Paragraph [43]:
+  Style: normal
+  Text: '                      Mã SV: \tDTC225210134'
+  Runs:
+    Run [00]: '                      Mã SV: \tDTC225210134'
+----------------------------------------
+Paragraph [44]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [45]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [46]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [47]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [48]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [49]:
+  Style: normal
+  Text: 'Thái Nguyên, tháng 4  năm 2026'
+  Runs:
+    Run [00]: 'Thái Nguyên, tháng 4  năm 2026'
+    Run [01]: ''
+    Run [02]: ''
+----------------------------------------
+Paragraph [50]:
+  Style: normal
+  Text: 'LỜI CẢM ƠN'
+  Runs:
+    Run [00]: 'LỜI CẢM ƠN'
+----------------------------------------
+Paragraph [51]:
+  Style: normal
+  Text: 'Trước tiên, em xin bày tỏ lòng biết ơn sâu sắc đến các thầy cô giáo Trường Đại học Công nghệ Thông tin và Truyền thông đã tận tình giảng dạy, truyền đạt cho em những kiến thức quý báu trong suốt thời gian học tập tại trường. Những kiến thức và kinh nghiệm mà thầy cô truyền đạt chính là nền tảng quan trọng giúp em có thể hoàn thành bài báo cáo này.'
+  Runs:
+    Run [00]: 'Trước tiên, em xin bày tỏ lòng biết ơn sâu sắc đến các thầy cô giáo Trường Đại học Công nghệ Thông tin và Truyền thông đã tận tình giảng dạy, truyền đạt cho em những kiến thức quý báu trong suốt thời gian học tập tại trường. Những kiến thức và kinh nghiệm mà thầy cô truyền đạt chính là nền tảng quan trọng giúp em có thể hoàn thành bài báo cáo này.'
+----------------------------------------
+Paragraph [52]:
+  Style: normal
+  Text: 'Đặc biệt, em xin bày tỏ lòng biết ơn chân thành đến thầy giáo TS.Nguyễn Tuấn Anh, người đã luôn chỉ bảo, đồng hành cùng em xuyên suốt thời gian làm đồ án. Sự chỉ bảo cùng lời góp ý chân thành của thầy đã giúp em hoàn thiện đồ án một cách xuất sắc nhất có thể.'
+  Runs:
+    Run [00]: 'Đặc biệt, em xin bày tỏ lòng biết ơn chân thành đến thầy giáo TS.Nguyễn Tuấn Anh, người đã luôn chỉ bảo, đồng hành cùng em xuyên suốt thời gian làm đồ án. Sự chỉ bảo cùng lời góp ý chân thành của thầy đã giúp em hoàn thiện đồ án một cách xuất sắc nhất có thể.'
+----------------------------------------
+Paragraph [53]:
+  Style: normal
+  Text: 'Em cũng xin dành lời cảm ơn sâu sắc tới bạn bè, những người đã luôn bên cạnh chia sẻ, hỗ trợ, đóng góp ý kiến và tạo cho em một môi trường học tập tích cực, nhiệt huyết. Những cuộc trao đổi, thảo luận và góp ý chân thành của các bạn là nguồn động lực lớn giúp em không ngừng hoàn thiện đề tài của mình.'
+  Runs:
+    Run [00]: 'Em cũng xin dành lời cảm ơn sâu sắc tới bạn bè, những người đã luôn bên cạnh chia sẻ, hỗ trợ, đóng góp ý kiến và tạo cho em một môi trường học tập tích cực, nhiệt huyết. Những cuộc trao đổi, thảo luận và góp ý chân thành của các bạn là nguồn động lực lớn giúp em không ngừng hoàn thiện đề tài của mình.'
+----------------------------------------
+Paragraph [54]:
+  Style: normal
+  Text: 'Cuối cùng, em xin bày tỏ lòng\xa0cảm ơn\xa0đối với\xa0gia đình – điểm tựa vững chắc nhất trong suốt\xa0quá trình\xa0học tập và cuộc sống. Sự\xa0thương yêu,\xa0đùm bọc\xa0cùng\xa0lòng\xa0tự hào\xa0mà gia đình dành cho em\xa0luôn\xa0là nguồn\xa0động lực\xa0lớn lao\xa0để\xa0em vượt qua mọi\xa0thử thách\xa0để hoàn thành\xa0xuất sắc\xa0đồ án.'
+  Runs:
+    Run [00]: 'Cuối cùng, em xin bày tỏ lòng\xa0cảm ơn\xa0đối với\xa0gia đình – điểm tựa vững chắc nhất trong suốt\xa0quá trình\xa0học tập và cuộc sống. Sự\xa0thương yêu,\xa0đùm bọc\xa0cùng\xa0lòng\xa0tự hào\xa0mà gia đình dành cho em\xa0luôn\xa0là nguồn\xa0động lực\xa0lớn lao\xa0để\xa0em vượt qua mọi\xa0thử thách\xa0để hoàn thành\xa0xuất sắc\xa0đồ án.'
+----------------------------------------
+Paragraph [55]:
+  Style: normal
+  Text: 'Một lần nữa, em trân trọng cảm ơn mọi người đã cùng hỗ trợ em trong quá trình hình thành luận văn này.'
+  Runs:
+    Run [00]: 'Một lần nữa, em trân trọng cảm ơn mọi người đã cùng hỗ trợ em trong quá trình hình thành luận văn này.'
+----------------------------------------
+Paragraph [56]:
+  Style: normal
+  Text: 'Em xin cảm ơn!'
+  Runs:
+    Run [00]: 'Em xin cảm ơn!'
+----------------------------------------
+Paragraph [57]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [58]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [59]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+    Run [01]: ''
+----------------------------------------
+Paragraph [60]:
+  Style: normal
+  Text: 'LỜI CAM ĐOAN'
+  Runs:
+    Run [00]: 'LỜI CAM ĐOAN'
+----------------------------------------
+Paragraph [61]:
+  Style: normal
+  Text: 'Em xin cam đoan toàn bộ nội dung đồ án tốt nghiệp “xây dựng hệ thống giám sát an ninh thông minh dựa trên học sâu” là do em tự tìm kiếm và thực hiện dưới sự chỉ dẫn của thầy giáo TS. Nguyễn Tuấn Anh. Mọi sự đẫn chứng và tài liệu tham khảo do em cung cấp đều có ghi rõ nguồn. Em xin cam đoan những nội dung có đều\xa0là do em mày mò tìm hiểu và\xa0làm\xa0dưới sự chỉ lối của\xa0giáo viên\xa0hướng dẫn,\xa0vận dụng\xa0các tri thức của công việc\xa0thực tế\xa0em đang làm và\xa0tham khảo\xa0mẫu trên thư viện nhà trường về nội dung,\xa0cách thức\xa0trình bày. Tác giả cam kết nội dung đồ án tốt nghiệp hoàn toàn do bản thân thực hiện, không sao chép và không vi phạm bản quyền.'
+  Runs:
+    Run [00]: 'Em xin cam đoan toàn bộ nội dung đồ án tốt nghiệp “'
+    Run [01]: 'xây dựng hệ thống giám sát an ninh thông minh dựa trên học sâu'
+    Run [02]: '” là do em tự tìm kiếm và thực hiện dưới sự chỉ dẫn của thầy giáo TS. Nguyễn Tuấn Anh. Mọi sự đẫn chứng và tài liệu tham khảo do em cung cấp đều có ghi rõ nguồn. Em xin cam đoan những nội dung có đều\xa0là do em mày mò tìm hiểu và\xa0làm\xa0dưới sự chỉ lối của\xa0giáo viên\xa0hướng dẫn,\xa0vận dụng\xa0các tri thức của công việc\xa0thực tế\xa0em đang làm và\xa0tham khảo\xa0mẫu trên thư viện nhà trường về nội dung,\xa0cách thức\xa0trình bày. Tác giả cam kết nội dung đồ án tốt nghiệp hoàn toàn do bản thân thực hiện, không sao chép và không vi phạm bản quyền.'
+----------------------------------------
+Paragraph [62]:
+  Style: normal
+  Text: 'Em xin\xa0cam đoan\xa0chịu trách nhiệm về\xa0sự\xa0chính xác\xa0của các\xa0thông tin\xa0được trình bày trong tài liệu này. '
+  Runs:
+    Run [00]: 'Em xin\xa0cam đoan\xa0chịu trách nhiệm về\xa0sự\xa0chính xác\xa0của các\xa0thông tin\xa0được trình bày trong tài liệu này. '
+----------------------------------------
+Paragraph [63]:
+  Style: normal
+  Text: 'Thái Nguyên,tháng 4 năm 2026 '
+  Runs:
+    Run [00]: 'Thái Nguyên,tháng 4 năm 2026 '
+----------------------------------------
+Paragraph [64]:
+  Style: normal
+  Text: '                                                                                Sinh viên'
+  Runs:
+    Run [00]: '                                                                                Sinh viên'
+----------------------------------------
+Paragraph [65]:
+  Style: normal
+  Text: '                                                                                   Tuân'
+  Runs:
+    Run [00]: '                                                                                   Tuân'
+----------------------------------------
+Paragraph [66]:
+  Style: normal
+  Text: '                                                                                      Nguyễn Thanh Tuân'
+  Runs:
+    Run [00]: '                                                                                      Nguyễn Thanh Tuân'
+----------------------------------------
+Paragraph [67]:
+  Style: normal
+  Text: '\t'
+  Runs:
+    Run [00]: '\t'
+    Run [01]: ''
+----------------------------------------
+Paragraph [68]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [69]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+    Run [01]: ''
+----------------------------------------
+Paragraph [70]:
+  Style: normal
+  Text: 'MỤC LỤC'
+  Runs:
+    Run [00]: 'MỤC LỤC'
+----------------------------------------
+Paragraph [71]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+    Run [01]: ''
+----------------------------------------
+Paragraph [72]:
+  Style: normal
+  Text: 'DANH MỤC TỪ VIẾT TẮT'
+  Runs:
+    Run [00]: 'DANH MỤC TỪ VIẾT TẮT'
+----------------------------------------
+Paragraph [73]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [74]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [75]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [76]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+----------------------------------------
+Paragraph [77]:
+  Style: normal
+  Text: 'DANH MỤC HÌNH ẢNH'
+  Runs:
+    Run [00]: 'DANH MỤC HÌNH ẢNH'
+----------------------------------------
+Paragraph [78]:
+  Style: normal
+  Text: ''
+  Runs:
+    Run [00]: ''
+    Run [01]: ''
+----------------------------------------
+Paragraph [79]:
+  Style: normal
+  Text: 'DANH MỤC BẢNG BIỂU'
+  Runs:
+    Run [00]: 'DANH MỤC BẢNG BIỂU'
+    Run [01]: ''
+    Run [02]: ''
+----------------------------------------
+Paragraph [80]:
+  Style: normal
+  Text: 'LỜI NÓI ĐẦU\t'
+  Runs:
+    Run [00]: 'LỜI NÓI ĐẦU\t'
+----------------------------------------
+Paragraph [81]:
+  Style: normal
+  Text: 'Lý do chọn đề tài'
+  Runs:
+    Run [00]: 'Lý do chọn đề tài'
+----------------------------------------
+Paragraph [82]:
+  Style: normal
+  Text: 'Trong bối cảnh xã hội hiện đại, nhu cầu bảo đảm an ninh tại các khu vực công cộng, khu dân cư, tòa nhà văn phòng và cơ sở hạ tầng quan trọng ngày càng trở nên cấp thiết. Hệ thống camera an ninh (CCTV) truyền thống đã và đang được triển khai rộng rãi, tuy nhiên chúng tồn tại một hạn chế căn bản:\xa0camera chỉ thu hình, không hiểu hình. Toàn bộ quá trình phân tích, phán đoán và cảnh báo vẫn phụ thuộc hoàn toàn vào con người trực tiếp quan sát màn hình — một phương thức vừa tốn kém nhân lực, vừa dễ xảy ra sai sót do yếu tố mệt mỏi hay chủ quan.'
+  Runs:
+    Run [00]: 'Trong bối cảnh xã hội hiện đại, nhu cầu bảo đảm an ninh tại các khu vực công cộng, khu dân cư, tòa nhà văn phòng và cơ sở hạ tầng quan trọng ngày càng trở nên cấp thiết. Hệ thống camera an ninh (CCTV) truyền thống đã và đang được triển khai rộng rãi, tuy nhiên chúng tồn tại một hạn chế căn bản:\xa0camera chỉ thu hình, không hiểu hình. Toàn bộ quá trình phân tích, phán đoán và cảnh báo vẫn phụ thuộc hoàn toàn vào con người trực tiếp quan sát màn hình — một phương thức vừa tốn kém nhân lực, vừa dễ xảy ra sai sót do yếu tố mệt mỏi hay chủ quan.'
+----------------------------------------
+Paragraph [83]:
+  Style: normal
+  Text: 'Những năm gần đây, sự bùng nổ của\xa0Trí Tuệ Nhân Tạo (AI), đặc biệt trong các lĩnh vực\xa0Thị Giác Máy Tính (Computer Vision)\xa0và\xa0Học Sâu (Deep Learning), đã mở ra một hướng tiếp cận hoàn toàn mới: xây dựng hệ thống camera có khả năng\xa0tự động nhận diện, phân tích và đưa ra cảnh báo\xa0mà không cần con người liên tục can thiệp. Các mô hình phát hiện vật thể như YOLO, các mạng nơ-ron hồi tiếp xử lý chuỗi thời gian như LSTM/GRU, cùng các kỹ thuật ước lượng tư thế người (Pose Estimation) đã đạt đến mức độ chính xác đủ để triển khai trong môi trường thực tế.'
+  Runs:
+    Run [00]: 'Những năm gần đây, sự bùng nổ của\xa0Trí Tuệ Nhân Tạo (AI), đặc biệt trong các lĩnh vực\xa0Thị Giác Máy Tính (Computer Vision)\xa0và\xa0Học Sâu (Deep Learning), đã mở ra một hướng tiếp cận hoàn toàn mới: xây dựng hệ thống camera có khả năng\xa0tự động nhận diện, phân tích và đưa ra cảnh báo\xa0mà không cần con người liên tục can thiệp. Các mô hình phát hiện vật thể như YOLO, các mạng nơ-ron hồi tiếp xử lý chuỗi thời gian như LSTM/GRU, cùng các kỹ thuật ước lượng tư thế người (Pose Estimation) đã đạt đến mức độ chính xác đủ để triển khai trong môi trường thực tế.'
+----------------------------------------
+Paragraph [84]:
+  Style: normal
+  Text: 'Tuy nhiên, phần lớn các hệ thống hiện có trên thị trường hoặc trong học thuật vẫn chỉ dừng lại ở mức\xa0phát hiện vật thể đơn giản\xa0(đây là "người" hay "xe"), mà chưa trả lời được câu hỏi quan trọng hơn:\xa0người này là ai, đang làm gì, và trong bối cảnh đó hành vi đó có đáng ngờ không?\xa0Nói cách khác, các hệ thống này thiếu khả năng\xa0hiểu ngữ cảnh (context-aware reasoning).'
+  Runs:
+    Run [00]: 'Tuy nhiên, phần lớn các hệ thống hiện có trên thị trường hoặc trong học thuật vẫn chỉ dừng lại ở mức\xa0phát hiện vật thể đơn giản\xa0(đây là "người" hay "xe"), mà chưa trả lời được câu hỏi quan trọng hơn:\xa0người này là ai, đang làm gì, và trong bối cảnh đó hành vi đó có đáng ngờ không?\xa0Nói cách khác, các hệ thống này thiếu khả năng\xa0hiểu ngữ cảnh (context-aware reasoning).'
+----------------------------------------
+Paragraph [85]:
+  Style: normal
+  Text: 'Xuất phát từ thực tiễn đó, nhóm tác giả đã đề xuất và thực hiện đề tài\xa0"Hệ Thống Camera Giám Sát Thông Minh Sử Dụng Trí Tuệ Nhân Tạo"\xa0— một hệ thống tích hợp ba mô hình AI tự phát triển:'
+  Runs:
+    Run [00]: 'Xuất phát từ thực tiễn đó, nhóm tác giả đã đề xuất và thực hiện đề tài\xa0"Hệ Thống Camera Giám Sát Thông Minh Sử Dụng Trí Tuệ Nhân Tạo"\xa0— một hệ thống tích hợp ba mô hình AI tự phát triển:'
+----------------------------------------
+Paragraph [86]:
+  Style: normal
+  Text: 'RoleNet\xa0— nhận diện vai trò xã hội của người được phát hiện (shipper, bác sĩ, công an, bộ đội...) dựa trên đặc điểm trang phục và phụ kiện;'
+  Runs:
+    Run [00]: 'RoleNet\xa0— nhận diện vai trò xã hội của người được phát hiện (shipper, bác sĩ, công an, bộ đội...) dựa trên đặc điểm trang phục và phụ kiện;'
+----------------------------------------
+Paragraph [87]:
+  Style: normal
+  Text: 'ActionNet\xa0— phân loại hành động nguy hiểm theo thời gian thực (ngã, đánh nhau, leo trèo, chạy đột ngột...) qua phân tích chuỗi điểm khớp xương người;'
+  Runs:
+    Run [00]: 'ActionNet\xa0— phân loại hành động nguy hiểm theo thời gian thực (ngã, đánh nhau, leo trèo, chạy đột ngột...) qua phân tích chuỗi điểm khớp xương người;'
+----------------------------------------
+Paragraph [88]:
+  Style: normal
+  Text: 'ContextNet\xa0— học cách đưa ra quyết định cảnh báo dựa trên tổng hợp vai trò, hành động, vùng không gian và thời điểm, thay thế cho các hệ thống luật cứng thông thường.'
+  Runs:
+    Run [00]: 'ContextNet\xa0— học cách đưa ra quyết định cảnh báo dựa trên tổng hợp vai trò, hành động, vùng không gian và thời điểm, thay thế cho các hệ thống luật cứng thông thường.'
+----------------------------------------
+Paragraph [89]:
+  Style: normal
+  Text: 'Đề tài mang ý nghĩa thực tiễn cao, thể hiện khả năng áp dụng các kỹ thuật AI hiện đại vào bài toán an ninh cụ thể của Việt Nam, đồng thời là cơ hội để nhóm tác giả rèn luyện năng lực xây dựng hệ thống AI hoàn chỉnh từ giai đoạn thu thập dữ liệu, huấn luyện mô hình đến triển khai ứng dụng thực tế.'
+  Runs:
+    Run [00]: 'Đề tài mang ý nghĩa thực tiễn cao, thể hiện khả năng áp dụng các kỹ thuật AI hiện đại vào bài toán an ninh cụ thể của Việt Nam, đồng thời là cơ hội để nhóm tác giả rèn luyện năng lực xây dựng hệ thống AI hoàn chỉnh từ giai đoạn thu thập dữ liệu, huấn luyện mô hình đến triển khai ứng dụng thực tế.'
+----------------------------------------
+Paragraph [90]:
+  Style: Heading 2
+  Text: 'Mục tiêu và phạm vi đề tài'
+  Runs:
+    Run [00]: 'Mục tiêu và phạm vi đề tài'
+----------------------------------------
+Paragraph [91]:
+  Style: normal
+  Text: 'a, Mục tiêu đề tài'
+  Runs:
+    Run [00]: 'a, Mục tiêu đề tài'
+----------------------------------------
+Paragraph [92]:
+  Style: normal
+  Text: 'Mục tiêu tổng quát của đề tài là\xa0xây dựng một hệ thống camera giám sát thông minh, có khả năng phân tích video theo thời gian thực, nhận diện vai trò và hành động của người trong khung hình, và tự động đưa ra cảnh báo an ninh dựa trên ngữ cảnh.'
+  Runs:
+    Run [00]: 'Mục tiêu tổng quát của đề tài là\xa0xây dựng một hệ thống camera giám sát thông minh, có khả năng phân tích video theo thời gian thực, nhận diện vai trò và hành động của người trong khung hình, và tự động đưa ra cảnh báo an ninh dựa trên ngữ cảnh.'
+----------------------------------------
+Paragraph [93]:
+  Style: normal
+  Text: 'Cụ thể, đề tài hướng đến các mục tiêu sau:'
+  Runs:
+    Run [00]: 'Cụ thể, đề tài hướng đến các mục tiêu sau:'
+----------------------------------------
+Paragraph [94]:
+  Style: normal
+  Text: '1. Nghiên cứu và vận dụng các kỹ thuật AI tiên tiến:'
+  Runs:
+    Run [00]: '1. Nghiên cứu và vận dụng các kỹ thuật AI tiên tiến:'
+----------------------------------------
+Paragraph [95]:
+  Style: normal
+  Text: 'Tìm hiểu và ứng dụng mô hình phát hiện vật thể YOLOv8 cho bài toán phát hiện người và phương tiện theo thời gian thực trên phần cứng phổ thông (CPU).'
+  Runs:
+    Run [00]: 'Tìm hiểu và ứng dụng mô hình phát hiện vật thể YOLOv8 cho bài toán phát hiện người và phương tiện theo thời gian thực trên phần cứng phổ thông (CPU).'
+----------------------------------------
+Paragraph [96]:
+  Style: normal
+  Text: 'Nghiên cứu kiến trúc học sâu (CNN, GRU, Transformer) và kỹ thuật Transfer Learning để huấn luyện các mô hình chuyên biệt cho bài toán phân loại vai trò và nhận diện hành động.'
+  Runs:
+    Run [00]: 'Nghiên cứu kiến trúc học sâu (CNN, GRU, Transformer) và kỹ thuật Transfer Learning để huấn luyện các mô hình chuyên biệt cho bài toán phân loại vai trò và nhận diện hành động.'
+----------------------------------------
+Paragraph [97]:
+  Style: normal
+  Text: 'Tìm hiểu kỹ thuật ước lượng tư thế người (Human Pose Estimation) với MediaPipe để trích xuất đặc trưng chuyển động phục vụ nhận diện hành động.'
+  Runs:
+    Run [00]: 'Tìm hiểu kỹ thuật ước lượng tư thế người (Human Pose Estimation) với MediaPipe để trích xuất đặc trưng chuyển động phục vụ nhận diện hành động.'
+----------------------------------------
+Paragraph [98]:
+  Style: normal
+  Text: '2. Xây dựng và huấn luyện ba mô hình AI:'
+  Runs:
+    Run [00]: '2. Xây dựng và huấn luyện ba mô hình AI:'
+----------------------------------------
+Paragraph [99]:
+  Style: normal
+  Text: 'RoleNet: Phát triển mô hình phân loại ảnh dựa trên kiến trúc ConvNeXt-Tiny (Transfer Learning từ ImageNet), nhận diện 16 vai trò xã hội từ ảnh cắt vùng người, đạt độ chính xác mục tiêu ≥ 80% trên tập kiểm tra.'
+  Runs:
+    Run [00]: 'RoleNet: Phát triển mô hình phân loại ảnh dựa trên kiến trúc ConvNeXt-Tiny (Transfer Learning từ ImageNet), nhận diện 16 vai trò xã hội từ ảnh cắt vùng người, đạt độ chính xác mục tiêu ≥ 80% trên tập kiểm tra.'
+----------------------------------------
+Paragraph [100]:
+  Style: normal
+  Text: 'ActionNet: Xây dựng pipeline nhận diện hành động theo chuỗi thời gian sử dụng MediaPipe Pose kết hợp mạng nơ-ron hồi tiếp GRU, phân loại 8 loại hành động phổ biến trong môi trường giám sát, đặc biệt là các hành động nguy hiểm như ngã, đánh nhau, leo trèo.'
+  Runs:
+    Run [00]: 'ActionNet: Xây dựng pipeline nhận diện hành động theo chuỗi thời gian sử dụng MediaPipe Pose kết hợp mạng nơ-ron hồi tiếp GRU, phân loại 8 loại hành động phổ biến trong môi trường giám sát, đặc biệt là các hành động nguy hiểm như ngã, đánh nhau, leo trèo.'
+----------------------------------------
+Paragraph [101]:
+  Style: normal
+  Text: 'ContextNet: Huấn luyện mô hình học máy (XGBoost) để thay thế hệ thống luật cứng trong việc đưa ra quyết định cảnh báo, dựa trên vector đặc trưng tổng hợp từ vai trò, hành động, vùng không gian, thời điểm và hành vi.'
+  Runs:
+    Run [00]: 'ContextNet: Huấn luyện mô hình học máy (XGBoost) để thay thế hệ thống luật cứng trong việc đưa ra quyết định cảnh báo, dựa trên vector đặc trưng tổng hợp từ vai trò, hành động, vùng không gian, thời điểm và hành vi.'
+----------------------------------------
+Paragraph [102]:
+  Style: normal
+  Text: '3. Xây dựng hệ thống pipeline hoàn chỉnh:'
+  Runs:
+    Run [00]: '3. Xây dựng hệ thống pipeline hoàn chỉnh:'
+----------------------------------------
+Paragraph [103]:
+  Style: normal
+  Text: 'Thiết kế và triển khai pipeline xử lý video theo thời gian thực với kiến trúc đa module, mỗi module đảm nhận một chức năng độc lập: phát hiện vật thể, theo dõi quỹ đạo, phân loại vai trò, nhận diện hành động, phân tích hành vi, phát hiện xâm phạm vùng và đưa ra cảnh báo.'
+  Runs:
+    Run [00]: 'Thiết kế và triển khai pipeline xử lý video theo thời gian thực với kiến trúc đa module, mỗi module đảm nhận một chức năng độc lập: phát hiện vật thể, theo dõi quỹ đạo, phân loại vai trò, nhận diện hành động, phân tích hành vi, phát hiện xâm phạm vùng và đưa ra cảnh báo.'
+----------------------------------------
+Paragraph [104]:
+  Style: normal
+  Text: 'Đảm bảo hệ thống hoạt động ổn định với tốc độ xử lý ≥ 10 FPS trên máy tính thông thường không có GPU chuyên dụng.'
+  Runs:
+    Run [00]: 'Đảm bảo hệ thống hoạt động ổn định với tốc độ xử lý ≥ 10 FPS trên máy tính thông thường không có GPU chuyên dụng.'
+----------------------------------------
+Paragraph [105]:
+  Style: normal
+  Text: '4. Xây dựng giao diện quản lý và dashboard giám sát:'
+  Runs:
+    Run [00]: '4. Xây dựng giao diện quản lý và dashboard giám sát:'
+----------------------------------------
+Paragraph [106]:
+  Style: normal
+  Text: 'Phát triển ứng dụng web (FastAPI + HTML/JavaScript) cung cấp giao diện trực quan để theo dõi luồng video trực tiếp, quản lý vùng giám sát (zone), xem nhật ký sự kiện và cảnh báo theo thời gian thực.'
+  Runs:
+    Run [00]: 'Phát triển ứng dụng web (FastAPI + HTML/JavaScript) cung cấp giao diện trực quan để theo dõi luồng video trực tiếp, quản lý vùng giám sát (zone), xem nhật ký sự kiện và cảnh báo theo thời gian thực.'
+----------------------------------------
+Paragraph [107]:
+  Style: normal
+  Text: 'b, Phạm vi đề tài'
+  Runs:
+    Run [00]: 'b, Phạm vi đề tài'
+----------------------------------------
+Paragraph [108]:
+  Style: normal
+  Text: 'Để bảo đảm tính khả thi trong khuôn khổ thời gian của đồ án, nhóm tác giả xác định phạm vi thực hiện như sau:'
+  Runs:
+    Run [00]: 'Để bảo đảm tính khả thi trong khuôn khổ thời gian của đồ án, nhóm tác giả xác định phạm vi thực hiện như sau:'
+----------------------------------------
+Paragraph [109]:
+  Style: normal
+  Text: 'Trong phạm vi thực hiện:'
+  Runs:
+    Run [00]: 'Trong phạm vi thực hiện:'
+    Run [01]: ''
+----------------------------------------
+Paragraph [110]:
+  Style: normal
+  Text: 'Hệ thống được thiết kế để xử lý\xa0một nguồn video đơn\xa0tại một thời điểm (một camera hoặc một file video).'
+  Runs:
+    Run [00]: 'Hệ thống được thiết kế để xử lý\xa0'
+    Run [01]: 'một nguồn video đơn'
+    Run [02]: '\xa0tại một thời điểm (một camera hoặc một file video).'
+----------------------------------------
+Paragraph [111]:
+  Style: normal
+  Text: 'Nguồn đầu vào được hỗ trợ bao gồm: camera USB/webcam (thông qua OpenCV),\xa0file video\xa0(MP4, AVI và các định dạng phổ biến), và đường dẫn RTSP (camera IP cơ bản).'
+  Runs:
+    Run [00]: 'Nguồn đầu vào được hỗ trợ bao gồm: camera USB/webcam (thông qua OpenCV),\xa0'
+    Run [01]: 'file video'
+    Run [02]: '\xa0(MP4, AVI và các định dạng phổ biến), và đường dẫn RTSP (camera IP cơ bản).'
+----------------------------------------
+Paragraph [112]:
+  Style: normal
+  Text: 'Các đối tượng được phát hiện và phân tích là\xa0người\xa0(đối tượng chính), bên cạnh đó là các phương tiện và phụ kiện kèm theo.'
+  Runs:
+    Run [00]: 'Các đối tượng được phát hiện và phân tích là\xa0'
+    Run [01]: 'người'
+    Run [02]: '\xa0(đối tượng chính), bên cạnh đó là các phương tiện và phụ kiện kèm theo.'
+----------------------------------------
+Paragraph [113]:
+  Style: normal
+  Text: 'Nhận diện\xa016 vai trò xã hội\xa0phù hợp với bối cảnh Việt Nam, đặc biệt tập trung vào môi trường đô thị.'
+  Runs:
+    Run [00]: 'Nhận diện\xa0'
+    Run [01]: '16 vai trò xã hội'
+    Run [02]: '\xa0phù hợp với bối cảnh Việt Nam, đặc biệt tập trung vào môi trường đô thị.'
+----------------------------------------
+Paragraph [114]:
+  Style: normal
+  Text: 'Nhận diện\xa08 loại hành động\xa0cơ bản: đứng yên, đi bộ, chạy, ngã, leo trèo, đánh nhau, giơ tay, tụ tập.'
+  Runs:
+    Run [00]: 'Nhận diện\xa0'
+    Run [01]: '8 loại hành động'
+    Run [02]: '\xa0cơ bản: đứng yên, đi bộ, chạy, ngã, leo trèo, đánh nhau, giơ tay, tụ tập.'
+----------------------------------------
+Paragraph [115]:
+  Style: normal
+  Text: 'Hệ thống cảnh báo theo\xa06 mức độ: ignore (bỏ qua), normal (bình thường), watch (theo dõi), warning (cảnh báo nhẹ), alert (cảnh báo), critical (khẩn cấp).'
+  Runs:
+    Run [00]: 'Hệ thống cảnh báo theo\xa0'
+    Run [01]: '6 mức độ'
+    Run [02]: ': ignore (bỏ qua), normal (bình thường), watch (theo dõi), warning (cảnh báo nhẹ), alert (cảnh báo), critical (khẩn cấp).'
+----------------------------------------
+Paragraph [116]:
+  Style: normal
+  Text: 'Triển khai và kiểm thử trên môi trường\xa0Windows/Linux\xa0với Python 3.10+.'
+  Runs:
+    Run [00]: 'Triển khai và kiểm thử trên môi trường\xa0'
+    Run [01]: 'Windows/Linux'
+    Run [02]: '\xa0với Python 3.10+.'
+----------------------------------------
+Paragraph [117]:
+  Style: normal
+  Text: 'Ngoài phạm vi thực hiện:'
+  Runs:
+    Run [00]: 'Ngoài phạm vi thực hiện:'
+    Run [01]: ''
+----------------------------------------
+Paragraph [118]:
+  Style: normal
+  Text: 'Hệ thống chưa hỗ trợ đồng thời nhiều camera (multi-camera) trong phiên bản hiện tại.'
+  Runs:
+    Run [00]: 'Hệ thống chưa hỗ trợ đồng thời nhiều camera (multi-camera) trong phiên bản hiện tại.'
+----------------------------------------
+Paragraph [119]:
+  Style: normal
+  Text: 'Chưa tích hợp cơ sở dữ liệu lịch sử dài hạn và báo cáo phân tích xu hướng.'
+  Runs:
+    Run [00]: 'Chưa tích hợp cơ sở dữ liệu lịch sử dài hạn và báo cáo phân tích xu hướng.'
+----------------------------------------

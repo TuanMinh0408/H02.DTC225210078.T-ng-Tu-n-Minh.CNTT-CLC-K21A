@@ -1,0 +1,275 @@
+Heading 2: Mục tiêu và phạm vi đề tài
+Heading 2: 1.1. Tổng quan hệ thống camera giám sát an ninh
+Heading 3: 1.1.1. Khái niệm và vai trò của hệ thống camera thông minh
+Heading 3: 1.1.2. Các hạn chế của hệ thống camera truyền thống
+Heading 3: 1.1.3. Xu hướng ứng dụng trí tuệ nhân tạo trong giám sát 
+Heading 2: 1.2. Các thành phần kỹ thuật cốt lõi 
+Heading 3: 1.2.1. Phát hiện và theo dõi đối tượng (Object Detection & Tracking) 
+Heading 4: a) Phát hiện đối tượng (Object Detection)
+Heading 4: b) Theo dõi đối tượng đa khung hình (Multi-Object Tracking)
+Heading 3: 1.2.2. Nhận diện vai trò (Role Classification) 
+Heading 4: a) Bài toán và động lực
+Heading 4: b) Kiến trúc RoleNet — ba thế hệ mô hình
+Heading 4: c) Chế độ dự phòng dựa trên luật màu (Rule-based Fallback)
+Heading 3: 1.2.3. Nhận diện hành động (Action Recognition) 
+Heading 4: a) Bài toán và hướng tiếp cận
+Heading 4: b) Kiến trúc ActionNet (MediaPipe Pose + GRU)
+Heading 4: c) Cơ chế dự phòng thông minh (Smart Fallback)
+Heading 3: 
+Heading 3: 1.2.4. Phân tích hành vi và ngữ cảnh (Behavior & Context Analysis) 
+Heading 4: a) Module phân tích hành vi không gian-thời gian (BehaviorAnalyzer)
+Heading 4: b) Module đánh giá ngữ cảnh bằng ML (ContextEngineML / ContextNet)
+Heading 3: 1.2.5. Nhận diện khuôn mặt (Face Recognition) 
+Heading 4: a) Hướng tiếp cận bảo vệ quyền riêng tư
+Heading 4: b) Quy trình kỹ thuật (IdentityManager)
+Heading 3: 1.2.6. Phân vùng giám sát (Zone Detection) 
+Heading 4: a) Khái niệm và mục đích
+Heading 4: b) Thuật toán kiểm tra điểm trong đa giác
+Heading 4: c) Theo dõi trạng thái zone
+Heading 4: d) Persistence và cập nhật runtime
+Heading 2: 1.3. Ứng dụng học sâu trong hệ thống giám sát 
+Heading 3: 1.3.1. Mạng nơ-ron tích chập (CNN) trong nhận dạng hình ảnh
+Heading 4: a) Nguyên lý hoạt động của CNN
+Heading 4: b) Ứng dụng CNN trong hệ thống — Module RoleNet và YOLOv8
+Heading 4: c) Kỹ thuật Transfer Learning và Fine-tuning
+Heading 4: d) Kỹ thuật Test-Time Augmentation (TTA)
+Heading 3: 1.3.2. Mạng nơ-ron hồi tiếp (GRU/LSTM) trong phân tích chuỗi thời gian
+Heading 4: a) Động lực: Tại sao cần mô hình chuỗi thời gian?
+Heading 4: b) Hạn chế của RNN truyền thống và sự ra đời của LSTM/GRU
+Heading 4: c) Lựa chọn GRU cho ActionNet và lý do
+Heading 4: d) Kiến trúc ActionNet GRU chi tiết
+Heading 4: e) Cơ chế Sliding Window trong inference
+Heading 3: 1.3.3.  Kiến trúc ConvNeXt và các mô hình hiện đại 
+Heading 4: a) Bối cảnh: Sự cạnh tranh CNN vs Vision Transformer
+Heading 4: b) ConvNeXt — "Hiện đại hóa ResNet"
+Heading 4: c) ConvNeXt-Tiny — Lựa chọn cho RoleNet V3
+Heading 4: d) So sánh với các kiến trúc hiện đại khác
+Heading 3: 1.3.4. Học máy truyền thống kết hợp (XGBoost, LightGBM)
+Heading 4: a) Vị trí của học máy truyền thống trong kiến trúc hệ thống
+Heading 4: b) XGBoost — Extreme Gradient Boosting
+Heading 4: c) LightGBM — Light Gradient Boosting Machine
+Heading 4: d) Explainability — Lý do chọn Tree-based Models cho ContextNet
+Heading 4: e) Kiến trúc hybrid: Học sâu + Học máy truyền thống
+Heading 2: 1.4. Các phương pháp đánh giá mô hình
+Heading 3: 1.4.1. Accuracy, Precision, Recall
+Heading 4: a) Accuracy
+Heading 4: b) Precision
+Heading 4: c) Recall
+Heading 4: d) Ứng dụng trong hệ thống
+Heading 3: 1.4.2. F1-Score
+Heading 3: 1.4.3. Confusion Matrix
+Heading 3: 1.4.4. Top-K Accuracy và Test-Time Augmentation (TTA)
+Heading 4: a) Top-K Accuracy
+Heading 4: b) Test-Time Augmentation (TTA)
+Heading 4: c) Lưu ý trade-off
+Heading 2: 1.5. Công nghệ xây dựng hệ thống
+Heading 3: 1.5.1. Phát hiện đối tượng với YOLOv8
+Heading 3: 1.5.2. Ước tính tư thế với MediaPipe Pose
+Heading 3: 1.5.3. Xây dựng Web Dashboard với FastAPI
+Heading 3: 1.5.4. Deep Learning Framework: PyTorch
+Heading 3: 
+Heading 2: 2.1. Tổng quan kiến trúc pipeline 3 mô hình
+Heading 3:   2.1.1. Sự cần thiết của kiến trúc đa mô hình 
+Heading 4: a) Một mô hình đơn lẻ không đủ cho bài toán an ninh ngữ cảnh
+Heading 4: b) Vai trò của từng mô hình trong pipeline
+Heading 4: c) Lợi ích kỹ thuật của kiến trúc đa mô hình
+Heading 4: d) Phù hợp với yêu cầu vận hành thực tế
+Heading 3:   2.1.2. Luồng xử lý tổng thể từ frame đến cảnh báo
+Heading 4: a) Luồng xử lý mức cao
+Heading 4: b) Bước 1 - Thu nhận frame và phát hiện đối tượng
+Heading 4: c) Bước 2 - Theo dõi đa đối tượng
+Heading 4: d) Bước 3 - Suy luận vai trò và hành động
+Heading 4: e) Bước 4 - Hợp nhất ngữ cảnh và phát cảnh báo
+Heading 4: f) Ý nghĩa kiến trúc từ góc nhìn hệ thống
+Heading 2: 2.2. Mô hình RoleNet — Nhận diện vai trò người
+Heading 3:   2.2.1. Bài toán nhận diện vai trò
+Heading 4: a) Định nghĩa bài toán
+Heading 4: b) Thách thức đặc thù của bài toán
+Heading 3:   2.2.2. Kiến trúc và quá trình phát triển qua 3 phiên bản 
+Heading 4: a) RoleNet V1 — MobileNetV3-Small (59.05% val accuracy)
+Heading 4: b) RoleNet V2 — EfficientNet-B2 với TTA (64.41% val accuracy)
+Heading 4: c) RoleNet V3 — ConvNeXt-Tiny (phiên bản hiện hành, ~99.96%)
+Heading 3:   2.2.3. Tập dữ liệu và phương pháp thu thập
+Heading 4: a) 16 lớp vai trò mục tiêu
+Heading 4: b) Thu thập ảnh từ Google Images và OpenImages
+Heading 4: c) Augmentation (TrivialAugmentWide, MixUp, CutMix)
+Heading 3:   2.2.4. Quá trình huấn luyện 
+Heading 4: a) Transfer learning từ ImageNet
+Heading 4: b) Progressive unfreezing và OneCycleLR scheduler
+Heading 4: c) Weighted Random Sampling để cân bằng lớp
+Heading 3:   2.2.5. Ưu điểm và hạn chế 
+Heading 4: a) Ưu điểm
+Heading 4: b) Hạn chế
+Heading 4: c) Hướng cải tiến
+Heading 2: 2.3. Mô hình ContextNet — Đánh giá mức độ cảnh báo  
+Heading 3:   2.3.1. Bài toán ra quyết định cảnh báo từ ngữ cảnh 
+Heading 4: a) Bản chất bài toán
+Heading 4: b) Vai trò trong pipeline tổng thể
+Heading 3:   2.3.2. Kiến trúc XGBoost và feature engineering 
+Heading 4: a) 14 features đầu vào (role_id, zone_type, loitering, time_in_zone, ...)
+Heading 4: b) 6 mức cảnh báo đầu ra (ignore -> critical)
+Heading 4: c) Kiến trúc mô hình XGBoost
+Heading 3:   2.3.3. Sinh dữ liệu huấn luyện tổng hợp (60,000 mẫu) 
+Heading 4: a) Nguyên tắc sinh dữ liệu
+Heading 4: b) Quy mô 60.000 mẫu
+Heading 4: c) Lợi ích và rủi ro của dữ liệu tổng hợp
+Heading 3:   2.3.4. Cơ chế fallback tự động về rule-based engine 
+Heading 3:   2.3.5. Ưu điểm và hạn chế 
+Heading 4: a) Ưu điểm
+Heading 4: b) Hạn chế
+Heading 4: c) Hướng cải tiến
+Heading 2: 2.4. Mô hình ActionNet — Nhận diện hành động nguy hiểm 
+Heading 3: 2.4.1. Bài toán nhận diện hành động từ chuỗi khung ảnh 
+Heading 4: a) Định nghĩa bài toán
+Heading 4: b) Thách thức kỹ thuật
+Heading 3: 
+Heading 4: a) Trích xuất 33 keypoints bằng MediaPipe Pose (132 chiều)
+Heading 4: b) Kiến trúc GRU (hidden=128, 2 layers) phân loại chuỗi 30 frame
+Heading 3: 2.4.3. Tập dữ liệu và 8 lớp hành động 
+Heading 4: b) Thu thập từ UCF-101 và YouTube
+Heading 3: 2.4.4. Hàm mất mát và chiến lược tối ưu hóa 
+Heading 3: 2.4.5. Cơ chế fallback 3 tầng thông minh 
+Heading 4: a) Tầng 1: MediaPipe + GRU (độ chính xác cao nhất)
+Heading 4: b) Tầng 2: MediaPipe + Rule từ keypoints
+Heading 4: c) Tầng 3: Rule từ velocity và tỉ lệ bounding box
+Heading 4: a) Ưu điểm
+Heading 4: b) Hạn chế
+Heading 4: c) Hướng cải tiến
+Heading 1: CHƯƠNG 3. XÂY DỰNG VÀ ĐÁNH GIÁ HỆ THỐNG HOÀN CHỈNH 
+Heading 2: 3.1. Giới thiệu về hệ thống  
+Heading 3: 3.1.1. Mục tiêu và phạm vi hệ thống
+Heading 4: a) Mục tiêu tổng thể
+Heading 4: b) Phạm vi hệ thống
+Heading 3: 3.1.2. Kiến trúc tổng thể và công nghệ sử dụng
+Heading 4: a) Kiến trúc pipeline đa tầng
+Heading 4: b) Sơ đồ module và file tương ứng
+Heading 4: 
+Heading 4: 
+Heading 4: 
+Heading 4: c) Ngăn xếp công nghệ (Technology Stack)
+Heading 3:  
+Heading 2: 3.2. Các module chức năng trong pipeline  
+Heading 3: Pipeline xử lý của hệ thống được tổ chức thành 9 module chức năng chính, mỗi module đảm nhận một nhiệm vụ chuyên biệt và truyền kết quả cho module tiếp theo thông qua cấu trúc dữ liệu TrackedObject được định nghĩa trong models.py. Toàn bộ các module được điều phối bởi CameraPipeline trong pipeline.py.
+Heading 3: 3.2.1. Object Detector — modules/object_detector.py (YOLOv8n)
+Heading 4: a) Chức năng và vị trí trong pipeline
+Heading 4: b) Cấu hình triển khai
+Heading 4: c) Quy trình xử lý
+Heading 3: 3.2.2. Object Tracker — modules/object_tracker.py (ByteTrack)
+Heading 4: a) Chức năng
+Heading 4: b) Thuật toán theo dõi
+Heading 4: c) Thông tin bổ sung trên TrackedObject
+Heading 3: 
+Heading 4: a) Chức năng và thiết kế fallback
+Heading 4: b) Quy trình inference
+Heading 4: c) Tối ưu hiệu năng — Per-track Cache
+Heading 4: d) Rule-based fallback (HSV Color Analysis)
+Heading 3: 3.2.4. Action Recognizer — modules/action_recognizer.py
+Heading 4: a) Chức năng
+Heading 4: b) Cấu hình vận hành hiện tại
+Heading 4: c) Round-robin scheduling
+Heading 4: d) Ánh xạ hành động → mức cảnh báo
+Heading 3: 3.2.5. Identity Manager — modules/identity_manager.py
+Heading 4: a) Chức năng
+Heading 4: b) Phương pháp: HSV Color Histogram
+Heading 4: c) Cấu hình và hạn chế
+Heading 3: 3.2.6. Zone Detector — modules/zone_detector.py
+Heading 4: a) Chức năng
+Heading 4: b) Cấu hình zone mặc định
+Heading 4: c) Thuật toán và trạng thái
+Heading 4: d) Cập nhật runtime
+Heading 3: 3.2.7. Behavior Analyzer — modules/behavior_analyzer.py
+Heading 4: a) Chức năng
+Heading 4: b) Bốn chỉ số hành vi
+Heading 3: 3.2.8. Context Engine ML — modules/context_engine_ml.py
+Heading 4: a) Chức năng
+Heading 4: b) Hai chế độ hoạt động
+Heading 4: c) Cooldown chống spam
+Heading 3: 3.2.9. Event Logger và Visualizer
+Heading 4: a) EventLogger — modules/event_logger.py
+Heading 4: b) Visualizer — modules/visualizer.py
+Heading 2: 3.3. Giao diện hệ thống — Web Dashboard  
+Heading 3: 3.3.1. Cấu trúc giao diện (FastAPI + MJPEG streaming)
+Heading 3: a) Kiến trúc web tổng thể
+Heading 3: b) Thiết kế giao diện
+Heading 2: 
+Heading 2: 
+Heading 2: 3.3.2. Live video stream và danh sách đối tượng theo dõi
+Heading 3: a) Video stream (MJPEG)
+Heading 3: b) Danh sách đối tượng theo dõi (Objects Panel)
+Heading 2: 3.3.3. Bảng cảnh báo (Alert Feed) và thống kê thời gian thực
+Heading 3: a) Stats Card (4 chỉ số thời gian thực)
+Heading 3: 
+Heading 3: b) Alert Feed
+Heading 2: 3.3.4. Zone Editor — vẽ vùng giám sát trực tiếp trên video
+Heading 2: 3.4. Hệ thống API (FastAPI)
+Heading 3: 3.4.1. Các endpoint GET
+Heading 3: 3.4.2. Các endpoint POST
+Heading 2: 
+Heading 2: 3.4. Hệ thống API (FastAPI)  
+Heading 3: Hệ thống cung cấp 15 endpoint RESTful (8 GET, 4 POST, 1 DELETE, 2 GET streaming).
+Heading 3: 3.4.1. Các endpoint GET
+Heading 3: 3.4.2. Các endpoint POST
+Heading 2: 3.5. Chuẩn bị và tiền xử lý dữ liệu  
+Heading 2: 3.5.1. Thu thập dữ liệu ảnh cho RoleNet (21,785 ảnh)
+Heading 3: a) Tổng quan tập dữ liệu
+Heading 3: b) Phương pháp thu thập — Script collect_images.py
+Heading 3: c) Phân phối dữ liệu theo lớp
+Heading 2: 3.5.2. Xử lý và trích xuất keypoints cho ActionNet
+Heading 3: a) Tổng quan tập dữ liệu
+Heading 3: b) Pipeline thu thập dữ liệu video
+Heading 3: c) Augmentation keypoints
+Heading 2: 3.5.3. Sinh dữ liệu tổng hợp cho ContextNet (50,000 mẫu)
+Heading 3: a) Chiến lược Rule Distillation
+Heading 3: b) Quy trình sinh dữ liệu
+Heading 3: c) Quy mô và chất lượng
+Heading 2: 3.5.4. Các bước tiền xử lý và augmentation
+Heading 3: a) Tiền xử lý ảnh cho RoleNet — preprocess_dataset.py
+Heading 3: b) Augmentation dữ liệu huấn luyện — augment_dataset.py
+Heading 3: c) Kiểm tra trạng thái dataset — dataset_status.py
+Heading 2: 3.6. Huấn luyện các mô hình trên Google Colab  
+Heading 3: Ba mô hình học sâu/học máy của hệ thống được huấn luyện theo quy trình riêng biệt, trong đó RoleNet và ActionNet được train trên GPU (Google Colab), còn ContextNet được train trên CPU do XGBoost không cần GPU.
+Heading 2: 3.6.1. Huấn luyện RoleNet V3
+Heading 3: a) Cấu hình và biên dịch mô hình
+Heading 3: b) Kết quả qua 3 phiên bản
+Heading 3: c) Export sang ONNX (rolenet_v3.onnx, rolenet_v3_quant.onnx)
+Heading 2: 3.6.2. Huấn luyện ContextNet (XGBoost, 300 estimators)
+Heading 3: a) Quy trình huấn luyện — train_context_model.py
+Heading 3: b) Kết quả và feature importance
+Heading 2: 3.6.3. Huấn luyện ActionNet (GRU, trên GPU Colab)
+Heading 3: a) Kiến trúc model và cấu hình
+Heading 3: b) Kết quả huấn luyện
+Heading 3: c) Đặc điểm quan trọng — Per-Track Buffer Management
+Heading 2: 3.7. Đánh giá mô hình  
+Heading 3: Phần đánh giá được thực hiện ở hai cấp độ: đánh giá offline (trên tập test chuẩn sau khi huấn luyện) và đánh giá online (quan sát trong quá trình vận hành thực tế qua eval_report).
+Heading 2: 3.7.1. Đánh giá RoleNet qua Accuracy và Confusion Matrix
+Heading 3: a) Kết quả tổng hợp ba phiên bản
+Heading 3: b) Phân tích Confusion Matrix (RoleNet V3)
+Heading 3: c) Đánh giá thực tế — Domain Gap
+Heading 2: 3.7.2. Đánh giá ActionNet (Val: 95.31%, Test: 90.62%)
+Heading 3: a) Kết quả đánh giá offline
+Heading 3: b) Đánh giá thực tế
+Heading 2: 3.7.3. Đánh giá ContextNet (phân loại 6 mức cảnh báo)
+Heading 3: a) Kết quả đánh giá offline (synthetic data)
+Heading 2: 3.7.4. Đánh giá hiệu năng pipeline tổng thể (FPS, độ trễ)
+Heading 3: a) Đo lường FPS thực tế
+Heading 2: 
+Heading 2: 3.8. Tích hợp mô hình vào hệ thống  
+Heading 2: 
+Heading 3: a) Cơ chế khởi tạo với auto-detection
+Heading 3: b) Inference pipeline với TTA
+Heading 3: c) Per-track cache với adaptive skip
+Heading 2: 3.8.2. Tích hợp ActionNet — cơ chế 3 tầng
+Heading 3: a) Cơ chế Thread-Safety với MediaPipe Lock
+Heading 3: b) Round-Robin Scheduling
+Heading 3: c) Fallback detection tự động
+Heading 2: 3.8.3. Tích hợp ContextNet — XGBoost + Rule fallback
+Heading 3: a) Feature extraction từ TrackedObject
+Heading 3: b) Cooldown mechanism
+Heading 3: 
+Heading 2: 3.8.4. Orchestrator đa luồng — pipeline.py
+Heading 3: a) Kiến trúc CameraPipeline
+Heading 3: b) Vòng lặp xử lý chính — _process_frame()
+Heading 3: c) Adaptive Skip Rate — _adapt_skip_rates()
+Heading 3: d) AlertRecorder — Ghi clip video theo sự kiện
+Heading 3: e) TelegramNotifier — Push notification
+Heading 3: 

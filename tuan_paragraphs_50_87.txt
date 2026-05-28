@@ -1,0 +1,38 @@
+[50]: LỜI CẢM ƠN
+[51]: Trước tiên, em xin bày tỏ lòng biết ơn sâu sắc đến các thầy cô giáo Trường Đại học Công nghệ Thông tin và Truyền thông đã tận tình giảng dạy, truyền đạt cho em những kiến thức quý báu trong suốt thời gian học tập tại trường. Những kiến thức và kinh nghiệm mà thầy cô truyền đạt chính là nền tảng quan trọng giúp em có thể hoàn thành bài báo cáo này.
+[52]: Đặc biệt, em xin bày tỏ lòng biết ơn chân thành đến thầy giáo TS.Nguyễn Tuấn Anh, người đã luôn chỉ bảo, đồng hành cùng em xuyên suốt thời gian làm đồ án. Sự chỉ bảo cùng lời góp ý chân thành của thầy đã giúp em hoàn thiện đồ án một cách xuất sắc nhất có thể.
+[53]: Em cũng xin dành lời cảm ơn sâu sắc tới bạn bè, những người đã luôn bên cạnh chia sẻ, hỗ trợ, đóng góp ý kiến và tạo cho em một môi trường học tập tích cực, nhiệt huyết. Những cuộc trao đổi, thảo luận và góp ý chân thành của các bạn là nguồn động lực lớn giúp em không ngừng hoàn thiện đề tài của mình.
+[54]: Cuối cùng, em xin bày tỏ lòng cảm ơn đối với gia đình – điểm tựa vững chắc nhất trong suốt quá trình học tập và cuộc sống. Sự thương yêu, đùm bọc cùng lòng tự hào mà gia đình dành cho em luôn là nguồn động lực lớn lao để em vượt qua mọi thử thách để hoàn thành xuất sắc đồ án.
+[55]: Một lần nữa, em trân trọng cảm ơn mọi người đã cùng hỗ trợ em trong quá trình hình thành luận văn này.
+[56]: Em xin cảm ơn!
+[57]: 
+[58]: 
+[59]: 
+[60]: LỜI CAM ĐOAN
+[61]: Em xin cam đoan toàn bộ nội dung đồ án tốt nghiệp “xây dựng hệ thống giám sát an ninh thông minh dựa trên học sâu” là do em tự tìm kiếm và thực hiện dưới sự chỉ dẫn của thầy giáo TS. Nguyễn Tuấn Anh. Mọi sự đẫn chứng và tài liệu tham khảo do em cung cấp đều có ghi rõ nguồn. Em xin cam đoan những nội dung có đều là do em mày mò tìm hiểu và làm dưới sự chỉ lối của giáo viên hướng dẫn, vận dụng các tri thức của công việc thực tế em đang làm và tham khảo mẫu trên thư viện nhà trường về nội dung, cách thức trình bày. Tác giả cam kết nội dung đồ án tốt nghiệp hoàn toàn do bản thân thực hiện, không sao chép và không vi phạm bản quyền.
+[62]: Em xin cam đoan chịu trách nhiệm về sự chính xác của các thông tin được trình bày trong tài liệu này. 
+[63]: Thái Nguyên,tháng 4 năm 2026 
+[64]:                                                                                 Sinh viên
+[65]:                                                                                    Tuân
+[66]:                                                                                       Nguyễn Thanh Tuân
+[67]: 	
+[68]: 
+[69]: 
+[70]: MỤC LỤC
+[71]: 
+[72]: DANH MỤC TỪ VIẾT TẮT
+[73]: 
+[74]: 
+[75]: 
+[76]: 
+[77]: DANH MỤC HÌNH ẢNH
+[78]: 
+[79]: DANH MỤC BẢNG BIỂU
+[80]: LỜI NÓI ĐẦU	
+[81]: Lý do chọn đề tài
+[82]: Trong bối cảnh xã hội hiện đại, nhu cầu bảo đảm an ninh tại các khu vực công cộng, khu dân cư, tòa nhà văn phòng và cơ sở hạ tầng quan trọng ngày càng trở nên cấp thiết. Hệ thống camera an ninh (CCTV) truyền thống đã và đang được triển khai rộng rãi, tuy nhiên chúng tồn tại một hạn chế căn bản: camera chỉ thu hình, không hiểu hình. Toàn bộ quá trình phân tích, phán đoán và cảnh báo vẫn phụ thuộc hoàn toàn vào con người trực tiếp quan sát màn hình — một phương thức vừa tốn kém nhân lực, vừa dễ xảy ra sai sót do yếu tố mệt mỏi hay chủ quan.
+[83]: Những năm gần đây, sự bùng nổ của Trí Tuệ Nhân Tạo (AI), đặc biệt trong các lĩnh vực Thị Giác Máy Tính (Computer Vision) và Học Sâu (Deep Learning), đã mở ra một hướng tiếp cận hoàn toàn mới: xây dựng hệ thống camera có khả năng tự động nhận diện, phân tích và đưa ra cảnh báo mà không cần con người liên tục can thiệp. Các mô hình phát hiện vật thể như YOLO, các mạng nơ-ron hồi tiếp xử lý chuỗi thời gian như LSTM/GRU, cùng các kỹ thuật ước lượng tư thế người (Pose Estimation) đã đạt đến mức độ chính xác đủ để triển khai trong môi trường thực tế.
+[84]: Tuy nhiên, phần lớn các hệ thống hiện có trên thị trường hoặc trong học thuật vẫn chỉ dừng lại ở mức phát hiện vật thể đơn giản (đây là "người" hay "xe"), mà chưa trả lời được câu hỏi quan trọng hơn: người này là ai, đang làm gì, và trong bối cảnh đó hành vi đó có đáng ngờ không? Nói cách khác, các hệ thống này thiếu khả năng hiểu ngữ cảnh (context-aware reasoning).
+[85]: Xuất phát từ thực tiễn đó, nhóm tác giả đã đề xuất và thực hiện đề tài "Hệ Thống Camera Giám Sát Thông Minh Sử Dụng Trí Tuệ Nhân Tạo" — một hệ thống tích hợp ba mô hình AI tự phát triển:
+[86]: RoleNet — nhận diện vai trò xã hội của người được phát hiện (shipper, bác sĩ, công an, bộ đội...) dựa trên đặc điểm trang phục và phụ kiện;
+[87]: ActionNet — phân loại hành động nguy hiểm theo thời gian thực (ngã, đánh nhau, leo trèo, chạy đột ngột...) qua phân tích chuỗi điểm khớp xương người;

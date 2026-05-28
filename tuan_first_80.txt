@@ -1,0 +1,80 @@
+[00] Text: 
+[01] Text: ĐẠI HỌC THÁI NGUYÊN
+[02] Text: TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG
+[03] Text: 
+[04] Text: 
+[05] Text: 
+[06] Text: 
+[07] Text: NGUYỄN THANH TUÂN
+[08] Text: 
+[09] Text: 
+[10] Text: 
+[11] Text: 
+[12] Text: 
+[13] Text: XÂY DỰNG HỆ THỐNG GIÁM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU
+[14] Text: 
+[15] Text: 
+[16] Text: 
+[17] Text: 
+[18] Text: ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC
+[19] Text: NGÀNH CÔNG NGHỆ THÔNG TIN
+[20] Text:                         
+[21] Text: 
+[22] Text: 
+[23] Text: 
+[24] Text: 
+[25] Text: 
+[26] Text: THÁI NGUYÊN, THÁNG 4 NĂM 2026
+[27] Text: ĐẠI HỌC THÁI NGUYÊN
+[28] Text: TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG
+[29] Text: 
+[30] Text: 
+[31] Text: 
+[32] Text: ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC
+[33] Text: KHOA CÔNG NGHỆ THÔNG TIN
+[34] Text: 
+[35] Text: ĐỀ TÀI:
+[36] Text:  XÂY DỤNG HỆ THỐNG GIAM SÁT AN NINH THÔNG MINH DỰA TRÊN HỌC SÂU
+[37] Text: 
+[38] Text: 
+[39] Text: 
+[40] Text: Giáo viên hướng dẫn: 	TS. Nguyễn Tuấn Anh
+[41] Text: Sinh viên thực hiện: 		Nguyễn Thanh Tuân
+[42] Text: Lớp: 				CNTT K21 CLC
+[43] Text:                       Mã SV: 	DTC225210134
+[44] Text: 
+[45] Text: 
+[46] Text: 
+[47] Text: 
+[48] Text: 
+[49] Text: Thái Nguyên, tháng 4  năm 2026
+[50] Text: LỜI CẢM ƠN
+[51] Text: Trước tiên, em xin bày tỏ lòng biết ơn sâu sắc đến các thầy cô giáo Trường Đại học Công nghệ Thông tin và Truyền thông đã tận tình giảng dạy, truyền đạt cho em những kiến thức quý báu trong suốt thời gian học tập tại trường. Những kiến thức và kinh nghiệm mà thầy cô truyền đạt chính là nền tảng quan trọng giúp em có thể hoàn thành bài báo cáo này.
+[52] Text: Đặc biệt, em xin bày tỏ lòng biết ơn chân thành đến thầy giáo TS.Nguyễn Tuấn Anh, người đã luôn chỉ bảo, đồng hành cùng em xuyên suốt thời gian làm đồ án. Sự chỉ bảo cùng lời góp ý chân thành của thầy đã giúp em hoàn thiện đồ án một cách xuất sắc nhất có thể.
+[53] Text: Em cũng xin dành lời cảm ơn sâu sắc tới bạn bè, những người đã luôn bên cạnh chia sẻ, hỗ trợ, đóng góp ý kiến và tạo cho em một môi trường học tập tích cực, nhiệt huyết. Những cuộc trao đổi, thảo luận và góp ý chân thành của các bạn là nguồn động lực lớn giúp em không ngừng hoàn thiện đề tài của mình.
+[54] Text: Cuối cùng, em xin bày tỏ lòng cảm ơn đối với gia đình – điểm tựa vững chắc nhất trong suốt quá trình học tập và cuộc sống. Sự thương yêu, đùm bọc cùng lòng tự hào mà gia đình dành cho em luôn là nguồn động lực lớn lao để em vượt qua mọi thử thách để hoàn thành xuất sắc đồ án.
+[55] Text: Một lần nữa, em trân trọng cảm ơn mọi người đã cùng hỗ trợ em trong quá trình hình thành luận văn này.
+[56] Text: Em xin cảm ơn!
+[57] Text: 
+[58] Text: 
+[59] Text: 
+[60] Text: LỜI CAM ĐOAN
+[61] Text: Em xin cam đoan toàn bộ nội dung đồ án tốt nghiệp “xây dựng hệ thống giám sát an ninh thông minh dựa trên học sâu” là do em tự tìm kiếm và thực hiện dưới sự chỉ dẫn của thầy giáo TS. Nguyễn Tuấn Anh. Mọi sự đẫn chứng và tài liệu tham khảo do em cung cấp đều có ghi rõ nguồn. Em xin cam đoan những nội dung có đều là do em mày mò tìm hiểu và làm dưới sự chỉ lối của giáo viên hướng dẫn, vận dụng các tri thức của công việc thực tế em đang làm và tham khảo mẫu trên thư viện nhà trường về nội dung, cách thức trình bày. Tác giả cam kết nội dung đồ án tốt nghiệp hoàn toàn do bản thân thực hiện, không sao chép và không vi phạm bản quyền.
+[62] Text: Em xin cam đoan chịu trách nhiệm về sự chính xác của các thông tin được trình bày trong tài liệu này. 
+[63] Text: Thái Nguyên,tháng 4 năm 2026 
+[64] Text:                                                                                 Sinh viên
+[65] Text:                                                                                    Tuân
+[66] Text:                                                                                       Nguyễn Thanh Tuân
+[67] Text: 	
+[68] Text: 
+[69] Text: 
+[70] Text: MỤC LỤC
+[71] Text: 
+[72] Text: DANH MỤC TỪ VIẾT TẮT
+[73] Text: 
+[74] Text: 
+[75] Text: 
+[76] Text: 
+[77] Text: DANH MỤC HÌNH ẢNH
+[78] Text: 
+[79] Text: DANH MỤC BẢNG BIỂU

@@ -1,0 +1,87 @@
+TRƯỜNG ĐẠI HỌC CÔNG NGHỆ  THÔNG TIN VÀ TRUYỀN THÔNG KHOA CÔNG NGHỆ THÔNG TIN | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+ĐỀ CƯƠNG ĐỒ ÁN / KHÓA LUẬN TỐT NGHIỆP
+1. Thông tin sinh viên nhận đề tài
+Họ và tên: Tăng Tuấn Minh
+Mã sinh viên: DTC225210078                         Lớp: CNTT K21 CLC
+Điện thoại: 0962474852                                   Email: dtc225210078@ictu.edu.vn
+2. Thông tin về giảng viên hướng dẫn
+Họ và tên: Nguyễn Tuấn Anh
+Học hàm, học vị: Tiến sỹ
+Khoa: Công nghệ thông tin                                  Bộ môn: Khoa học máy tính
+Điện thoại: 0912662003                                       Email: anhnt@ictu.edu.vn
+3. Đề tài: Ứng dụng học sâu trong nhận dạng hành vi té ngã của người cao tuổi
+4. Thời gian thực hiện: 10 tuần, từ ngày 09/03/2026 đến ngày 22/05/2026
+5. Mục tiêu:
+	    Mục tiêu tổng quát: Xây dựng hệ thống giám sát thông minh dựa trên kỹ thuật Học sâu  có khả năng nhận dạng chính xác và kịp thời hành vi té ngã của người cao tuổi qua camera giám sát. Hệ thống hướng tới việc đưa ra các cảnh báo tức thời cho người thân hoặc nhân viên y tế, nhằm giảm thiểu rủi ro chấn thương nghiêm trọng và hỗ trợ can thiệp y tế nhanh nhất có thể.
+   Mục tiêu cụ thể:
+- Nghiên cứu và làm chủ công nghệ Học sâu (Deep Learning): Tìm hiểu các kiến trúc mạng nơ-ron tích chập (CNN), mạng hồi quy (RNN/LSTM) hoặc các mô hình dựa trên Pose Estimation (ước lượng bộ khung xương) chuyên biệt cho bài toán nhận dạng hành vi trong video.
+- Xây dựng và xử lý bộ dữ liệu huấn luyện: Thu thập, tiền xử lý và gắn nhãn các bộ dữ liệu video về hành vi té ngã và các hoạt động thường ngày (ADL - Activities of Daily Living) của người cao tuổi để phục vụ quá trình huấn luyện mô hình.
+- Thiết kế và tối ưu thuật toán nhận dạng: Phát triển mô hình có khả năng trích xuất đặc trưng chuyển động, phân biệt được sự khác biệt giữa hành vi té ngã thực sự với các hành động có đặc điểm tương tự như: ngồi xuống nhanh, nằm xuống giường hoặc nhặt đồ vật.
+- Tối ưu hóa hiệu năng xử lý thời gian thực: Đảm bảo mô hình hoạt động ổn định với độ trễ thấp trên các thiết bị phần cứng thông thường, có khả năng xử lý luồng dữ liệu video trực tiếp (Real-time stream processing).
+- Xây dựng cơ chế cảnh báo thông minh: Thiết kế module tự động gửi thông báo (qua SMS, App hoặc chuông báo) kèm theo hình ảnh/video bằng chứng khi phát hiện có sự cố té ngã xảy ra.
+-  Đánh giá và kiểm chứng mô hình: Thử nghiệm hệ thống trong các môi trường giả lập khác nhau (phòng khách, phòng ngủ, điều kiện ánh sáng thay đổi) để đo lường các chỉ số về độ chính xác (Accuracy), độ nhạy (Recall) và giảm thiểu tỷ lệ báo động giả (False Positive).
+- Xây dựng ứng dụng thực nghiệm: Hoàn thiện một hệ thống phần mềm hoàn chỉnh có giao diện quản lý trực quan, cho phép người dùng theo dõi trạng thái của người thân và nhận các cảnh báo khẩn cấp từ xa.
+6. Yêu cầu về chuẩn năng lực
+Mã CLO | Nội dung CLO | % của CLO | Mã PI | Nội dung PI | % của PI
+4 | Nội dung CLO | 100 | 10 | Nội dung PI | 100
+1 | Phân tích yêu cầu và xây dựng bài toán | 35 | 1.1 | Xác định vấn đề và mục tiêu bài toán: Mô tả rõ bản chất, phạm vi, mục tiêu kỹ thuật và tiêu chí thành công; phân tích yêu cầu thực tế và xác định chính xác đầu vào – đầu ra của bài toán | 5
+1 | Phân tích yêu cầu và xây dựng bài toán | 35 | 1.2 | Thu thập, mô tả và chuẩn hóa yêu cầu từ dữ liệu và người dùng: Sinh viên phân tích được yêu cầu chức năng - phi chức năng; hiểu đặc trưng dữ liệu và bối cảnh ứng dụng; chuyển hóa thành đặc tả bài toán AI/ML/DL/LLM. | 15
+1 | Phân tích yêu cầu và xây dựng bài toán | 35 | 1.3 | Xây dựng mô hình bài toán theo hướng AI/ML/DL/LLM: Biểu diễn bài toán dưới dạng mô hình học máy (input, output, giả thiết, ràng buộc), xác định biến, tham số, không gian dữ liệu và lựa chọn hướng tiếp cận phù hợp. | 10
+1 | Phân tích yêu cầu và xây dựng bài toán | 35 | 1.4 | Đề xuất tiêu chí đánh giá và phương pháp kiểm chứng bài toán: Thiết lập được bộ tiêu chí đánh giá mô hình (accuracy, F1, MAE, v.v.) | 5
+2 | Xây dựng/ Lựa chọn mô hình học máy/học sâu/LLM | 40 | 2.1 | Lựa chọn mô hình phù hợp: Phân tích bài toán và đặc trưng dữ liệu để lựa chọn mô hình ML/DL/LLM thích hợp, đồng thời trình bày rõ cơ sở lý giải và kiến trúc của mô hình được chọn. | 15
+2 | Xây dựng/ Lựa chọn mô hình học máy/học sâu/LLM | 40 | 2.2 | Thiết kế và huấn luyện mô hình: Sinh viên xây dựng, huấn luyện và tối ưu mô hình theo quy trình kỹ thuật chuẩn, triển khai cài đặt và tinh chỉnh để đạt được các chỉ số đánh giá yêu cầu. | 25
+3 | Đánh giá và so sánh mô hình | 15 | 3.1 | Đánh giá hiệu năng mô hình: Áp dụng đúng các chỉ số đánh giá (Accuracy, F1, MAE, v.v.) và phân tích kết quả một cách khách quan, bám sát mục tiêu bài toán. | 5
+3 | Đánh giá và so sánh mô hình | 15 | 3.2 | So sánh và luận giải sự khác biệt giữa các mô hình: Thực hiện so sánh kết quả giữa các mô hình, rút ra nhận xét khoa học và giải thích. | 10
+4 | Xây dựng ứng dụng hoàn chỉnh | 10 | 4.1 | Thiết kế và triển khai hệ thống ứng dụng: Xây dựng kiến trúc ứng dụng, triển khai đầy đủ các chức năng và tích hợp mô hình AI/ML/DL/LLM vào hệ thống, đồng thời phát triển giao diện người dùng đáp ứng yêu cầu sử dụng thực tế. | 5
+4 | Xây dựng ứng dụng hoàn chỉnh | 10 | 4.2 | Vận hành, kiểm thử và hoàn thiện sản phẩm: Hiệu năng của ứng dụng và hoàn thiện sản phẩm đáp ứng yêu cầu kỹ thuật và trải nghiệm người dùng. | 5
+
+7. Yêu cầu về sản phẩm 
+a. Mô tả tóm tắt yêu cầu về sản phẩm của đồ án/khoá luận tốt nghiệp
+Sản phẩm của đồ án là một hệ thống giám sát và cảnh báo té ngã thông minh (AI Fall Detection System) hoạt động dựa trên các mô hình Học sâu (Deep Learning) tiên tiến. Về mặt chức năng, hệ thống yêu cầu khả năng phân tích luồng video thời gian thực từ camera giám sát để tự động phát hiện, phân loại và nhận diện các hành vi bất thường, đặc biệt là hành động té ngã của người cao tuổi trong môi trường sinh hoạt trong nhà (indoor). Sản phẩm phải vận hành dựa trên sự kết hợp giữa kỹ thuật trích xuất đặc trưng hình ảnh và ước lượng bộ khung xương (Pose Estimation), cho phép hệ thống phân biệt chính xác giữa cú ngã thực sự với các hoạt động sinh hoạt có cường độ cao tương tự như ngồi xuống nhanh, cúi người hoặc nằm nghỉ.
+Điểm cốt lõi của sản phẩm nằm ở khả năng xử lý và phản hồi tức thời: thông qua các thuật toán tối ưu, hệ thống phải đảm bảo tỷ lệ nhận diện chính xác cao, giảm thiểu tối đa các báo động giả (False Alarms) gây phiền hà cho người dùng. Khi phát hiện sự cố, sản phẩm không chỉ dừng lại ở việc nhận dạng mà còn phải thực hiện các tác vụ phản ứng tự động như: trích xuất đoạn video ngắn ghi lại cú ngã, gửi thông báo khẩn cấp kèm vị trí và hình ảnh trực tiếp đến ứng dụng di động hoặc thiết bị cầm tay của người thân/nhân viên y tế. Toàn bộ hệ thống yêu cầu tính ổn định cao, hoạt động bền bỉ trong các điều kiện ánh sáng thay đổi và đảm bảo tính bảo mật dữ liệu hình ảnh cá nhân cho người cao tuổi trong suốt quá trình giám sát.
+b. Yêu cầu chi tiết
+
+Mã PI | Yêu cầu chi tiết tối thiểu
+10 | Yêu cầu chi tiết tối thiểu
+1.1 | Mô tả bài toán và phạm vi: Xác định đây là bài toán thị giác máy tính sử dụng học sâu để giám sát an toàn cho người cao tuổi; giới hạn trong phạm vi môi trường trong nhà (phòng khách, phòng ngủ, nhà bếp).  Mục tiêu kỹ thuật: Xây dựng mô hình Deep Learning (CNN, LSTM hoặc Pose-based) đảm bảo độ chính xác cao trong việc phân loại hành vi và tốc độ xử lý thời gian thực. Yêu cầu thực tế: Hệ thống hoạt động tự động 24/7 qua camera, không xâm phạm quyền riêng tư quá mức và có cơ chế cảnh báo tức thời.  Đầu vào: Luồng dữ liệu video/hình ảnh từ camera giám sát.  Đầu ra: Nhãn hành vi (Té ngã/Bình thường) và tín hiệu cảnh báo cấp cứu.
+1.2 | Thu thập và mô tả dữ liệu: Xác định các bộ dữ liệu mẫu (như UR Fall Detection, Multiple Cameras Fall Dataset); mô tả số lượng video, khung hình, các góc quay và các loại hành động giả ngã.  Phân tích yêu cầu chức năng: Hệ thống phải phát hiện người trong khung hình, theo dõi chuyển động và kích hoạt cảnh báo khi tọa độ/trọng tâm thay đổi đột ngột theo quỹ đạo té ngã.  Phân tích yêu cầu phi chức năng: Thời gian xử lý dưới 100ms/khung hình, hoạt động tốt trong điều kiện thiếu sáng, bảo mật luồng stream video.  Chuẩn hóa bài toán AI: Xác định dạng bài toán là Image Classification/Action Recognition, chuẩn hóa đầu vào là các Tensor hình ảnh hoặc chuỗi tọa độ khung xương (Keypoints).
+1.3 | Xác định Input - Output: - Input: Chuỗi các khung hình (frames) liên tiếp từ camera. - Output: Điểm tin cậy (Confidence score) của hành vi té ngã và thông báo trạng thái.  Xác định giả thiết và ràng buộc: - Giả thiết: Camera được lắp đặt ở độ cao và góc nhìn bao quát được khu vực sinh hoạt. - Ràng buộc: Hệ thống chỉ nhận diện các cú ngã nằm trong tầm nhìn của camera (Line-of-sight).  Xác định biến, tham số: Tỷ lệ khung hình (FPS), ngưỡng xác suất (Threshold), các tham số của mô hình (Weights, Learning rate). Lựa chọn hướng tiếp cận: Sử dụng mô hình YOLOv8/v11 kết hợp với MediaPipe (để trích xuất khung xương) và thuật toán phân loại hành vi.
+1.4 | Trình bày các chỉ số đánh giá: Độ chính xác (Accuracy), Độ nhạy (Recall - cực kỳ quan trọng để không bỏ lỡ cú ngã), Độ đặc hiệu (Specificity) và Tỷ lệ báo động giả (False Alarm Rate).
+2.1 | Lựa chọn mô hình phù hợp: Phân tích đặc trưng của hành vi té ngã (biến đổi hình dạng nhanh theo thời gian) để chọn mô hình (ví dụ: mô hình 3D-CNN hoặc kết hợp CNN-LSTM) có khả năng học đặc trưng không gian và thời gian.
+2.2 | Thiết kế và triển khai mô hình: Xây dựng pipeline xử lý: Tiền xử lý (loại bỏ nhiễu) -> Trích xuất đặc trưng (Feature Extraction) -> Phân loại hành vi -> Hậu xử lý (Smoothing kết quả để tránh nhảy nhãn liên tục).
+3.1 | Đánh giá hiệu năng mô hình: Sử dụng Ma trận nhầm lẫn (Confusion Matrix) để phân tích các trường hợp bị nhận diện sai. Kiểm chứng trên các kịch bản thực tế như: ngã về phía trước, ngã nghiêng, ngã từ ghế xuống.
+3.2 | So sánh và luận giải: Thực hiện so sánh giữa việc chỉ sử dụng phân tích hình ảnh thuần túy (Image-based) và việc sử dụng phân tích khung xương (Pose-based) để chứng minh sự cải thiện về độ ổn định khi có vật cản che khuất một phần.
+4.1 | Xây dựng ứng dụng: Triển khai một ứng dụng quản lý (Dashboard) hiển thị luồng camera trực tiếp, lưu trữ lịch sử các vụ té ngã và tích hợp cảnh báo đến điện thoại người thân.
+4.2 | Kết quả vận hành: Hệ thống chạy ổn định trên phần cứng mục tiêu (Edge AI hoặc PC), nhận diện chính xác trên 90% các cú ngã thử nghiệm và phát tín hiệu cảnh báo trong vòng dưới 2 giây sau khi sự cố xảy ra.
+
+8. Yêu cầu về quyển báo cáo:
+Giảng viên không sửa các nội dung này
+Quyển báo cáo phải đảm bảo: 
+Do sinh viên tự xây dựng, 
+Có cấu trúc nội dung phù hợp yêu cầu và đảm bảo tính logic,
+Tuân thủ yêu cầu về khuôn mẫu và định dạng của trường, 
+Không có lỗi chính tả, 
+Không sử dụng nội dung vi phạm bản quyền, 
+Không vi phạm quy định chống đạo văn của trường.
+Cấu trúc của quyển báo cáo:
+Chương 1. Tổng quan và cơ sở lý thuyết 
+(Trình bày bối cảnh, phát biểu bài toán và các nền tảng khoa học của AI/ML/DL/LLM.)
+Chương 2. Phương pháp, mô hình và thiết kế hệ thống 
+(Mô tả dữ liệu, quy trình xây dựng mô hình, thuật toán và kiến trúc giải pháp.)
+Chương 3. Thực nghiệm, đánh giá và kết luận 
+(Báo cáo kết quả thực nghiệm, phân tích hiệu năng, so sánh, kết luận và hướng phát triển.)
+9. Tiến độ thực hiện
+STT | Thời gian | Công việc | Kết quả dự kiến
+1 | Tuần 1 | Xác định bài toán & Khảo sát: Nghiên cứu các phương pháp nhận dạng hành động (Action Recognition), xác định phạm vi giám sát (indoor) và đối tượng người cao tuổi. | Bản mô tả bài toán, mục tiêu kỹ thuật (độ chính xác, thời gian thực) và các tiêu chí thành công.
+2 | Tuần 2 | Phân tích yêu cầu & Thu thập dữ liệu: Tìm hiểu các bộ dữ liệu mẫu (UR Fall Detection, FallFree...). Phân tích yêu cầu chức năng (phát hiện ngã) và phi chức năng (FPS, độ trễ). | Kho dữ liệu video thô (Raw Data) đa dạng góc quay và tài liệu đặc tả yêu cầu hệ thống.
+3 | Tuần 3 | Thiết kế hệ thống & Mô hình hóa: Xác định luồng xử lý từ Camera -> Tiền xử lý -> Trích xuất đặc trưng -> Phân loại. Lựa chọn kiến trúc (CNN-LSTM hoặc Pose-based). | Sơ đồ kiến trúc hệ thống AI, danh sách các tham số mô hình và các lớp (classes) nhận diện.
+4 | Tuần 4 | Xử lý dữ liệu (Data Pipeline): Trích xuất khung hình (Frames), chuẩn hóa kích thước, gán nhãn hành vi hoặc trích xuất tọa độ khung xương (Keypoints). | Bộ dữ liệu đã tiền xử lý, sẵn sàng đưa vào huấn luyện mô hình.
+5 | Tuần 5 | Xây dựng mô hình Deep Learning: Lập trình cấu trúc mạng nơ-ron, thiết lập các hàm mất mát (Loss function) và bộ tối ưu hóa (Optimizer). | Mã nguồn (Python/PyTorch/TensorFlow) khởi tạo mô hình hoàn thiện.
+6 | Tuần 6 | Huấn luyện mô hình (Training): Thực hiện huấn luyện mô hình trên bộ dữ liệu đã chuẩn bị. Tinh chỉnh các tham số (Hyperparameters) để hội tụ. | File trọng số mô hình (.h5, .pt hoặc .tflite) đã qua huấn luyện sơ bộ.
+7 | Tuần 7 | Tối ưu hóa thời gian thực: Áp dụng các kỹ thuật giảm nhẹ mô hình (Quantization/Pruning) để đảm bảo hệ thống chạy mượt mà trên luồng video trực tiếp. | Mô hình tối ưu có khả năng nhận diện với tốc độ đáp ứng thời gian thực (>20 FPS).
+8 | Tuần 8 | Đánh giá & So sánh mô hình: Kiểm thử với các kịch bản té ngã thực tế và giả ngã. Đo lường các chỉ số Accuracy, Recall, Precision và vẽ Confusion Matrix. | Bảng số liệu đánh giá hiệu năng và báo cáo so sánh giữa các kiến trúc mô hình khác nhau.
+9 | Tuần 9 | Xây dựng ứng dụng & Cảnh báo: Phát triển giao diện Dashboard giám sát, tích hợp module gửi cảnh khi có sự cố. | Sản phẩm phần mềm hoàn thiện có màn hình hiển thị camera và nhật ký cảnh báo.
+10 | Tuần 10 | Kiểm thử cuối & Hoàn thiện báo cáo: Vận hành thử nghiệm toàn quy trình trong môi trường thực tế, sửa lỗi và hoàn thiện tài liệu thuyết minh đồ án. | Hệ thống vận hành ổn định và bộ hồ sơ đồ án tốt nghiệp đầy đủ.
+
+Thái Nguyên, ngày 10 tháng 3 năm 2026
+LÃNH ĐẠO BỘ MÔN | GIẢNG VIÊN HƯỚNG DẪN
